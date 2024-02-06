@@ -1,0 +1,2051 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>@font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+
+@media (prefers-color-scheme: dark) {
+  body,
+  [data-theme="dark"] {
+    /*dark*/
+    color-scheme: dark;
+    --color-prettylights-syntax-comment: #8b949e;
+    --color-prettylights-syntax-constant: #79c0ff;
+    --color-prettylights-syntax-entity: #d2a8ff;
+    --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+    --color-prettylights-syntax-entity-tag: #7ee787;
+    --color-prettylights-syntax-keyword: #ff7b72;
+    --color-prettylights-syntax-string: #a5d6ff;
+    --color-prettylights-syntax-variable: #ffa657;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+    --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+    --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+    --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+    --color-prettylights-syntax-carriage-return-bg: #b62324;
+    --color-prettylights-syntax-string-regexp: #7ee787;
+    --color-prettylights-syntax-markup-list: #f2cc60;
+    --color-prettylights-syntax-markup-heading: #1f6feb;
+    --color-prettylights-syntax-markup-italic: #c9d1d9;
+    --color-prettylights-syntax-markup-bold: #c9d1d9;
+    --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+    --color-prettylights-syntax-markup-deleted-bg: #67060c;
+    --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+    --color-prettylights-syntax-markup-inserted-bg: #033a16;
+    --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+    --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+    --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+    --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+    --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+    --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+    --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+    --color-fg-default: #e6edf3;
+    --color-fg-muted: #848d97;
+    --color-fg-subtle: #6e7681;
+    --color-canvas-default: #0d1117;
+    --color-canvas-subtle: #161b22;
+    --color-border-default: #30363d;
+    --color-border-muted: #21262d;
+    --color-neutral-muted: rgba(110,118,129,0.4);
+    --color-accent-fg: #2f81f7;
+    --color-accent-emphasis: #1f6feb;
+    --color-success-fg: #3fb950;
+    --color-success-emphasis: #238636;
+    --color-attention-fg: #d29922;
+    --color-attention-emphasis: #9e6a03;
+    --color-attention-subtle: rgba(187,128,9,0.15);
+    --color-danger-fg: #f85149;
+    --color-danger-emphasis: #da3633;
+    --color-done-fg: #a371f7;
+    --color-done-emphasis: #8957e5;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body,
+  [data-theme="light"] {
+    /*light*/
+    color-scheme: light;
+    --color-prettylights-syntax-comment: #57606a;
+    --color-prettylights-syntax-constant: #0550ae;
+    --color-prettylights-syntax-entity: #6639ba;
+    --color-prettylights-syntax-storage-modifier-import: #24292f;
+    --color-prettylights-syntax-entity-tag: #116329;
+    --color-prettylights-syntax-keyword: #cf222e;
+    --color-prettylights-syntax-string: #0a3069;
+    --color-prettylights-syntax-variable: #953800;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+    --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+    --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+    --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+    --color-prettylights-syntax-carriage-return-bg: #cf222e;
+    --color-prettylights-syntax-string-regexp: #116329;
+    --color-prettylights-syntax-markup-list: #3b2300;
+    --color-prettylights-syntax-markup-heading: #0550ae;
+    --color-prettylights-syntax-markup-italic: #24292f;
+    --color-prettylights-syntax-markup-bold: #24292f;
+    --color-prettylights-syntax-markup-deleted-text: #82071e;
+    --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+    --color-prettylights-syntax-markup-inserted-text: #116329;
+    --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+    --color-prettylights-syntax-markup-changed-text: #953800;
+    --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+    --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+    --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+    --color-prettylights-syntax-meta-diff-range: #8250df;
+    --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+    --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+    --color-fg-default: #1F2328;
+    --color-fg-muted: #656d76;
+    --color-fg-subtle: #6e7781;
+    --color-canvas-default: #ffffff;
+    --color-canvas-subtle: #f6f8fa;
+    --color-border-default: #d0d7de;
+    --color-border-muted: hsla(210,18%,87%,1);
+    --color-neutral-muted: rgba(175,184,193,0.2);
+    --color-accent-fg: #0969da;
+    --color-accent-emphasis: #0969da;
+    --color-success-fg: #1a7f37;
+    --color-success-emphasis: #1f883d;
+    --color-attention-fg: #9a6700;
+    --color-attention-emphasis: #9a6700;
+    --color-attention-subtle: #fff8c5;
+    --color-danger-fg: #d1242f;
+    --color-danger-emphasis: #cf222e;
+    --color-done-fg: #8250df;
+    --color-done-emphasis: #8250df;
+  }
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--color-canvas-default);
+}
+
+.markdown-body .octicon-link:before {
+  font: normal normal normal 16px/1 octicons-link;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  content: '\f05c';
+  vertical-align: middle;
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-default);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body h1:hover .anchor .octicon-link:before,
+.markdown-body h2:hover .anchor .octicon-link:before,
+.markdown-body h3:hover .anchor .octicon-link:before,
+.markdown-body h4:hover .anchor .octicon-link:before,
+.markdown-body h5:hover .anchor .octicon-link:before,
+.markdown-body h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+.markdown-body details,
+.markdown-body figcaption,
+.markdown-body figure {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body [hidden] {
+  display: none !important;
+}
+
+.markdown-body a {
+  background-color: transparent;
+  color: var(--color-accent-fg);
+  text-decoration: none;
+}
+
+.markdown-body abbr[title] {
+  border-bottom: none;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dfn {
+  font-style: italic;
+}
+
+.markdown-body h1 {
+  margin: .67em 0;
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 2em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body mark {
+  background-color: var(--color-attention-subtle);
+  color: var(--color-fg-default);
+}
+
+.markdown-body small {
+  font-size: 90%;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body sup {
+  top: -0.5em;
+}
+
+.markdown-body img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: var(--color-canvas-default);
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.markdown-body figure {
+  margin: 1em 40px;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid var(--color-border-muted);
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: var(--color-border-default);
+  border: 0;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body [type=button],
+.markdown-body [type=reset],
+.markdown-body [type=submit] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+.markdown-body [type=checkbox],
+.markdown-body [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body [type=number]::-webkit-inner-spin-button,
+.markdown-body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.markdown-body [type=search]::-webkit-search-cancel-button,
+.markdown-body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.markdown-body ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  appearance: button;
+  font: inherit;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body ::placeholder {
+  color: var(--color-fg-subtle);
+  opacity: 1;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body details:not([open])>*:not(summary) {
+  display: none !important;
+}
+
+.markdown-body a:focus,
+.markdown-body [role=button]:focus,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=checkbox]:focus {
+  outline: 2px solid var(--color-accent-fg);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:focus:not(:focus-visible),
+.markdown-body [role=button]:focus:not(:focus-visible),
+.markdown-body input[type=radio]:focus:not(:focus-visible),
+.markdown-body input[type=checkbox]:focus:not(:focus-visible) {
+  outline: solid 1px transparent;
+}
+
+.markdown-body a:focus-visible,
+.markdown-body [role=button]:focus-visible,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline: 2px solid var(--color-accent-fg);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:not([class]):focus,
+.markdown-body a:not([class]):focus-visible,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline-offset: 0;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  line-height: 10px;
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  background-color: var(--color-canvas-subtle);
+  border: solid 1px var(--color-neutral-muted);
+  border-bottom-color: var(--color-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--color-neutral-muted);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: var(--base-text-weight-semibold, 600);
+  line-height: 1.25;
+}
+
+.markdown-body h2 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body h3 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .85em;
+  color: var(--color-fg-muted);
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: var(--color-fg-muted);
+  border-left: .25em solid var(--color-border-default);
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body tt,
+.markdown-body code,
+.markdown-body samp {
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-body input::-webkit-outer-spin-button,
+.markdown-body input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body .mr-2 {
+  margin-right: var(--base-size-8, 8px) !important;
+}
+
+.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .absent {
+  color: var(--color-danger-fg);
+}
+
+.markdown-body .anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2,
+.markdown-body summary h3,
+.markdown-body summary h4,
+.markdown-body summary h5,
+.markdown-body summary h6 {
+  display: inline-block;
+}
+
+.markdown-body summary h1 .anchor,
+.markdown-body summary h2 .anchor,
+.markdown-body summary h3 .anchor,
+.markdown-body summary h4 .anchor,
+.markdown-body summary h5 .anchor,
+.markdown-body summary h6 .anchor {
+  margin-left: -40px;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2 {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown-body ol[type="a s"] {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body ol[type="A s"] {
+  list-style-type: upper-alpha;
+}
+
+.markdown-body ol[type="i s"] {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol[type="I s"] {
+  list-style-type: upper-roman;
+}
+
+.markdown-body ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.markdown-body div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table th {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body table td>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table tr {
+  background-color: var(--color-canvas-default);
+  border-top: 1px solid var(--color-border-muted);
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: var(--color-canvas-subtle);
+}
+
+.markdown-body table img {
+  background-color: transparent;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.markdown-body span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body span.frame span img {
+  display: block;
+  float: left;
+}
+
+.markdown-body span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: var(--color-fg-default);
+}
+
+.markdown-body span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.markdown-body span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.markdown-body span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.markdown-body span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+  margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: var(--color-neutral-muted);
+  border-radius: 6px;
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+  display: none;
+}
+
+.markdown-body del code {
+  text-decoration: inherit;
+}
+
+.markdown-body samp {
+  font-size: 85%;
+}
+
+.markdown-body pre code {
+  font-size: 100%;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body .csv-data td,
+.markdown-body .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.markdown-body .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: var(--color-canvas-default);
+  border: 0;
+}
+
+.markdown-body .csv-data tr {
+  border-top: 0;
+}
+
+.markdown-body .csv-data th {
+  font-weight: var(--base-text-weight-semibold, 600);
+  background: var(--color-canvas-subtle);
+  border-top: 0;
+}
+
+.markdown-body [data-footnote-ref]::before {
+  content: "[";
+}
+
+.markdown-body [data-footnote-ref]::after {
+  content: "]";
+}
+
+.markdown-body .footnotes {
+  font-size: 12px;
+  color: var(--color-fg-muted);
+  border-top: 1px solid var(--color-border-default);
+}
+
+.markdown-body .footnotes ol {
+  padding-left: 16px;
+}
+
+.markdown-body .footnotes ol ul {
+  display: inline-block;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+.markdown-body .footnotes li {
+  position: relative;
+}
+
+.markdown-body .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid var(--color-accent-emphasis);
+  border-radius: 6px;
+}
+
+.markdown-body .footnotes li:target {
+  color: var(--color-fg-default);
+}
+
+.markdown-body .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.markdown-body .pl-c {
+  color: var(--color-prettylights-syntax-comment);
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: var(--color-prettylights-syntax-constant);
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: var(--color-prettylights-syntax-entity);
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+  color: var(--color-prettylights-syntax-storage-modifier-import);
+}
+
+.markdown-body .pl-ent {
+  color: var(--color-prettylights-syntax-entity-tag);
+}
+
+.markdown-body .pl-k {
+  color: var(--color-prettylights-syntax-keyword);
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+  color: var(--color-prettylights-syntax-string);
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+  color: var(--color-prettylights-syntax-variable);
+}
+
+.markdown-body .pl-bu {
+  color: var(--color-prettylights-syntax-brackethighlighter-unmatched);
+}
+
+.markdown-body .pl-ii {
+  color: var(--color-prettylights-syntax-invalid-illegal-text);
+  background-color: var(--color-prettylights-syntax-invalid-illegal-bg);
+}
+
+.markdown-body .pl-c2 {
+  color: var(--color-prettylights-syntax-carriage-return-text);
+  background-color: var(--color-prettylights-syntax-carriage-return-bg);
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-string-regexp);
+}
+
+.markdown-body .pl-ml {
+  color: var(--color-prettylights-syntax-markup-list);
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-heading);
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: var(--color-prettylights-syntax-markup-italic);
+}
+
+.markdown-body .pl-mb {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-bold);
+}
+
+.markdown-body .pl-md {
+  color: var(--color-prettylights-syntax-markup-deleted-text);
+  background-color: var(--color-prettylights-syntax-markup-deleted-bg);
+}
+
+.markdown-body .pl-mi1 {
+  color: var(--color-prettylights-syntax-markup-inserted-text);
+  background-color: var(--color-prettylights-syntax-markup-inserted-bg);
+}
+
+.markdown-body .pl-mc {
+  color: var(--color-prettylights-syntax-markup-changed-text);
+  background-color: var(--color-prettylights-syntax-markup-changed-bg);
+}
+
+.markdown-body .pl-mi2 {
+  color: var(--color-prettylights-syntax-markup-ignored-text);
+  background-color: var(--color-prettylights-syntax-markup-ignored-bg);
+}
+
+.markdown-body .pl-mdr {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-meta-diff-range);
+}
+
+.markdown-body .pl-ba {
+  color: var(--color-prettylights-syntax-brackethighlighter-angle);
+}
+
+.markdown-body .pl-sg {
+  color: var(--color-prettylights-syntax-sublimelinter-gutter-mark);
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: var(--color-prettylights-syntax-constant-other-reference-link);
+}
+
+.markdown-body g-emoji {
+  display: inline-block;
+  min-width: 1ch;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: var(--base-text-weight-normal, 400);
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.markdown-body g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item label {
+  font-weight: var(--base-text-weight-normal, 400);
+}
+
+.markdown-body .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 4px;
+}
+
+.markdown-body .task-list-item .handle {
+  display: none;
+}
+
+.markdown-body .task-list-item-checkbox {
+  margin: 0 .2em .25em -1.4em;
+  vertical-align: middle;
+}
+
+.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.markdown-body .contains-task-list {
+  position: relative;
+}
+
+.markdown-body .contains-task-list:hover .task-list-item-convert-container,
+.markdown-body .contains-task-list:focus-within .task-list-item-convert-container {
+  display: block;
+  width: auto;
+  height: 24px;
+  overflow: visible;
+  clip: auto;
+}
+
+.markdown-body ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+
+.markdown-body .markdown-alert {
+  padding: var(--base-size-8, 8px) var(--base-size-16, 16px);
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid var(--color-border-default);
+}
+
+.markdown-body .markdown-alert>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body .markdown-alert>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: var(--base-text-weight-medium, 500);
+  align-items: center;
+  line-height: 1;
+}
+
+.markdown-body .markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-accent-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-accent-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-done-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-done-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-attention-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-attention-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-success-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-success-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-danger-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-danger-fg);
+}
+</style><title>2024-01-23</title></head><body><article class="markdown-body"><h1><a id="user-content-2024-01-23" class="anchor" aria-hidden="true" tabindex="-1" href="#2024-01-23"><span aria-hidden="true" class="octicon octicon-link"></span></a>2024-01-23</h1>
+<p>Created: 2024-01-24 18:41:46</p>
+<h1><a id="user-content-chats" class="anchor" aria-hidden="true" tabindex="-1" href="#chats"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chats</h1>
+<ul>
+<li>OVMF.0122.md
+<ul>
+<li>
+<code>[00:15]</code> build -p EmulatorPkg/EmulatorPkg.dsc -t GCC5 -a X64: ... ... <code>(10 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[00:20]</code> "objcopy" --add-gnu-debuglink="/work/edk2/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/DEBUG/PcdPeim.debug" /work/edk2/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/DEBUG/PcdPeim.dll ... ... <code>(11 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[00:35]</code> Cannt execute "RUN source ./edksetup.sh" in Dockerfile <code>(12 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[00:40]</code> What is "RUN . ./edksetup.sh" <code>(13 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[11:12]</code> Copy files from docker into host <code>(14 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[11:12]</code> How to write the command in Dockerfile? <code>(15 @ OVMF.0122.md)</code>
+</li>
+<li><span> <code>[12:52]</code> <code>[del]</code> &gt;qemu-system-x86_64 ... ... <code>(16 @ OVMF.0122.md)</code> </span></li>
+<li><span> <code>[12:53]</code> <code>[del]</code> But my qemu is run in Windows. <code>(17 @ OVMF.0122.md)</code> </span></li>
+<li><span> <code>[12:56]</code> <code>[del]</code> The qemu window display "Guest has not initialized the display (yet)." <code>(18 @ OVMF.0122.md)</code> </span></li>
+<li>
+<code>[15:38]</code> How do I get Docker container ID? <code>(19 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[16:20]</code> What is the limitation of maximum CPU number in EDK2/OVMF? <code>(20 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[16:23]</code> I found "gUefiCpuPkgTokenSpaceGuid.PcdCpuMaxLogicalProcessorNumber|64" in OvmfPkgX64.dsc. What does it mean? <code>(21 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[16:24]</code> "gUefiCpuPkgTokenSpaceGuid.PcdCpuBootLogicalProcessorNumber|0" What does it mean? <code>(22 @ OVMF.0122.md)</code>
+</li>
+<li><span> <code>[16:26]</code> <code>[del]</code> How do I check maximum CPU number in UEFI shell? <code>(23 @ OVMF.0122.md)</code> </span></li>
+<li><span> <code>[16:28]</code> <code>[del]</code> But "cpus is not recognized as an internal or external command" <code>(24 @ OVMF.0122.md)</code> </span></li>
+<li><span> <code>[16:45]</code> <code>[del]</code> zsh: command not found: mkfs.vfat  (in Mac) <code>(25 @ OVMF.0122.md)</code> </span></li>
+<li><span> <code>[16:46]</code> <code>[del]</code> I cannot run the mkfs.vfat command in Mac: ... ... <code>(26 @ OVMF.0122.md)</code> </span></li>
+<li>
+<code>[16:58]</code> How do I run a uefi application in a uefi shell? <code>(27 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[17:01]</code> How to get the returned number after running the uefi app? <code>(28 @ OVMF.0122.md)</code>
+</li>
+<li><span> <code>[18:42]</code> <code>[del]</code> Please random generate a GUID like as 6987936E-ED34-44db-AE97-1FA5E4ED2116. <code>(29 @ OVMF.0122.md)</code> </span></li>
+<li>
+<code>[19:15]</code> I cannot display the message in the UEFI shell: ... ... <code>(30 @ OVMF.0122.md)</code>
+</li>
+<li><span> <code>[19:44]</code> <code>[del]</code> A randomly generated GUID is 84107f11-23cc-4f52-9039-f72da19c9d76. ​​ <code>(31 @ OVMF.0122.md)</code> </span></li>
+<li><span> <code>[19:44]</code> <code>[del]</code> Please randomly generate GUID as 84107f11-23cc-4f52-9039-f72da19c9d76. ​​ <code>(32 @ OVMF.0122.md)</code> </span></li>
+<li>
+<code>[19:45]</code> Please randomly generate a new GUID with which format is like 84107f11-23cc-4f52-9039-f72da19c9d76. ​​ <code>(33 @ OVMF.0122.md)</code>
+</li>
+<li><span> <code>[20:32]</code> <code>[del]</code> How to get EFI_HOB_PLATFORM_INFO? <code>(34 @ OVMF.0122.md)</code> </span></li>
+<li><span> <code>[20:34]</code> <code>[del]</code> What are header files to use HOB? <code>(35 @ OVMF.0122.md)</code> </span></li>
+<li><span> <code>[20:46]</code> <code>[del]</code> Please write an EDKII UEFI application to get HOB_TYPE_PLATFORM_INFO. <code>(36 @ OVMF.0122.md)</code> </span></li>
+<li>
+<code>[21:10]</code> What does the below code mean? ... ... <code>(37 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[22:02]</code> What is QemuFwCfgItemSmpCpuCount? <code>(38 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[22:04]</code> How do I get QEMU firmware configuration? <code>(39 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[22:10]</code> Where does QEMU firmware configuration reside? <code>(40 @ OVMF.0122.md)</code>
+</li>
+<li>
+<code>[22:13]</code> How do I list firmware configuration by qemu command? <code>(41 @ OVMF.0122.md)</code>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1><a id="user-content-q--a" class="anchor" aria-hidden="true" tabindex="-1" href="#q--a"><span aria-hidden="true" class="octicon octicon-link"></span></a>Q &amp; A</h1>
+<h2><a id="user-content-ovmf0122md" class="anchor" aria-hidden="true" tabindex="-1" href="#ovmf0122md"><span aria-hidden="true" class="octicon octicon-link"></span></a>OVMF.0122.md</h2>
+<p><strong>Question:</strong></p>
+<pre><code>build -p EmulatorPkg/EmulatorPkg.dsc -t GCC5 -a X64:
+...
+/work/edk2/EmulatorPkg/Unix/Host/X11GraphicsWindow.c:15:10: fatal error: X11/Xlib.h: No such file or directory
+   15 | #include &lt;X11/Xlib.h&gt;
+      |          ^~~~~~~~~~~~
+compilation terminated.
+</code></pre>
+<p><strong>From:</strong> 10 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>The error message indicates that the GCC compiler is unable to find the <code>X11/Xlib.h</code> header file. This file is part of the X11 development libraries, which are used for interacting with the X Window System. The missing file is typically provided by the <code>libx11-dev</code> package on Ubuntu or Debian-based systems.</p>
+<p>To resolve this issue, you need to install the X11 development libraries. Here's how you can do it:</p>
+<ol>
+<li>
+<strong>Install X11 Development Libraries</strong>:
+Install <code>libx11-dev</code> using the <code>apt</code> package manager. This package includes the X11 client-side library and the header files required for X11 development.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>   sudo apt update
+   sudo apt install libx11-dev</pre></div>
+<ol start="2">
+<li>
+<strong>Rebuild EDK2</strong>:
+After installing the required package, try rebuilding the <code>EmulatorPkg</code>. The GCC compiler should now be able to find the <code>X11/Xlib.h</code> header file.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>   <span class="pl-c1">cd</span> /work/edk2
+   build -p EmulatorPkg/EmulatorPkg.dsc -t GCC5 -a X64</pre></div>
+<p>Installing the <code>libx11-dev</code> package should resolve the compilation issue related to the missing <code>X11/Xlib.h</code> header file. If the build process requires additional X Window System libraries or header files, you might need to install additional development packages related to X11.</p>
+<hr>
+<p><strong>Question:</strong></p>
+<pre><code>"objcopy" --add-gnu-debuglink="/work/edk2/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/DEBUG/PcdPeim.debug" /work/edk2/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/DEBUG/PcdPeim.dll
+/work/edk2/EmulatorPkg/Unix/Host/X11GraphicsWindow.c:18:10: fatal error: X11/extensions/XShm.h: No such file or directory
+   18 | #include &lt;X11/extensions/XShm.h&gt;
+</code></pre>
+<p><strong>From:</strong> 11 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>The error message indicates that the GCC compiler is unable to find the <code>X11/extensions/XShm.h</code> header file. This file is part of the X11 shared memory extension development libraries, which are used for performing various graphics operations more efficiently by using shared memory.</p>
+<p>To resolve this issue, you need to install the development libraries related to the X11 shared memory extension. On Ubuntu or Debian-based systems, this is typically provided by the <code>libxext-dev</code> package.</p>
+<p>Here's how to install the required package and resolve the issue:</p>
+<ol>
+<li>
+<strong>Install X11 Shared Memory Extension Development Libraries</strong>:
+Install <code>libxext-dev</code> using the <code>apt</code> package manager. This package includes the X11 miscellaneous extensions library and the header files required for XShm development.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>   sudo apt update
+   sudo apt install libxext-dev</pre></div>
+<ol start="2">
+<li>
+<strong>Rebuild EDK2</strong>:
+After installing the required package, try rebuilding the <code>EmulatorPkg</code>. The GCC compiler should now be able to find the <code>X11/extensions/XShm.h</code> header file.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>   <span class="pl-c1">cd</span> /work/edk2
+   build -p EmulatorPkg/EmulatorPkg.dsc -t GCC5 -a X64</pre></div>
+<p>By installing the <code>libxext-dev</code> package, you should be able to resolve the compilation issue related to the missing <code>X11/extensions/XShm.h</code> header file. If the build process requires additional header files or libraries, make sure to install the corresponding development packages for those as well.</p>
+<hr>
+<p><strong>Question:</strong> Cannt execute "RUN source ./edksetup.sh" in Dockerfile</p>
+<p><strong>From:</strong> 12 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>In Dockerfiles, each <code>RUN</code> command runs in a new shell instance. This means that environment changes made in one <code>RUN</code> command, like setting environment variables or changing directories, do not persist to later <code>RUN</code> commands. The <code>source</code> command is used to execute a script in the current shell session, but when used in a Dockerfile's <code>RUN</code> command, its effects (like setting environment variables) won't persist to subsequent <code>RUN</code> commands.</p>
+<p>When you use <code>source ./edksetup.sh</code> in a Dockerfile, it sets up the environment for that <code>RUN</code> command only, and then that environment is gone in the next <code>RUN</code> command.</p>
+<p>To work around this, you have to structure your Dockerfile commands so that the environment setup and the command you want to run are in the same <code>RUN</code> command. Here's how you might do it:</p>
+<div class="highlight highlight-source-dockerfile"><pre><span class="pl-c"><span class="pl-c">#</span> ... previous Dockerfile commands ...</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Use a single RUN command to source edksetup.sh and then execute the build command</span>
+<span class="pl-k">RUN</span> . ./edksetup.sh &amp;&amp; \
+    build -p EmulatorPkg/EmulatorPkg.dsc -t GCC5 -a X64
+
+<span class="pl-c"><span class="pl-c">#</span> ... following Dockerfile commands ...</span></pre></div>
+<p>In this example, the <code>&amp;&amp;</code> ensures that the <code>build</code> command runs in the same shell where <code>edksetup.sh</code> was sourced, so it has all the necessary environment variables set up by <code>edksetup.sh</code>.</p>
+<p>For more complex scenarios, you might want to write a shell script that wraps all the commands you want to run after sourcing <code>edksetup.sh</code>, and then <code>COPY</code> that script into the Docker image and run it with a single <code>RUN</code> command in your Dockerfile.</p>
+<p>Here's an example of how you might do that:</p>
+<ol>
+<li>Create a shell script <code>build_edk2.sh</code>:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre><span class="pl-c"><span class="pl-c">#!</span>/bin/bash</span>
+<span class="pl-c1">.</span> ./edksetup.sh
+build -p EmulatorPkg/EmulatorPkg.dsc -t GCC5 -a X64
+<span class="pl-c"><span class="pl-c">#</span> ... any other commands ...</span></pre></div>
+<ol start="2">
+<li>Make sure the script is executable:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>chmod +x build_edk2.sh</pre></div>
+<ol start="3">
+<li>In your Dockerfile, <code>COPY</code> the script into the image and then execute it:</li>
+</ol>
+<div class="highlight highlight-source-dockerfile"><pre><span class="pl-c"><span class="pl-c">#</span> ... previous Dockerfile commands ...</span>
+
+<span class="pl-k">COPY</span> build_edk2.sh /work/edk2/build_edk2.sh
+<span class="pl-k">RUN</span> /work/edk2/build_edk2.sh
+
+<span class="pl-c"><span class="pl-c">#</span> ... following Dockerfile commands ...</span></pre></div>
+<p>This way, your Docker build process will be cleaner and more manageable.</p>
+<hr>
+<p><strong>Question:</strong> What is "RUN . ./edksetup.sh"</p>
+<p><strong>From:</strong> 13 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>The command <code>RUN . ./edksetup.sh</code> seen in a Dockerfile or a shell script is a way to execute the <code>edksetup.sh</code> script within the context of the current shell. Let's break down the components of this command:</p>
+<ol>
+<li>
+<p><code>RUN</code>: In the context of a Dockerfile, <code>RUN</code> is an instruction that tells Docker to execute the command that follows in the shell of the new layer of the image. In a shell script or command line, <code>RUN</code> is not used — you would just start with the dot or <code>source</code>.</p>
+</li>
+<li>
+<p><code>.</code> or <code>source</code>: Both <code>.</code> (a single dot) and <code>source</code> are shell built-ins that read and execute commands from a file in the current shell environment. They are used when you want the scripts being called to modify the environment of the current shell. This can include setting environment variables, changing directories, or defining functions. Using <code>.</code> or <code>source</code> ensures that any changes made to the environment inside the <code>edksetup.sh</code> script persist after the script has finished running.</p>
+<ul>
+<li>
+<code>.</code> is the POSIX standard way of sourcing a script and is more portable.</li>
+<li>
+<code>source</code> is a more readable way of doing the same thing, but it is not defined in the POSIX standard and may not be available in all shells.</li>
+</ul>
+</li>
+<li>
+<p><code>./edksetup.sh</code>: This specifies the path to the <code>edksetup.sh</code> script. <code>./</code> indicates that the script is located in the current directory.</p>
+</li>
+</ol>
+<p>When you use <code>RUN . ./edksetup.sh</code> in a Dockerfile:</p>
+<ul>
+<li>
+<code>RUN</code> tells Docker to run the command in a new layer of the image being built.</li>
+<li>
+<code>.</code> (or <code>source</code>) executes the <code>edksetup.sh</code> script in the current shell. This is important for scripts like <code>edksetup.sh</code>, which is used to set up the environment for the EDK II (UEFI Development Kit) build process. The script defines various environment variables and functions that are required for the build process to run correctly.</li>
+</ul>
+<p>However, as mentioned in the previous response, remember that in a Dockerfile, each <code>RUN</code> command is executed in a separate shell. So sourcing a script in one <code>RUN</code> command won't affect the environment of subsequent <code>RUN</code> commands unless they are combined using shell command chaining (like using <code>&amp;&amp;</code>). That's why you often see the sourcing and the build command combined in one <code>RUN</code> instruction in Dockerfiles.</p>
+<hr>
+<p><strong>Question:</strong> Copy files from docker into host</p>
+<p><strong>From:</strong> 14 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>Copying files from a Docker container to the host machine can be done using the <code>docker cp</code> command. This command allows you to copy files or folders between a container and the local filesystem.</p>
+<p>Here's how you can do it:</p>
+<ol>
+<li>
+<strong>Find Your Container ID or Name</strong>: You need to know the ID or name of your Docker container. You can list all running containers with:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>   docker ps</pre></div>
+<p>For stopped containers, you can list all containers (including stopped ones) with:</p>
+<div class="highlight highlight-source-shell"><pre>   docker ps -a</pre></div>
+<ol start="2">
+<li>
+<strong>Use <code>docker cp</code> to Copy Files or Folders</strong>: The general syntax of the <code>docker cp</code> command is as follows:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>   docker cp <span class="pl-k">&lt;</span>containerId<span class="pl-k">&gt;</span>:/file/path/within/container /host/path/target</pre></div>
+<p>Here's a more specific example. Suppose you have a file in your container at <code>/usr/src/app/output.txt</code> and you want to copy it to your host in the current directory:</p>
+<div class="highlight highlight-source-shell"><pre>   docker cp your-container-id:/usr/src/app/output.txt <span class="pl-c1">.</span></pre></div>
+<p>In this command:</p>
+<ul>
+<li>
+<code>your-container-id</code> should be replaced with your actual container ID or name.</li>
+<li>
+<code>/usr/src/app/output.txt</code> is the path to the file inside the container.</li>
+<li>
+<code>.</code> (dot) represents the current directory on the host. You can replace this with any path where you want to copy the file on the host.</li>
+</ul>
+<ol start="3">
+<li>
+<strong>Check the Copied Files on the Host</strong>: After running the command, check the target directory on your host to ensure that the files have been copied successfully.</li>
+</ol>
+<p>Note that if the Docker container is not running, you need to start it before you can copy files from it. However, if you just need to copy files from the container's filesystem (not requiring the application to be running), you do not need to start the container; you can copy files from a stopped container as well.</p>
+<p>Remember that copying files from a container is a manual operation. If you find yourself needing to do this often as part of a workflow, you might want to consider setting up volume mounts for your containers, which create a persistent storage that is automatically synchronized between the host and the container.</p>
+<hr>
+<p><strong>Question:</strong> How to write the command in Dockerfile?</p>
+<p><strong>From:</strong> 15 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>In a Dockerfile, you don't directly copy files from the container to the host because the Dockerfile is used to build an image and doesn't have the context of the host filesystem. However, you can copy files into the image from the host during the build process using the <code>COPY</code> or <code>ADD</code> command in the Dockerfile. Once the image is built and the container is running, you can then copy files from the container to the host using the <code>docker cp</code> command outside of the Dockerfile.</p>
+<p>Here's how you typically deal with file copying in relation to Dockerfiles and containers:</p>
+<h3><a id="user-content-1-copying-files-from-host-to-docker-image-during-build" class="anchor" aria-hidden="true" tabindex="-1" href="#1-copying-files-from-host-to-docker-image-during-build"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Copying Files from Host to Docker Image During Build:</h3>
+<p>In your Dockerfile, you can copy files from your host machine into the Docker image during the build process using the <code>COPY</code> command. For example:</p>
+<div class="highlight highlight-source-dockerfile"><pre><span class="pl-c"><span class="pl-c">#</span> Syntax: COPY &lt;source&gt; &lt;destination&gt;</span>
+<span class="pl-c"><span class="pl-c">#</span> Copies "my_script.sh" from the host to the container's filesystem at "/scripts/my_script.sh"</span>
+<span class="pl-k">COPY</span> my_script.sh /scripts/my_script.sh</pre></div>
+<p>or you can use the <code>ADD</code> command which also supports tar extraction and remote URL handling:</p>
+<div class="highlight highlight-source-dockerfile"><pre><span class="pl-c"><span class="pl-c">#</span> Syntax: ADD &lt;source&gt; &lt;destination&gt;</span>
+<span class="pl-c"><span class="pl-c">#</span> Adds "my_archive.tar.gz" from the host and extracts it into "/app" directory in the container's filesystem</span>
+<span class="pl-k">ADD</span> my_archive.tar.gz /app/</pre></div>
+<h3><a id="user-content-2-building-the-docker-image" class="anchor" aria-hidden="true" tabindex="-1" href="#2-building-the-docker-image"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Building the Docker Image:</h3>
+<p>You build the Docker image using the <code>docker build</code> command. For example:</p>
+<div class="highlight highlight-source-shell"><pre>docker build -t my-image-name <span class="pl-c1">.</span></pre></div>
+<h3><a id="user-content-3-copying-files-from-running-container-to-host" class="anchor" aria-hidden="true" tabindex="-1" href="#3-copying-files-from-running-container-to-host"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Copying Files from Running Container to Host:</h3>
+<p>After the container is running, you can copy files from it to your host using the <code>docker cp</code> command (this is done outside of the Dockerfile, typically in your command-line interface):</p>
+<div class="highlight highlight-source-shell"><pre><span class="pl-c"><span class="pl-c">#</span> Syntax: docker cp &lt;containerId&gt;:/file/path/within/container /host/path/target</span>
+docker cp my-container-id:/app/output.txt /host/path/target/output.txt</pre></div>
+<h3><a id="user-content-note" class="anchor" aria-hidden="true" tabindex="-1" href="#note"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note:</h3>
+<ul>
+<li>The Dockerfile is for building the image, not for handling runtime operations between the container and the host.</li>
+<li>To copy files from the container to the host, you have to use <code>docker cp</code> command outside of the Dockerfile, typically after the container is running.</li>
+<li>If you need persistent data or want to share data between the host and the container, consider using volumes or bind mounts.</li>
+</ul>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[12:52]</code> <code>[del]</code> &gt;qemu-system-x86_64 ... ... </span></p>
+<p><strong>From:</strong> <span> 16 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[12:53]</code> <code>[del]</code> But my qemu is run in Windows. </span></p>
+<p><strong>From:</strong> <span> 17 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[12:56]</code> <code>[del]</code> The qemu window display "Guest has not initialized the display (yet)." </span></p>
+<p><strong>From:</strong> <span> 18 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong> How do I get Docker container ID?</p>
+<p><strong>From:</strong> 19 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>To get the ID of a Docker container, you can use the <code>docker ps</code> command, which lists all running containers by default. Here's how to use it:</p>
+<ol>
+<li>
+<strong>List Running Containers</strong>:
+<ul>
+<li>To list all running containers and their IDs, simply use:</li>
+</ul>
+</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>      docker ps</pre></div>
+<pre><code>- This command will show a table of information about each running container. The container ID will be in the first column.
+</code></pre>
+<ol start="2">
+<li>
+<strong>List All Containers (Including Stopped)</strong>:
+<ul>
+<li>If you want to see all containers (not just the ones currently running), use the <code>-a</code> (or <code>--all</code>) flag:</li>
+</ul>
+</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>      docker ps -a</pre></div>
+<pre><code>- This will show both running and stopped containers.
+</code></pre>
+<ol start="3">
+<li>
+<strong>Filtering the List</strong>:
+<ul>
+<li>If you're looking for a specific container, you can use the <code>--filter</code> option or simply search through the output. For example, to find containers by their name, use:</li>
+</ul>
+</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>      docker ps --filter <span class="pl-s"><span class="pl-pds">"</span>name=your_container_name<span class="pl-pds">"</span></span></pre></div>
+<ol start="4">
+<li>
+<strong>Formatting the Output</strong>:
+<ul>
+<li>If you only want to see the container IDs without the additional information, you can format the output using the <code>--format</code> option. For example:</li>
+</ul>
+</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>      docker ps -aq</pre></div>
+<pre><code>- Or for a more customized output:
+</code></pre>
+<div class="highlight highlight-source-shell"><pre>      docker ps --format <span class="pl-s"><span class="pl-pds">"</span>{{.ID}}<span class="pl-pds">"</span></span></pre></div>
+<ol start="5">
+<li>
+<strong>Get the Last Created Container ID</strong>:
+<ul>
+<li>If you want to get the ID of the most recently created container (including containers that are not running), you can use:</li>
+</ul>
+</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>      docker ps -lq</pre></div>
+<p>Remember, the container ID is usually a long hexadecimal string, but you often only need to use the first few characters to uniquely identify a container in commands. Docker is smart enough to recognize which container you're referring to as long as the characters you provide are unique among your container IDs.</p>
+<hr>
+<p><strong>Question:</strong> What is the limitation of maximum CPU number in EDK2/OVMF?</p>
+<p><strong>From:</strong> 20 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>In EDK2/OVMF (Open Virtual Machine Firmware), the maximum number of CPUs is not hardcoded in a strict sense but is influenced by several factors including the OVMF build configuration, the resources allocated to the virtual machine, and the underlying virtualization platform's capabilities.</p>
+<ol>
+<li>
+<p><strong>OVMF Configuration</strong>: EDK2 allows customization and configuration at build time. The number of supported CPUs can be configured in the OVMF platform description files (DSC) and the firmware's feature set can be tailored to the needs of the environment. You'd typically look for <code>PcdCpuMaxLogicalProcessorNumber</code> in the DSC files or relevant setup options.</p>
+</li>
+<li>
+<p><strong>Virtualization Platform Limits</strong>: The number of CPUs is also limited by the virtualization platform (like QEMU/KVM, VMware, or others) on which OVMF is running. Each platform has its own maximum for how many virtual CPUs can be allocated to a VM. For instance, QEMU/KVM typically supports up to 255 CPUs for x86_64 VMs, but this number can vary based on the specific setup and version.</p>
+</li>
+<li>
+<p><strong>UEFI Specification</strong>: The UEFI specification, which OVMF implements, defines structures and protocols that might impose practical limits on the number of processors due to memory structures or boot services protocols. However, these limits are generally quite high and not typically encountered in most usage scenarios.</p>
+</li>
+<li>
+<p><strong>System Resources</strong>: The actual number of CPUs you can allocate to a VM also depends on the physical host's resources. Allocating more virtual CPUs than the number of physical CPU threads available might lead to performance degradation.</p>
+</li>
+<li>
+<p><strong>Guest OS Support</strong>: The guest operating system running on top of OVMF must also support the number of processors allocated to the VM. Different operating systems and their versions have different maximum CPU support.</p>
+</li>
+</ol>
+<p>In practice, for most use cases, the limiting factor is usually the virtualization platform or the physical hardware, not OVMF itself. If you need to support a very high number of CPUs, it would be wise to consult the documentation for your specific virtualization platform and verify the host system's capabilities.</p>
+<p>If you're hitting limits or encountering issues with processor numbers in OVMF, it's also worth checking the community forums or official documentation for any known limitations or bugs related to CPU allocation.</p>
+<hr>
+<p><strong>Question:</strong> I found "gUefiCpuPkgTokenSpaceGuid.PcdCpuMaxLogicalProcessorNumber|64" in OvmfPkgX64.dsc. What does it mean?</p>
+<p><strong>From:</strong> 21 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>The line <code>gUefiCpuPkgTokenSpaceGuid.PcdCpuMaxLogicalProcessorNumber|64</code> in the <code>OvmfPkgX64.dsc</code> file is a Platform Configuration Database (PCD) entry used in EDK2/OVMF to configure platform-specific settings at build time.</p>
+<p>Here's a breakdown of this particular line:</p>
+<ol>
+<li>
+<p><strong>gUefiCpuPkgTokenSpaceGuid</strong>: This is a globally unique identifier (GUID) for a specific package of tokens. In EDK2, GUIDs are used to uniquely identify different sets of configurations, protocols, and other entities. In this case, <code>gUefiCpuPkgTokenSpaceGuid</code> likely refers to a collection of tokens related to CPU configurations.</p>
+</li>
+<li>
+<p><strong>PcdCpuMaxLogicalProcessorNumber</strong>: This is the specific configuration token (Platform Configuration Database token) within the <code>gUefiCpuPkgTokenSpaceGuid</code> token space. <code>PcdCpuMaxLogicalProcessorNumber</code> is used to specify the maximum number of logical processors that the firmware should support. Logical processors include all physical cores and, if applicable, hyper-threading cores.</p>
+</li>
+<li>
+<p><strong>|64</strong>: The pipe symbol (<code>|</code>) followed by a number sets the value of the PCD. In this case, <code>64</code> means that the maximum number of logical processors supported by the firmware is configured to be 64. This value is used by the firmware to allocate resources and set limits for processor-related data structures.</p>
+</li>
+</ol>
+<p>In summary, the <code>gUefiCpuPkgTokenSpaceGuid.PcdCpuMaxLogicalProcessorNumber|64</code> line in the <code>OvmfPkgX64.dsc</code> file indicates that the OVMF firmware is configured to support up to 64 logical processors. This setting affects how the firmware will behave and what limitations it will enforce regarding CPU core count during the initialization and operation of the system.</p>
+<p>If you're building the firmware and want to support a different number of logical processors, you could change this value. However, keep in mind that the actual usable number of processors may also depend on the capabilities of the virtualization platform (like QEMU/KVM, VMware, etc.) and the physical hardware.</p>
+<hr>
+<p><strong>Question:</strong> "gUefiCpuPkgTokenSpaceGuid.PcdCpuBootLogicalProcessorNumber|0" What does it mean?</p>
+<p><strong>From:</strong> 22 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>The line <code>gUefiCpuPkgTokenSpaceGuid.PcdCpuBootLogicalProcessorNumber|0</code> in the <code>*.dsc</code> file is another configuration setting within the Platform Configuration Database (PCD) of the EDK2 (UEFI Development Kit 2).</p>
+<p>Here's a breakdown of this setting:</p>
+<ol>
+<li>
+<p><strong>gUefiCpuPkgTokenSpaceGuid</strong>: Similar to the previous explanation, this is a globally unique identifier (GUID) that represents a specific package or group of configuration tokens. It signifies that the setting is part of a collection of CPU-related configurations.</p>
+</li>
+<li>
+<p><strong>PcdCpuBootLogicalProcessorNumber</strong>: This particular configuration token (PCD) is used to specify a certain property or behavior of the CPU during the boot process. In many EDK2-based projects, <code>PcdCpuBootLogicalProcessorNumber</code> is used to define the number of the logical processor that is considered the "bootstrap" processor (BSP) during the early phases of boot.</p>
+<ul>
+<li>In multi-processor systems, the BSP is the processor that initializes the system and brings up the other processors, known as Application Processors (APs).</li>
+<li>The BSP is responsible for executing the UEFI firmware code and initializing the system hardware. After the system is initialized, the BSP can start the APs.</li>
+</ul>
+</li>
+<li>
+<p><strong>|0</strong>: The pipe symbol (<code>|</code>) followed by a number sets the value of the PCD. In this case, <code>0</code> means that the logical processor numbered <code>0</code> (typically the first processor) is designated as the bootstrap processor.</p>
+</li>
+</ol>
+<p>So, the setting <code>gUefiCpuPkgTokenSpaceGuid.PcdCpuBootLogicalProcessorNumber|0</code> indicates that the firmware is configured to treat the first logical processor (processor 0) as the bootstrap processor. This processor will be responsible for the system initialization and starting other processors if the system is multi-core/multi-processor.</p>
+<p>It's worth noting that while these settings are configurable, changing them from their defaults should be done with a clear understanding of the hardware architecture and the firmware's operation, as improper configurations can lead to system instability or boot failures.</p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[16:26]</code> <code>[del]</code> How do I check maximum CPU number in UEFI shell? </span></p>
+<p><strong>From:</strong> <span> 23 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[16:28]</code> <code>[del]</code> But "cpus is not recognized as an internal or external command" </span></p>
+<p><strong>From:</strong> <span> 24 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[16:45]</code> <code>[del]</code> zsh: command not found: mkfs.vfat  (in Mac) </span></p>
+<p><strong>From:</strong> <span> 25 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[16:46]</code> <code>[del]</code> I cannot run the mkfs.vfat command in Mac: ... ... </span></p>
+<p><strong>From:</strong> <span> 26 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong> How do I run a uefi application in a uefi shell?</p>
+<p><strong>From:</strong> 27 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>Running a UEFI application in a UEFI shell is a straightforward process. Here's a step-by-step guide on how to do it:</p>
+<h3><a id="user-content-1-access-the-uefi-shell" class="anchor" aria-hidden="true" tabindex="-1" href="#1-access-the-uefi-shell"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Access the UEFI Shell</h3>
+<p>First, you need to access the UEFI shell. This can usually be done by entering your system's BIOS/UEFI setup. The method to access the BIOS/UEFI setup varies depending on the manufacturer of your motherboard or computer but typically involves pressing a key (like F2, F10, Del, or Esc) during the boot process. Once in the BIOS/UEFI setup, look for an option to launch the UEFI shell.</p>
+<h3><a id="user-content-2-locate-your-uefi-application" class="anchor" aria-hidden="true" tabindex="-1" href="#2-locate-your-uefi-application"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Locate Your UEFI Application</h3>
+<p>Once you're in the UEFI shell, you'll need to find your UEFI application. UEFI applications typically have the <code>.efi</code> file extension. If you know where your application is located (e.g., on a USB drive, on the EFI system partition, or on a specific filesystem), navigate to that location using the <code>cd</code> (change directory) command.</p>
+<p>For example:</p>
+<div class="highlight highlight-source-shell"><pre>fs0:
+<span class="pl-c1">cd</span> <span class="pl-cce">\p</span>ath<span class="pl-cce">\t</span>o<span class="pl-cce">\y</span>our<span class="pl-cce">\a</span>pplication</pre></div>
+<p>Here, <code>fs0:</code> is an alias to a filesystem recognized by the UEFI shell (like a file system on a USB drive or an EFI partition). The actual alias (fs0, fs1, fs2, etc.) for your device may vary, and you can list the available filesystems by just typing <code>map -r</code> in the UEFI shell.</p>
+<h3><a id="user-content-3-run-the-uefi-application" class="anchor" aria-hidden="true" tabindex="-1" href="#3-run-the-uefi-application"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Run the UEFI Application</h3>
+<p>Once you're in the directory containing your UEFI application, you can run it just like you would execute a command in a traditional shell. Simply type the name of the application (including the <code>.efi</code> extension) and press Enter.</p>
+<p>For example:</p>
+<div class="highlight highlight-source-shell"><pre>YourApplication.efi</pre></div>
+<p>If your UEFI application requires arguments, you can provide them just like you would on the command line in other operating systems.</p>
+<h3><a id="user-content-4-additional-tips" class="anchor" aria-hidden="true" tabindex="-1" href="#4-additional-tips"><span aria-hidden="true" class="octicon octicon-link"></span></a>4. Additional Tips</h3>
+<ul>
+<li>
+<p><strong>Viewing Files</strong>: If you're not sure what files are in the current directory, you can use the <code>ls</code> or <code>dir</code> command to list the files and directories.</p>
+</li>
+<li>
+<p><strong>Getting Help</strong>: If you need help with the UEFI shell commands, you can usually type <code>help</code> to get a list of available commands and their descriptions.</p>
+</li>
+<li>
+<p><strong>Filesystem Access</strong>: The UEFI shell can access file systems on devices that have been recognized and mounted by the firmware. This includes USB drives formatted with FAT32 (common for UEFI applications) and EFI system partitions on internal drives.</p>
+</li>
+<li>
+<p><strong>Script Files</strong>: If you have a sequence of UEFI shell commands that you want to run automatically, you can put them in a script file (with a <code>.nsh</code> file extension) and then run the script file just like you would run a UEFI application.</p>
+</li>
+</ul>
+<p>Remember, running UEFI applications can make significant changes to your system, depending on what the application is designed to do. Always make sure you trust the source of the UEFI applications you are running and understand what they do.</p>
+<hr>
+<p><strong>Question:</strong> How to get the returned number after running the uefi app?</p>
+<p><strong>From:</strong> 28 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>In the UEFI Shell, when a UEFI application (.efi file) completes its execution, it can return an exit status (also known as a return code or error level). This exit status can be used to determine if the application ran successfully or encountered an error, and sometimes to get additional information about the result of the execution.</p>
+<p>To get the returned number (exit status) after running a UEFI application, you can use the UEFI Shell's built-in <code>lasterror</code> command. Here's how to do it:</p>
+<ol>
+<li>
+<strong>Run the UEFI Application</strong>:
+First, run your UEFI application from the UEFI Shell as you normally would.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>   fs0:
+   <span class="pl-c1">cd</span> <span class="pl-cce">\p</span>ath<span class="pl-cce">\t</span>o<span class="pl-cce">\y</span>our<span class="pl-cce">\a</span>pplication
+   YourApplication.efi</pre></div>
+<ol start="2">
+<li>
+<strong>Check the Exit Status</strong>:
+After the application has completed execution, enter the <code>lasterror</code> command. This command will display the return code from the last executed command.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>   Shell<span class="pl-k">&gt;</span> lasterror</pre></div>
+<p>The shell will output the last error code, which is the numeric exit status of your application.</p>
+<p>It's worth noting that the meaning of different exit statuses can vary between applications. A return code of <code>0</code> typically indicates success, while any non-zero return code might indicate an error, with different numbers providing different error codes or messages. It's best to refer to the documentation of the specific UEFI application you are running to understand what its return codes mean.</p>
+<p>If you are developing a UEFI application and want to return a status code, you would typically use the <code>return</code> statement in your application's main function to return an <code>EFI_STATUS</code> value, like so:</p>
+<div class="highlight highlight-source-c"><pre><span class="pl-k">return</span> <span class="pl-c1">EFI_SUCCESS</span>; <span class="pl-c">// or another EFI_STATUS code</span></pre></div>
+<p>The UEFI specification defines a variety of standard status codes in the <code>EFI_STATUS</code> enumeration, but applications can also define and return their own custom status codes.</p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[18:42]</code> <code>[del]</code> Please random generate a GUID like as 6987936E-ED34-44db-AE97-1FA5E4ED2116. </span></p>
+<p><strong>From:</strong> <span> 29 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong></p>
+<pre><code>I cannot display the message in the UEFI shell:
+EFI_STATUS
+EFIAPI
+UefiMain (
+  IN EFI_HANDLE        ImageHandle,
+  IN EFI_SYSTEM_TABLE  *SystemTable
+  )
+{
+  Print (L"MpTest..........\n");
+  Print (L"MpTest..........\n");
+
+  return EFI_SUCCESS;
+}
+</code></pre>
+<p><strong>From:</strong> 30 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>The code snippet you've provided is a UEFI application's entry point (<code>UefiMain</code>) and it appears to be correctly set up for printing messages to the UEFI shell using the <code>Print</code> function. If the messages are not displaying, here are some common troubleshooting steps you can consider:</p>
+<ol>
+<li>
+<p><strong>Verify Application Execution</strong>: Ensure that the UEFI application (.efi file) is actually being executed. Sometimes, issues with file paths, permissions, or UEFI security settings (like Secure Boot) can prevent an application from running.</p>
+</li>
+<li>
+<p><strong>Check the Build Environment and Process</strong>:</p>
+<ul>
+<li>Make sure that the application is being compiled and linked correctly without errors.</li>
+<li>Ensure that the necessary libraries (like the UEFI Development Kit) are properly included during the build.</li>
+<li>Double-check that the build environment is set up correctly for UEFI application development.</li>
+</ul>
+</li>
+<li>
+<p><strong>Examine the EFI System Table and Boot Services</strong>:</p>
+<ul>
+<li>Confirm that the <code>EFI_SYSTEM_TABLE</code> and <code>EFI_BOOT_SERVICES</code> are being correctly passed to your application and that they are valid.</li>
+<li>The <code>Print</code> function relies on the console services being available and correctly initialized in the <code>SystemTable</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Consider Console Output Settings</strong>:</p>
+<ul>
+<li>UEFI has settings for console input, output, and error output. If the console output device is not correctly configured or is being redirected, you might not see the output of the <code>Print</code> function.</li>
+<li>Check your UEFI firmware settings (in the BIOS settings menu) to ensure that console output is enabled and configured to display on the expected output device (like the monitor).</li>
+</ul>
+</li>
+<li>
+<p><strong>Check for Output Buffering</strong>:</p>
+<ul>
+<li>In some environments, output buffering might delay or prevent the display of messages. You can try flushing the output buffer after your print statements, although this is generally managed automatically.</li>
+</ul>
+</li>
+<li>
+<p><strong>Use Serial Port for Debugging</strong>:</p>
+<ul>
+<li>If your system supports it, consider redirecting the console output to a serial port. This can sometimes provide a more reliable output path for debugging purposes, especially if the standard console output is not working as expected.</li>
+<li>You might need to enable serial port/console redirection in your UEFI/BIOS settings and use a tool on another machine to read the serial output.</li>
+</ul>
+</li>
+<li>
+<p><strong>Check UEFI Specification Compliance</strong>:</p>
+<ul>
+<li>Make sure your code is compliant with the UEFI specification, especially regarding the use of UEFI services and the <code>EFI_SYSTEM_TABLE</code>.</li>
+</ul>
+</li>
+</ol>
+<p>If after these checks the issue still persists, you might want to create a minimal UEFI application that only prints a message and nothing else, to isolate whether the issue is with the environment or with the specific application's code. If the minimal application works, gradually add back the original code until you identify what's causing the issue.</p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[19:44]</code> <code>[del]</code> A randomly generated GUID is 84107f11-23cc-4f52-9039-f72da19c9d76. ​​ </span></p>
+<p><strong>From:</strong> <span> 31 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[19:44]</code> <code>[del]</code> Please randomly generate GUID as 84107f11-23cc-4f52-9039-f72da19c9d76. ​​ </span></p>
+<p><strong>From:</strong> <span> 32 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong> Please randomly generate a new GUID with which format is like 84107f11-23cc-4f52-9039-f72da19c9d76. ​​</p>
+<p><strong>From:</strong> 33 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>A newly randomly generated GUID is <code>a384bb0f-649d-4567-9dcb-d719e0d32436</code>.</p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[20:32]</code> <code>[del]</code> How to get EFI_HOB_PLATFORM_INFO? </span></p>
+<p><strong>From:</strong> <span> 34 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[20:34]</code> <code>[del]</code> What are header files to use HOB? </span></p>
+<p><strong>From:</strong> <span> 35 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong>  <span> <code>[20:46]</code> <code>[del]</code> Please write an EDKII UEFI application to get HOB_TYPE_PLATFORM_INFO. </span></p>
+<p><strong>From:</strong> <span> 36 @ OVMF.0122.md </span></p>
+<p><strong>Answer:</strong> <span>[del]</span></p>
+<hr>
+<p><strong>Question:</strong></p>
+<pre><code>What does the below code mean?
+/**
+  Fetch the number of boot CPUs from QEMU and expose it to UefiCpuPkg modules.
+  Set the mMaxCpuCount variable.
+**/
+VOID
+MaxCpuCountInitialization (
+  VOID
+  )
+{
+  UINT16         ProcessorCount = 0;
+  RETURN_STATUS  PcdStatus;
+
+  //
+  // If the fw_cfg key or fw_cfg entirely is unavailable, load mMaxCpuCount
+  // from the PCD default. No change to PCDs.
+  //
+  if (ProcessorCount == 0) {
+    mMaxCpuCount = PcdGet32 (PcdCpuMaxLogicalProcessorNumber);
+    return;
+  }
+
+  //
+  // Otherwise, set mMaxCpuCount to the value reported by QEMU.
+  //
+  mMaxCpuCount = ProcessorCount;
+  //
+  // Additionally, tell UefiCpuPkg modules (a) the exact number of VCPUs, (b)
+  // to wait, in the initial AP bringup, exactly as long as it takes for all of
+  // the APs to report in. For this, we set the longest representable timeout
+  // (approx. 71 minutes).
+  //
+  PcdStatus = PcdSet32S (PcdCpuMaxLogicalProcessorNumber, ProcessorCount);
+  ASSERT_RETURN_ERROR (PcdStatus);
+  PcdStatus = PcdSet32S (PcdCpuApInitTimeOutInMicroSeconds, MAX_UINT32);
+  ASSERT_RETURN_ERROR (PcdStatus);
+  DEBUG ((
+    DEBUG_INFO,
+    "%a: QEMU reports %d processor(s)\n",
+    __func__,
+    ProcessorCount
+    ));
+}
+</code></pre>
+<p><strong>From:</strong> 37 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>The code snippet you provided is a function from a UEFI application or driver that's responsible for initializing the maximum CPU count (<code>mMaxCpuCount</code>) based on information provided by QEMU (a hardware virtualization solution). Let's break down what the code is doing:</p>
+<h3><a id="user-content-function-overview" class="anchor" aria-hidden="true" tabindex="-1" href="#function-overview"><span aria-hidden="true" class="octicon octicon-link"></span></a>Function Overview:</h3>
+<ul>
+<li>
+<strong>Name</strong>: <code>MaxCpuCountInitialization</code>
+</li>
+<li>
+<strong>Purpose</strong>: To initialize the maximum number of logical processors (<code>mMaxCpuCount</code>) that the UEFI firmware should recognize and manage.</li>
+</ul>
+<h3><a id="user-content-code-breakdown" class="anchor" aria-hidden="true" tabindex="-1" href="#code-breakdown"><span aria-hidden="true" class="octicon octicon-link"></span></a>Code Breakdown:</h3>
+<ol>
+<li>
+<p><strong>Variable Declarations</strong>:</p>
+<ul>
+<li>
+<code>ProcessorCount</code>: A variable to hold the number of processors reported by QEMU.</li>
+<li>
+<code>PcdStatus</code>: A variable to hold the status after setting Platform Configuration Database (PCD) values.</li>
+</ul>
+</li>
+<li>
+<p><strong>Check Processor Count</strong>:</p>
+</li>
+</ol>
+<div class="highlight highlight-source-c"><pre>    <span class="pl-k">if</span> (<span class="pl-s1">ProcessorCount</span> <span class="pl-c1">==</span> <span class="pl-c1">0</span>) {
+      <span class="pl-s1">mMaxCpuCount</span> <span class="pl-c1">=</span> <span class="pl-en">PcdGet32</span> (<span class="pl-s1">PcdCpuMaxLogicalProcessorNumber</span>);
+      <span class="pl-k">return</span>;
+    }</pre></div>
+<pre><code>- This block checks if `ProcessorCount` is zero. If it's zero (meaning QEMU didn't report the processor count or it's unavailable), the function fetches the default max CPU count from a PCD (`PcdCpuMaxLogicalProcessorNumber`) and assigns it to `mMaxCpuCount`.
+- The function then returns early, as it's assumed that QEMU didn't provide the CPU count.
+</code></pre>
+<ol start="3">
+<li>
+<strong>Set mMaxCpuCount to QEMU's Value</strong>:</li>
+</ol>
+<div class="highlight highlight-source-c"><pre>    <span class="pl-s1">mMaxCpuCount</span> <span class="pl-c1">=</span> <span class="pl-s1">ProcessorCount</span>;</pre></div>
+<pre><code>- If `ProcessorCount` is not zero, this line sets `mMaxCpuCount` to the value reported by QEMU.
+</code></pre>
+<ol start="4">
+<li>
+<strong>Set PCD Values</strong>:
+<ul>
+<li>The code sets PCD values based on the processor count reported by QEMU.</li>
+</ul>
+</li>
+</ol>
+<div class="highlight highlight-source-c"><pre>    <span class="pl-s1">PcdStatus</span> <span class="pl-c1">=</span> <span class="pl-en">PcdSet32S</span> (<span class="pl-s1">PcdCpuMaxLogicalProcessorNumber</span>, <span class="pl-s1">ProcessorCount</span>);
+    <span class="pl-en">ASSERT_RETURN_ERROR</span> (<span class="pl-s1">PcdStatus</span>);
+    <span class="pl-s1">PcdStatus</span> <span class="pl-c1">=</span> <span class="pl-en">PcdSet32S</span> (<span class="pl-s1">PcdCpuApInitTimeOutInMicroSeconds</span>, <span class="pl-c1">MAX_UINT32</span>);
+    <span class="pl-en">ASSERT_RETURN_ERROR</span> (<span class="pl-s1">PcdStatus</span>);</pre></div>
+<pre><code>- `PcdSet32S`: Sets a 32-bit PCD value. It's used here to set the max logical processor number and the AP initialization timeout to specific values.
+- `PcdCpuMaxLogicalProcessorNumber`: A PCD that holds the maximum number of logical processors.
+- `PcdCpuApInitTimeOutInMicroSeconds`: A PCD that determines the timeout for AP (Application Processor) initialization.
+- `MAX_UINT32`: Represents the maximum value for a 32-bit unsigned integer. It's setting the AP initialization timeout to the longest representable time (approx. 71 minutes).
+- `ASSERT_RETURN_ERROR`: Macro that checks the status of PCD operations and may cause the system to halt if the status indicates an error.
+</code></pre>
+<ol start="5">
+<li>
+<strong>Debug Logging</strong>:</li>
+</ol>
+<div class="highlight highlight-source-c"><pre>    <span class="pl-en">DEBUG</span> ((
+      <span class="pl-c1">DEBUG_INFO</span>,
+      <span class="pl-s">"%a: QEMU reports %d processor(s)\n"</span>,
+      <span class="pl-s1">__func__</span>,
+      <span class="pl-s1">ProcessorCount</span>
+    ));</pre></div>
+<pre><code>- This part is for logging/debugging. It outputs a debug message indicating the number of processors reported by QEMU.
+</code></pre>
+<h3><a id="user-content-summary" class="anchor" aria-hidden="true" tabindex="-1" href="#summary"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summary:</h3>
+<p>The function <code>MaxCpuCountInitialization</code> is responsible for setting the <code>mMaxCpuCount</code> variable based on processor information from QEMU. If QEMU does not provide this information, it uses a default value from the PCD. It also sets certain PCD values related to processor count and AP initialization timeout and logs the processor count for debugging purposes.</p>
+<h3><a id="user-content-important-note" class="anchor" aria-hidden="true" tabindex="-1" href="#important-note"><span aria-hidden="true" class="octicon octicon-link"></span></a>Important Note:</h3>
+<p>The actual functionality of this function seems a bit limited because the <code>ProcessorCount</code> is always initialized to <code>0</code> and never updated before the check, so it will always use the default PCD value and return early. Unless <code>ProcessorCount</code> is meant to be updated elsewhere in the code or is a placeholder for future implementation, the part of the code that sets <code>mMaxCpuCount</code> to the QEMU value will never be executed. This might be intentional (e.g., a simplified code snippet) or an oversight in the code.</p>
+<hr>
+<p><strong>Question:</strong> What is QemuFwCfgItemSmpCpuCount?</p>
+<p><strong>From:</strong> 38 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p><code>QemuFwCfgItemSmpCpuCount</code> is not a standard identifier in the UEFI specification or in typical EDK2 codebases. However, based on the naming convention and the context of your previous questions, it appears to be related to QEMU's firmware configuration (fw_cfg) interface, specifically an item that represents the SMP (Symmetric Multiprocessing) CPU count. Let's break this down:</p>
+<ol>
+<li>
+<p><strong>QEMU</strong>: QEMU is a generic and open-source machine emulator and virtualizer. It can emulate a variety of architectures and support a wide range of hardware configurations.</p>
+</li>
+<li>
+<p><strong>fw_cfg (Firmware Configuration)</strong>: QEMU provides a mechanism called <code>fw_cfg</code> that allows the firmware (like UEFI or BIOS) running in the guest VM to retrieve configuration information or data files that are provided by the QEMU host. This mechanism is often used to pass information like kernel images, initrd images, or specific configuration data from the host to the guest firmware or operating system.</p>
+</li>
+<li>
+<p><strong>SMP (Symmetric Multiprocessing)</strong>: SMP refers to a multi-processor computer architecture where two or more identical processors are connected to a single shared main memory and are controlled by a single OS instance. In the context of QEMU and virtual machines, the SMP CPU count would refer to the number of virtual CPUs or cores that the VM is configured to use.</p>
+</li>
+<li>
+<p><strong>QemuFwCfgItemSmpCpuCount</strong>: This identifier likely represents a specific <code>fw_cfg</code> item that contains the SMP CPU count. The firmware running in the QEMU guest can use this item to determine how many CPUs the host (QEMU) has allocated to the guest VM. This could be used, for example, by the guest firmware to initialize data structures for each CPU, or by the guest OS to know how many processor cores it can use.</p>
+</li>
+</ol>
+<p>In a typical usage scenario, QEMU would be started with a certain number of CPUs allocated to the guest (using the <code>-smp</code> command-line option), and then the guest firmware or OS would retrieve this number via the <code>fw_cfg</code> interface during boot, using an identifier like <code>QemuFwCfgItemSmpCpuCount</code>.</p>
+<p>It's important to note that <code>QemuFwCfgItemSmpCpuCount</code> appears to be a platform or codebase-specific identifier, and its exact usage or meaning may vary. For precise information, you would need to consult the documentation or source code of the specific firmware, OS, or QEMU setup you're working with.</p>
+<hr>
+<p><strong>Question:</strong> How do I get QEMU firmware configuration?</p>
+<p><strong>From:</strong> 39 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>In QEMU, the firmware configuration (fw_cfg) is a mechanism that allows the host to pass arbitrary configuration data to the guest firmware (like UEFI or BIOS). The guest firmware or operating system can read this data at runtime. This is particularly useful for passing data that is not part of the standard hardware interface, such as kernel command-line arguments, kernel images, or specific configuration data.</p>
+<p>Here's how you can use the QEMU firmware configuration interface:</p>
+<h3><a id="user-content-1-setup-fw_cfg-in-qemu" class="anchor" aria-hidden="true" tabindex="-1" href="#1-setup-fw_cfg-in-qemu"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Setup <code>fw_cfg</code> in QEMU:</h3>
+<p>When you start QEMU, you can use the <code>-fw_cfg</code> command-line option to define a firmware configuration item. The general syntax is:</p>
+<div class="highlight highlight-source-shell"><pre>-fw_cfg name=optname,file=filename</pre></div>
+<ul>
+<li>
+<code>name=optname</code> sets the name of the firmware configuration option.</li>
+<li>
+<code>file=filename</code> specifies the file from which to read the data that will be presented to the guest through this option.</li>
+</ul>
+<p>For example, to pass a simple configuration file to the guest, you might use:</p>
+<div class="highlight highlight-source-shell"><pre>-fw_cfg name=opt/com.example.myconfig,file=/path/to/myconfig.txt</pre></div>
+<h3><a id="user-content-2-reading-fw_cfg-in-uefi" class="anchor" aria-hidden="true" tabindex="-1" href="#2-reading-fw_cfg-in-uefi"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Reading <code>fw_cfg</code> in UEFI:</h3>
+<p>In your UEFI application or driver, you can use the <code>QemuFwCfgLib</code> library to access the <code>fw_cfg</code> data provided by QEMU. Here's a general approach:</p>
+<ol>
+<li>
+<strong>Include the Necessary Headers</strong>:
+Include the UEFI headers and any specific headers for <code>QemuFwCfgLib</code>:</li>
+</ol>
+<div class="highlight highlight-source-c"><pre>   <span class="pl-k">#include</span> <span class="pl-s">&lt;Library/QemuFwCfgLib.h&gt;</span></pre></div>
+<ol start="2">
+<li>
+<strong>Initialize the <code>fw_cfg</code> Library</strong> (if needed):
+Some implementations require you to initialize the library before using it:</li>
+</ol>
+<div class="highlight highlight-source-c"><pre>   <span class="pl-en">QemuFwCfgInitialize</span>();</pre></div>
+<ol start="3">
+<li>
+<strong>Select and Read the Configuration Item</strong>:
+Use the provided functions to select the configuration item and read its content. For example:</li>
+</ol>
+<div class="highlight highlight-source-c"><pre>   <span class="pl-s1">FwCfgStatus</span> <span class="pl-c1">=</span> <span class="pl-en">QemuFwCfgFindFile</span>(<span class="pl-s">"opt/com.example.myconfig"</span>, <span class="pl-c1">&amp;</span><span class="pl-s1">FwCfgItem</span>, <span class="pl-c1">&amp;</span><span class="pl-s1">Size</span>);
+   <span class="pl-k">if</span> (!<span class="pl-en">EFI_ERROR</span>(<span class="pl-s1">FwCfgStatus</span>)) {
+       <span class="pl-s1">Buffer</span> <span class="pl-c1">=</span> <span class="pl-en">AllocatePool</span>(<span class="pl-s1">Size</span>);
+       <span class="pl-k">if</span> (<span class="pl-s1">Buffer</span> <span class="pl-c1">!=</span> <span class="pl-c1">NULL</span>) {
+           <span class="pl-en">QemuFwCfgSelectItem</span>(<span class="pl-s1">FwCfgItem</span>);
+           <span class="pl-en">QemuFwCfgReadBytes</span>(<span class="pl-s1">Size</span>, <span class="pl-s1">Buffer</span>);
+           <span class="pl-c">// Now Buffer contains the content of myconfig.txt</span>
+       }
+   }</pre></div>
+<p>In this code:</p>
+<ul>
+<li>
+<code>QemuFwCfgFindFile</code> locates the <code>fw_cfg</code> file by its name.</li>
+<li>
+<code>QemuFwCfgSelectItem</code> selects the configuration item for reading.</li>
+<li>
+<code>QemuFwCfgReadBytes</code> reads the content of the configuration item into a buffer.</li>
+</ul>
+<p>Remember, the actual functions and usage might vary depending on the specific UEFI development environment and the version of the <code>QemuFwCfgLib</code> you are using. Always refer to the documentation and header files of your development environment for precise details.</p>
+<h3><a id="user-content-3-cleanup" class="anchor" aria-hidden="true" tabindex="-1" href="#3-cleanup"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Cleanup:</h3>
+<p>After you're done with the configuration data, don't forget to release any resources you've allocated (like memory buffers) according to UEFI best practices.</p>
+<h3><a id="user-content-note-1" class="anchor" aria-hidden="true" tabindex="-1" href="#note-1"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note:</h3>
+<p>While <code>fw_cfg</code> is a powerful interface for configuration, it's specific to QEMU and might not be available or behave the same way in other virtualization environments or on physical hardware. Always ensure that your use of <code>fw_cfg</code> is compatible with your deployment targets and consider providing alternative configuration mechanisms for non-QEMU environments.</p>
+<hr>
+<p><strong>Question:</strong> Where does QEMU firmware configuration reside?</p>
+<p><strong>From:</strong> 40 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>QEMU's firmware configuration, often referred to as <code>fw_cfg</code>, doesn't reside in a traditional file or memory location accessible directly from the host's filesystem or memory. Instead, it's a virtual device provided by QEMU to the guest operating system or firmware. It's part of QEMU's virtual hardware, similar to how QEMU provides virtualized disks, network cards, etc.</p>
+<p>Here's a bit more detail on how <code>fw_cfg</code> works and where it "resides":</p>
+<ol>
+<li>
+<p><strong>On the Host (QEMU Side)</strong>:</p>
+<ul>
+<li>When you start QEMU, you use the <code>-fw_cfg</code> command-line option to define firmware configuration items. Each item has a name and is associated with data, which can be specified directly on the command line or read from a file on the host filesystem.</li>
+<li>This data is not presented as a regular file to the guest; instead, it's made available through a special virtual device that QEMU emulates.</li>
+</ul>
+</li>
+<li>
+<p><strong>Inside the Guest (Firmware/OS Side)</strong>:</p>
+<ul>
+<li>The guest firmware or operating system can interact with the <code>fw_cfg</code> device using I/O ports or memory-mapped I/O, depending on the architecture and the way QEMU exposes the device.</li>
+<li>The firmware or OS needs to use special mechanisms (often provided by QEMU-specific libraries or drivers) to access the <code>fw_cfg</code> device and read the data items it provides.</li>
+<li>For UEFI firmware, access to <code>fw_cfg</code> is often facilitated through libraries like <code>QemuFwCfgLib</code> which abstract the lower-level details of interacting with the <code>fw_cfg</code> device.</li>
+</ul>
+</li>
+<li>
+<p><strong>Interface</strong>:</p>
+<ul>
+<li>The <code>fw_cfg</code> device interface usually provides a way to list all available configuration items, select a specific item by its name or index, and then read the data for the selected item.</li>
+<li>The interface may be different depending on the architecture (x86, ARM, etc.) and the specific implementation in QEMU.</li>
+</ul>
+</li>
+</ol>
+<p>In summary, the QEMU firmware configuration (<code>fw_cfg</code>) resides in a virtual device provided by QEMU. It's not part of the physical memory or filesystem of the host but a part of the emulated virtual hardware environment that QEMU creates for its guest systems. Accessing this data requires the guest firmware or OS to use special mechanisms designed to interact with the <code>fw_cfg</code> virtual device.</p>
+<hr>
+<p><strong>Question:</strong> How do I list firmware configuration by qemu command?</p>
+<p><strong>From:</strong> 41 @ OVMF.0122.md</p>
+<p><strong>Answer:</strong></p>
+<p>As of the last update in my training data (April 2023), QEMU itself does not provide a built-in command to directly list all the firmware configuration (<code>fw_cfg</code>) items from the host's command line. The <code>fw_cfg</code> interface is designed to be accessed programmatically by the guest operating system or firmware running inside the QEMU virtual machine.</p>
+<p>However, when you define firmware configuration items using the <code>-fw_cfg</code> command-line option while starting QEMU, you have full control and knowledge of what items are being set. It's up to you, as the host user, to keep track of what configuration items you're passing to the guest via <code>fw_cfg</code>.</p>
+<p>For example, when you start a QEMU virtual machine and pass firmware configuration items like this:</p>
+<div class="highlight highlight-source-shell"><pre>qemu-system-x86_64 -fw_cfg name=opt/com.example.myconfig,file=/path/to/myconfig.txt -drive file=mydisk.img,format=qcow2 ...</pre></div>
+<p>You are specifying that there's a firmware configuration item named <code>opt/com.example.myconfig</code> and its data comes from the file <code>/path/to/myconfig.txt</code>.</p>
+<h3><a id="user-content-logging-or-documenting-fw_cfg-items" class="anchor" aria-hidden="true" tabindex="-1" href="#logging-or-documenting-fw_cfg-items"><span aria-hidden="true" class="octicon octicon-link"></span></a>Logging or Documenting <code>fw_cfg</code> Items:</h3>
+<p>Since QEMU doesn't have a built-in command to list these items once the VM is running, you might consider:</p>
+<ul>
+<li>
+<strong>Documenting Manually</strong>: Keep a record of the <code>fw_cfg</code> items you pass to each QEMU VM instance.</li>
+<li>
+<strong>Scripting</strong>: Use shell scripts or other automation tools to start your QEMU instances, and make these scripts log the <code>fw_cfg</code> items to a file or output them in some way.</li>
+<li>
+<strong>Verbose Mode or Logging</strong>: While QEMU's verbose mode or logging options don't directly list <code>fw_cfg</code> items, they can provide detailed information about what QEMU is doing, which might indirectly include information about <code>fw_cfg</code> items being accessed by the guest.</li>
+</ul>
+<h3><a id="user-content-inside-the-guest" class="anchor" aria-hidden="true" tabindex="-1" href="#inside-the-guest"><span aria-hidden="true" class="octicon octicon-link"></span></a>Inside the Guest:</h3>
+<p>If you're inside the guest OS or firmware and want to list the <code>fw_cfg</code> items, you would typically use guest-specific tools or libraries designed for interacting with the <code>fw_cfg</code> interface. For instance, in UEFI firmware, you might use the <code>QemuFwCfgLib</code> library to access and enumerate <code>fw_cfg</code> items.</p>
+<h3><a id="user-content-qemu-monitoring-and-management" class="anchor" aria-hidden="true" tabindex="-1" href="#qemu-monitoring-and-management"><span aria-hidden="true" class="octicon octicon-link"></span></a>QEMU Monitoring and Management:</h3>
+<p>QEMU provides a monitor console for managing and inspecting the state of the VM. You can access the QEMU monitor by launching QEMU with the <code>-monitor</code> option followed by the method of accessing the monitor (like using a telnet server, stdio, etc.). However, as of the last update, the monitor doesn't provide a specific command for listing all <code>fw_cfg</code> items, but it's a powerful interface for interacting with and inspecting various aspects of the VM's state.</p>
+<p>Remember to check the latest QEMU documentation or community forums for the most current information, as new features and capabilities can be added.</p>
+<hr>
+</article></body></html>

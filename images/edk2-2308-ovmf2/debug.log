@@ -1,0 +1,2350 @@
+SecCoreStartupWithStack(0xFFFCC000, 0x820000)
+Register PPI Notify: DCD0BE23-9586-40F4-B643-06522CED4EDE
+Install PPI: 8C8CE578-8A3D-4F1C-9935-896185C32DD3
+Install PPI: 5473C07A-3DCB-4DCA-BD6F-1E9689E7349A
+The 0th FV start address is 0x00000820000, size is 0x000E0000, handle is 0x820000
+Register PPI Notify: 49EDB1C1-BF21-4761-BB12-EB0031AABB39
+Register PPI Notify: EA7CA24B-DED5-4DAD-A389-BF827E8F9B38
+Install PPI: B9E0ABFE-5979-4914-977F-6DEE78C278A6
+Install PPI: DBE23AA9-A345-4B97-85B6-B226F1617389
+Install PPI: 138F9CF4-F0E7-4721-8F49-F5FFECF42D40
+DiscoverPeimsAndOrderWithApriori(): Found 0x8 PEI FFS files in the 0th FV
+Loading PEIM 9B3ADA4F-AE56-4C24-8DEA-F03B7558AE50
+Loading PEIM at 0x0000082BDC0 EntryPoint=0x0000082F12F PcdPeim.efi
+Install PPI: 06E81C58-4AD7-44BC-8390-F10265F72480
+Install PPI: 01F34D25-4DE2-23AD-3FF3-36353FF323F1
+Install PPI: 4D8B155B-C059-4C8F-8926-06FD4331DB8A
+Install PPI: A60C6B59-E459-425D-9C69-0BCC9CB27D81
+Register PPI Notify: 605EA650-C65C-42E1-BA80-91A52AB618C6
+Loading PEIM A3610442-E69F-4DF3-82CA-2360C4031A23
+Loading PEIM at 0x00000830DC0 EntryPoint=0x00000832221 ReportStatusCodeRouterPei.efi
+Install PPI: 0065D394-9951-4144-82A3-0AFC8579C251
+Install PPI: 229832D3-7A30-4B36-B827-F40CB7D45436
+Loading PEIM 9D225237-FA01-464C-A949-BAABC02D31D0
+Loading PEIM at 0x00000832F40 EntryPoint=0x0000083420F StatusCodeHandlerPei.efi
+Loading PEIM 222C386D-5ABC-4FB4-B124-FBB82488ACF4
+Loading PEIM at 0x00000834FC0 EntryPoint=0x0000083CBD3 PlatformPei.efi
+Platform PEIM Loaded
+CMOS:
+00: 15 00 38 00 06 00 07 27 01 24 26 02 10 80 00 00
+10: 50 00 00 00 07 80 02 FF FF 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: FF FF 20 00 00 07 00 20 30 00 00 00 00 12 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FE
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+QemuFwCfgProbe: Supported 1, DMA 1
+Select Item: 0x19
+Select Item: 0x28
+S3 support was detected on QEMU
+Install PPI: 7408D748-FC8C-4EE6-9288-C4BEC092A410
+Select Item: 0x19
+Select Item: 0x19
+Select Item: 0x25
+Select Item: 0x19
+Select Item: 0x19
+PlatformAddressWidthFromCpuid: Signature: 'AuthenticAMD', PhysBits: 40, QemuQuirk: On, Valid: Yes
+PlatformDynamicMmioWindow: using dynamic mmio window
+PlatformDynamicMmioWindow:   Addr Space 0x10000000000 (1024 GB)
+PlatformDynamicMmioWindow:   MMIO Space 0x2000000000 (128 GB)
+Select Item: 0x19
+Select Item: 0x25
+PlatformReservationConflictCB: move mmio: 0xE000000000 => C000000000
+PlatformDynamicMmioWindow:   Pci64 Base 0xC000000000
+PlatformDynamicMmioWindow:   Pci64 Size 0x2000000000
+AddressWidthInitialization: Pci64Base=0xC000000000 Pci64Size=0x2000000000
+Select Item: 0x5
+PlatformMaxCpuCountInitialization: BootCpuCount=255 MaxCpuCount=255
+Select Item: 0x19
+Select Item: 0x25
+PlatformGetLowMemoryCB: LowMemory=0x8000000
+PublishPeiMemory: PhysMemAddressWidth=40 PeiMemoryCap=69644 KB
+PeiInstallPeiMemory MemoryBegin 0x3385000, MemoryLength 0x4403000
+Select Item: 0x19
+Select Item: 0x25
+PlatformQemuInitializeRam called
+Select Item: 0x19
+Select Item: 0x25
+Select Item: 0x19
+Select Item: 0x25
+PlatformAddHobCB: Reserved [0xFD00000000, 0x10000000000)
+Reserved variable store memory: 0x7704000; size: 528kb
+Platform PEI Firmware Volume Initialization
+Install PPI: 49EDB1C1-BF21-4761-BB12-EB0031AABB39
+Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: 826057
+The 1th FV start address is 0x00000900000, size is 0x00D00000, handle is 0x900000
+Select Item: 0x19
+Select Item: 0x25
+Select Item: 0x19
+Register PPI Notify: EE16160A-E8BE-47A6-820A-C6900DB0250A
+Select Item: 0x19
+Temp Stack : BaseAddress=0x818000 Length=0x8000
+Temp Heap  : BaseAddress=0x810000 Length=0x8000
+Total temporary memory:    65536 bytes.
+  temporary memory stack ever used:       29904 bytes.
+  temporary memory heap used for HobList: 7128 bytes.
+  temporary memory heap occupied by memory pages: 0 bytes.
+Memory Allocation 0x0000000A 0x7788000 - 0x7FFFFFF
+Memory Allocation 0x0000000A 0x810000 - 0x81FFFF
+Memory Allocation 0x0000000A 0x807000 - 0x807FFF
+Memory Allocation 0x0000000A 0x800000 - 0x805FFF
+Memory Allocation 0x0000000A 0x806000 - 0x806FFF
+Memory Allocation 0x0000000A 0x80B000 - 0x80BFFF
+Memory Allocation 0x00000006 0x7704000 - 0x7787FFF
+Memory Allocation 0x0000000A 0x820000 - 0x8FFFFF
+Memory Allocation 0x00000004 0x900000 - 0x15FFFFF
+Old Stack size 32768, New stack size 131072
+Stack Hob: BaseAddress=0x3385000 Length=0x20000
+Heap Offset = 0x2B95000 Stack Offset = 0x2B85000
+TemporaryRamMigration(0x810000, 0x339D000, 0x10000)
+Loading PEIM 52C05B14-0B98-496C-BC3B-04B50211D680
+Loading PEIM at 0x000076F8000 EntryPoint=0x000077001CE PeiCore.efi
+Reinstall PPI: 8C8CE578-8A3D-4F1C-9935-896185C32DD3
+Reinstall PPI: 5473C07A-3DCB-4DCA-BD6F-1E9689E7349A
+Reinstall PPI: B9E0ABFE-5979-4914-977F-6DEE78C278A6
+Install PPI: F894643D-C449-42D1-8EA8-85BDD8C65BDE
+Loading PEIM 9B3ADA4F-AE56-4C24-8DEA-F03B7558AE50
+Loading PEIM at 0x000076F3000 EntryPoint=0x000076F636F PcdPeim.efi
+Reinstall PPI: 06E81C58-4AD7-44BC-8390-F10265F72480
+Reinstall PPI: 4D8B155B-C059-4C8F-8926-06FD4331DB8A
+Reinstall PPI: 01F34D25-4DE2-23AD-3FF3-36353FF323F1
+Reinstall PPI: A60C6B59-E459-425D-9C69-0BCC9CB27D81
+Loading PEIM 86D70125-BAA3-4296-A62F-602BEBBB9081
+Loading PEIM at 0x000076EE000 EntryPoint=0x000076F146F DxeIpl.efi
+Install PPI: 1A36E4E7-FAB6-476A-8E75-695A0576FDD7
+Install PPI: 0AE8CE5D-E448-4437-A8D7-EBF5F194F731
+Loading PEIM 89E549B0-7CFE-449D-9BA3-10D8B2312D71
+Loading PEIM at 0x000076E9000 EntryPoint=0x000076EBB6C S3Resume2Pei.efi
+Install PPI: 6D582DBC-DB85-4514-8FCC-5ADF6227B147
+Loading PEIM EDADEB9D-DDBA-48BD-9D22-C1C169C8C5C6
+Loading PEIM at 0x000076D9000 EntryPoint=0x000076DD958 CpuMpPei.efi
+Register PPI Notify: F894643D-C449-42D1-8EA8-85BDD8C65BDE
+Notify: PPI Guid: F894643D-C449-42D1-8EA8-85BDD8C65BDE, Peim notify entry point: 76E3407
+@2018: MaxLogicalProcessorNumber = 255
+@2024: MaxLogicalProcessorNumber = 255
+AP Loop Mode is 1
+AP Vector: non-16-bit = 6EC8000/44A
+WakeupBufferStart = 9F000, WakeupBufferSize = 1000
+AP Vector: 16-bit = 9F000/39, ExchangeInfo = 9F039/A4
+CpuMpPei: 5-Level Paging = 0
+@528: CpuMpData->CpuCount = 255
+@529: PcdCpuMaxLogicalProcessorNumber  = 255
+APIC MODE is 1
+MpInitLib: Find 255 processors in system.
+GetMicrocodePatchInfoFromHob: Microcode patch cache HOB is not found.
+CpuMpPei: 5-Level Paging = 0
+CPU[0000]: Microcode revision = 00000000, expected = 00000000
+CPU[0001]: Microcode revision = 00000000, expected = 00000000
+CPU[0002]: Microcode revision = 00000000, expected = 00000000
+CPU[0003]: Microcode revision = 00000000, expected = 00000000
+CPU[0004]: Microcode revision = 00000000, expected = 00000000
+CPU[0005]: Microcode revision = 00000000, expected = 00000000
+CPU[0006]: Microcode revision = 00000000, expected = 00000000
+CPU[0007]: Microcode revision = 00000000, expected = 00000000
+CPU[0008]: Microcode revision = 00000000, expected = 00000000
+CPU[0009]: Microcode revision = 00000000, expected = 00000000
+CPU[0010]: Microcode revision = 00000000, expected = 00000000
+CPU[0011]: Microcode revision = 00000000, expected = 00000000
+CPU[0012]: Microcode revision = 00000000, expected = 00000000
+CPU[0013]: Microcode revision = 00000000, expected = 00000000
+CPU[0014]: Microcode revision = 00000000, expected = 00000000
+CPU[0015]: Microcode revision = 00000000, expected = 00000000
+CPU[0016]: Microcode revision = 00000000, expected = 00000000
+CPU[0017]: Microcode revision = 00000000, expected = 00000000
+CPU[0018]: Microcode revision = 00000000, expected = 00000000
+CPU[0019]: Microcode revision = 00000000, expected = 00000000
+CPU[0020]: Microcode revision = 00000000, expected = 00000000
+CPU[0021]: Microcode revision = 00000000, expected = 00000000
+CPU[0022]: Microcode revision = 00000000, expected = 00000000
+CPU[0023]: Microcode revision = 00000000, expected = 00000000
+CPU[0024]: Microcode revision = 00000000, expected = 00000000
+CPU[0025]: Microcode revision = 00000000, expected = 00000000
+CPU[0026]: Microcode revision = 00000000, expected = 00000000
+CPU[0027]: Microcode revision = 00000000, expected = 00000000
+CPU[0028]: Microcode revision = 00000000, expected = 00000000
+CPU[0029]: Microcode revision = 00000000, expected = 00000000
+CPU[0030]: Microcode revision = 00000000, expected = 00000000
+CPU[0031]: Microcode revision = 00000000, expected = 00000000
+CPU[0032]: Microcode revision = 00000000, expected = 00000000
+CPU[0033]: Microcode revision = 00000000, expected = 00000000
+CPU[0034]: Microcode revision = 00000000, expected = 00000000
+CPU[0035]: Microcode revision = 00000000, expected = 00000000
+CPU[0036]: Microcode revision = 00000000, expected = 00000000
+CPU[0037]: Microcode revision = 00000000, expected = 00000000
+CPU[0038]: Microcode revision = 00000000, expected = 00000000
+CPU[0039]: Microcode revision = 00000000, expected = 00000000
+CPU[0040]: Microcode revision = 00000000, expected = 00000000
+CPU[0041]: Microcode revision = 00000000, expected = 00000000
+CPU[0042]: Microcode revision = 00000000, expected = 00000000
+CPU[0043]: Microcode revision = 00000000, expected = 00000000
+CPU[0044]: Microcode revision = 00000000, expected = 00000000
+CPU[0045]: Microcode revision = 00000000, expected = 00000000
+CPU[0046]: Microcode revision = 00000000, expected = 00000000
+CPU[0047]: Microcode revision = 00000000, expected = 00000000
+CPU[0048]: Microcode revision = 00000000, expected = 00000000
+CPU[0049]: Microcode revision = 00000000, expected = 00000000
+CPU[0050]: Microcode revision = 00000000, expected = 00000000
+CPU[0051]: Microcode revision = 00000000, expected = 00000000
+CPU[0052]: Microcode revision = 00000000, expected = 00000000
+CPU[0053]: Microcode revision = 00000000, expected = 00000000
+CPU[0054]: Microcode revision = 00000000, expected = 00000000
+CPU[0055]: Microcode revision = 00000000, expected = 00000000
+CPU[0056]: Microcode revision = 00000000, expected = 00000000
+CPU[0057]: Microcode revision = 00000000, expected = 00000000
+CPU[0058]: Microcode revision = 00000000, expected = 00000000
+CPU[0059]: Microcode revision = 00000000, expected = 00000000
+CPU[0060]: Microcode revision = 00000000, expected = 00000000
+CPU[0061]: Microcode revision = 00000000, expected = 00000000
+CPU[0062]: Microcode revision = 00000000, expected = 00000000
+CPU[0063]: Microcode revision = 00000000, expected = 00000000
+CPU[0064]: Microcode revision = 00000000, expected = 00000000
+CPU[0065]: Microcode revision = 00000000, expected = 00000000
+CPU[0066]: Microcode revision = 00000000, expected = 00000000
+CPU[0067]: Microcode revision = 00000000, expected = 00000000
+CPU[0068]: Microcode revision = 00000000, expected = 00000000
+CPU[0069]: Microcode revision = 00000000, expected = 00000000
+CPU[0070]: Microcode revision = 00000000, expected = 00000000
+CPU[0071]: Microcode revision = 00000000, expected = 00000000
+CPU[0072]: Microcode revision = 00000000, expected = 00000000
+CPU[0073]: Microcode revision = 00000000, expected = 00000000
+CPU[0074]: Microcode revision = 00000000, expected = 00000000
+CPU[0075]: Microcode revision = 00000000, expected = 00000000
+CPU[0076]: Microcode revision = 00000000, expected = 00000000
+CPU[0077]: Microcode revision = 00000000, expected = 00000000
+CPU[0078]: Microcode revision = 00000000, expected = 00000000
+CPU[0079]: Microcode revision = 00000000, expected = 00000000
+CPU[0080]: Microcode revision = 00000000, expected = 00000000
+CPU[0081]: Microcode revision = 00000000, expected = 00000000
+CPU[0082]: Microcode revision = 00000000, expected = 00000000
+CPU[0083]: Microcode revision = 00000000, expected = 00000000
+CPU[0084]: Microcode revision = 00000000, expected = 00000000
+CPU[0085]: Microcode revision = 00000000, expected = 00000000
+CPU[0086]: Microcode revision = 00000000, expected = 00000000
+CPU[0087]: Microcode revision = 00000000, expected = 00000000
+CPU[0088]: Microcode revision = 00000000, expected = 00000000
+CPU[0089]: Microcode revision = 00000000, expected = 00000000
+CPU[0090]: Microcode revision = 00000000, expected = 00000000
+CPU[0091]: Microcode revision = 00000000, expected = 00000000
+CPU[0092]: Microcode revision = 00000000, expected = 00000000
+CPU[0093]: Microcode revision = 00000000, expected = 00000000
+CPU[0094]: Microcode revision = 00000000, expected = 00000000
+CPU[0095]: Microcode revision = 00000000, expected = 00000000
+CPU[0096]: Microcode revision = 00000000, expected = 00000000
+CPU[0097]: Microcode revision = 00000000, expected = 00000000
+CPU[0098]: Microcode revision = 00000000, expected = 00000000
+CPU[0099]: Microcode revision = 00000000, expected = 00000000
+CPU[0100]: Microcode revision = 00000000, expected = 00000000
+CPU[0101]: Microcode revision = 00000000, expected = 00000000
+CPU[0102]: Microcode revision = 00000000, expected = 00000000
+CPU[0103]: Microcode revision = 00000000, expected = 00000000
+CPU[0104]: Microcode revision = 00000000, expected = 00000000
+CPU[0105]: Microcode revision = 00000000, expected = 00000000
+CPU[0106]: Microcode revision = 00000000, expected = 00000000
+CPU[0107]: Microcode revision = 00000000, expected = 00000000
+CPU[0108]: Microcode revision = 00000000, expected = 00000000
+CPU[0109]: Microcode revision = 00000000, expected = 00000000
+CPU[0110]: Microcode revision = 00000000, expected = 00000000
+CPU[0111]: Microcode revision = 00000000, expected = 00000000
+CPU[0112]: Microcode revision = 00000000, expected = 00000000
+CPU[0113]: Microcode revision = 00000000, expected = 00000000
+CPU[0114]: Microcode revision = 00000000, expected = 00000000
+CPU[0115]: Microcode revision = 00000000, expected = 00000000
+CPU[0116]: Microcode revision = 00000000, expected = 00000000
+CPU[0117]: Microcode revision = 00000000, expected = 00000000
+CPU[0118]: Microcode revision = 00000000, expected = 00000000
+CPU[0119]: Microcode revision = 00000000, expected = 00000000
+CPU[0120]: Microcode revision = 00000000, expected = 00000000
+CPU[0121]: Microcode revision = 00000000, expected = 00000000
+CPU[0122]: Microcode revision = 00000000, expected = 00000000
+CPU[0123]: Microcode revision = 00000000, expected = 00000000
+CPU[0124]: Microcode revision = 00000000, expected = 00000000
+CPU[0125]: Microcode revision = 00000000, expected = 00000000
+CPU[0126]: Microcode revision = 00000000, expected = 00000000
+CPU[0127]: Microcode revision = 00000000, expected = 00000000
+CPU[0128]: Microcode revision = 00000000, expected = 00000000
+CPU[0129]: Microcode revision = 00000000, expected = 00000000
+CPU[0130]: Microcode revision = 00000000, expected = 00000000
+CPU[0131]: Microcode revision = 00000000, expected = 00000000
+CPU[0132]: Microcode revision = 00000000, expected = 00000000
+CPU[0133]: Microcode revision = 00000000, expected = 00000000
+CPU[0134]: Microcode revision = 00000000, expected = 00000000
+CPU[0135]: Microcode revision = 00000000, expected = 00000000
+CPU[0136]: Microcode revision = 00000000, expected = 00000000
+CPU[0137]: Microcode revision = 00000000, expected = 00000000
+CPU[0138]: Microcode revision = 00000000, expected = 00000000
+CPU[0139]: Microcode revision = 00000000, expected = 00000000
+CPU[0140]: Microcode revision = 00000000, expected = 00000000
+CPU[0141]: Microcode revision = 00000000, expected = 00000000
+CPU[0142]: Microcode revision = 00000000, expected = 00000000
+CPU[0143]: Microcode revision = 00000000, expected = 00000000
+CPU[0144]: Microcode revision = 00000000, expected = 00000000
+CPU[0145]: Microcode revision = 00000000, expected = 00000000
+CPU[0146]: Microcode revision = 00000000, expected = 00000000
+CPU[0147]: Microcode revision = 00000000, expected = 00000000
+CPU[0148]: Microcode revision = 00000000, expected = 00000000
+CPU[0149]: Microcode revision = 00000000, expected = 00000000
+CPU[0150]: Microcode revision = 00000000, expected = 00000000
+CPU[0151]: Microcode revision = 00000000, expected = 00000000
+CPU[0152]: Microcode revision = 00000000, expected = 00000000
+CPU[0153]: Microcode revision = 00000000, expected = 00000000
+CPU[0154]: Microcode revision = 00000000, expected = 00000000
+CPU[0155]: Microcode revision = 00000000, expected = 00000000
+CPU[0156]: Microcode revision = 00000000, expected = 00000000
+CPU[0157]: Microcode revision = 00000000, expected = 00000000
+CPU[0158]: Microcode revision = 00000000, expected = 00000000
+CPU[0159]: Microcode revision = 00000000, expected = 00000000
+CPU[0160]: Microcode revision = 00000000, expected = 00000000
+CPU[0161]: Microcode revision = 00000000, expected = 00000000
+CPU[0162]: Microcode revision = 00000000, expected = 00000000
+CPU[0163]: Microcode revision = 00000000, expected = 00000000
+CPU[0164]: Microcode revision = 00000000, expected = 00000000
+CPU[0165]: Microcode revision = 00000000, expected = 00000000
+CPU[0166]: Microcode revision = 00000000, expected = 00000000
+CPU[0167]: Microcode revision = 00000000, expected = 00000000
+CPU[0168]: Microcode revision = 00000000, expected = 00000000
+CPU[0169]: Microcode revision = 00000000, expected = 00000000
+CPU[0170]: Microcode revision = 00000000, expected = 00000000
+CPU[0171]: Microcode revision = 00000000, expected = 00000000
+CPU[0172]: Microcode revision = 00000000, expected = 00000000
+CPU[0173]: Microcode revision = 00000000, expected = 00000000
+CPU[0174]: Microcode revision = 00000000, expected = 00000000
+CPU[0175]: Microcode revision = 00000000, expected = 00000000
+CPU[0176]: Microcode revision = 00000000, expected = 00000000
+CPU[0177]: Microcode revision = 00000000, expected = 00000000
+CPU[0178]: Microcode revision = 00000000, expected = 00000000
+CPU[0179]: Microcode revision = 00000000, expected = 00000000
+CPU[0180]: Microcode revision = 00000000, expected = 00000000
+CPU[0181]: Microcode revision = 00000000, expected = 00000000
+CPU[0182]: Microcode revision = 00000000, expected = 00000000
+CPU[0183]: Microcode revision = 00000000, expected = 00000000
+CPU[0184]: Microcode revision = 00000000, expected = 00000000
+CPU[0185]: Microcode revision = 00000000, expected = 00000000
+CPU[0186]: Microcode revision = 00000000, expected = 00000000
+CPU[0187]: Microcode revision = 00000000, expected = 00000000
+CPU[0188]: Microcode revision = 00000000, expected = 00000000
+CPU[0189]: Microcode revision = 00000000, expected = 00000000
+CPU[0190]: Microcode revision = 00000000, expected = 00000000
+CPU[0191]: Microcode revision = 00000000, expected = 00000000
+CPU[0192]: Microcode revision = 00000000, expected = 00000000
+CPU[0193]: Microcode revision = 00000000, expected = 00000000
+CPU[0194]: Microcode revision = 00000000, expected = 00000000
+CPU[0195]: Microcode revision = 00000000, expected = 00000000
+CPU[0196]: Microcode revision = 00000000, expected = 00000000
+CPU[0197]: Microcode revision = 00000000, expected = 00000000
+CPU[0198]: Microcode revision = 00000000, expected = 00000000
+CPU[0199]: Microcode revision = 00000000, expected = 00000000
+CPU[0200]: Microcode revision = 00000000, expected = 00000000
+CPU[0201]: Microcode revision = 00000000, expected = 00000000
+CPU[0202]: Microcode revision = 00000000, expected = 00000000
+CPU[0203]: Microcode revision = 00000000, expected = 00000000
+CPU[0204]: Microcode revision = 00000000, expected = 00000000
+CPU[0205]: Microcode revision = 00000000, expected = 00000000
+CPU[0206]: Microcode revision = 00000000, expected = 00000000
+CPU[0207]: Microcode revision = 00000000, expected = 00000000
+CPU[0208]: Microcode revision = 00000000, expected = 00000000
+CPU[0209]: Microcode revision = 00000000, expected = 00000000
+CPU[0210]: Microcode revision = 00000000, expected = 00000000
+CPU[0211]: Microcode revision = 00000000, expected = 00000000
+CPU[0212]: Microcode revision = 00000000, expected = 00000000
+CPU[0213]: Microcode revision = 00000000, expected = 00000000
+CPU[0214]: Microcode revision = 00000000, expected = 00000000
+CPU[0215]: Microcode revision = 00000000, expected = 00000000
+CPU[0216]: Microcode revision = 00000000, expected = 00000000
+CPU[0217]: Microcode revision = 00000000, expected = 00000000
+CPU[0218]: Microcode revision = 00000000, expected = 00000000
+CPU[0219]: Microcode revision = 00000000, expected = 00000000
+CPU[0220]: Microcode revision = 00000000, expected = 00000000
+CPU[0221]: Microcode revision = 00000000, expected = 00000000
+CPU[0222]: Microcode revision = 00000000, expected = 00000000
+CPU[0223]: Microcode revision = 00000000, expected = 00000000
+CPU[0224]: Microcode revision = 00000000, expected = 00000000
+CPU[0225]: Microcode revision = 00000000, expected = 00000000
+CPU[0226]: Microcode revision = 00000000, expected = 00000000
+CPU[0227]: Microcode revision = 00000000, expected = 00000000
+CPU[0228]: Microcode revision = 00000000, expected = 00000000
+CPU[0229]: Microcode revision = 00000000, expected = 00000000
+CPU[0230]: Microcode revision = 00000000, expected = 00000000
+CPU[0231]: Microcode revision = 00000000, expected = 00000000
+CPU[0232]: Microcode revision = 00000000, expected = 00000000
+CPU[0233]: Microcode revision = 00000000, expected = 00000000
+CPU[0234]: Microcode revision = 00000000, expected = 00000000
+CPU[0235]: Microcode revision = 00000000, expected = 00000000
+CPU[0236]: Microcode revision = 00000000, expected = 00000000
+CPU[0237]: Microcode revision = 00000000, expected = 00000000
+CPU[0238]: Microcode revision = 00000000, expected = 00000000
+CPU[0239]: Microcode revision = 00000000, expected = 00000000
+CPU[0240]: Microcode revision = 00000000, expected = 00000000
+CPU[0241]: Microcode revision = 00000000, expected = 00000000
+CPU[0242]: Microcode revision = 00000000, expected = 00000000
+CPU[0243]: Microcode revision = 00000000, expected = 00000000
+CPU[0244]: Microcode revision = 00000000, expected = 00000000
+CPU[0245]: Microcode revision = 00000000, expected = 00000000
+CPU[0246]: Microcode revision = 00000000, expected = 00000000
+CPU[0247]: Microcode revision = 00000000, expected = 00000000
+CPU[0248]: Microcode revision = 00000000, expected = 00000000
+CPU[0249]: Microcode revision = 00000000, expected = 00000000
+CPU[0250]: Microcode revision = 00000000, expected = 00000000
+CPU[0251]: Microcode revision = 00000000, expected = 00000000
+CPU[0252]: Microcode revision = 00000000, expected = 00000000
+CPU[0253]: Microcode revision = 00000000, expected = 00000000
+CPU[0254]: Microcode revision = 00000000, expected = 00000000
+@142: CpuCount = 255
+@145: MP_HAND_OFF = 16
+@146: PROCESSOR_HAND_OFF = 24
+@147: MpHandOffSize = 6136
+@148: EFI_HOB_GUID_TYPE = 24
+Register PPI Notify: 8F9D4825-797D-48FC-8471-845025792EF6
+Does not find any stored CPU BIST information from PPI!
+  APICID - 0x00000000, BIST - 0x00000000
+  APICID - 0x00000001, BIST - 0x00000000
+  APICID - 0x00000002, BIST - 0x00000000
+  APICID - 0x00000003, BIST - 0x00000000
+  APICID - 0x00000004, BIST - 0x00000000
+  APICID - 0x00000005, BIST - 0x00000000
+  APICID - 0x00000006, BIST - 0x00000000
+  APICID - 0x00000007, BIST - 0x00000000
+  APICID - 0x00000008, BIST - 0x00000000
+  APICID - 0x00000009, BIST - 0x00000000
+  APICID - 0x0000000A, BIST - 0x00000000
+  APICID - 0x0000000B, BIST - 0x00000000
+  APICID - 0x0000000C, BIST - 0x00000000
+  APICID - 0x0000000D, BIST - 0x00000000
+  APICID - 0x0000000E, BIST - 0x00000000
+  APICID - 0x0000000F, BIST - 0x00000000
+  APICID - 0x00000010, BIST - 0x00000000
+  APICID - 0x00000011, BIST - 0x00000000
+  APICID - 0x00000012, BIST - 0x00000000
+  APICID - 0x00000013, BIST - 0x00000000
+  APICID - 0x00000014, BIST - 0x00000000
+  APICID - 0x00000015, BIST - 0x00000000
+  APICID - 0x00000016, BIST - 0x00000000
+  APICID - 0x00000017, BIST - 0x00000000
+  APICID - 0x00000018, BIST - 0x00000000
+  APICID - 0x00000019, BIST - 0x00000000
+  APICID - 0x0000001A, BIST - 0x00000000
+  APICID - 0x0000001B, BIST - 0x00000000
+  APICID - 0x0000001C, BIST - 0x00000000
+  APICID - 0x0000001D, BIST - 0x00000000
+  APICID - 0x0000001E, BIST - 0x00000000
+  APICID - 0x0000001F, BIST - 0x00000000
+  APICID - 0x00000020, BIST - 0x00000000
+  APICID - 0x00000021, BIST - 0x00000000
+  APICID - 0x00000022, BIST - 0x00000000
+  APICID - 0x00000023, BIST - 0x00000000
+  APICID - 0x00000024, BIST - 0x00000000
+  APICID - 0x00000025, BIST - 0x00000000
+  APICID - 0x00000026, BIST - 0x00000000
+  APICID - 0x00000027, BIST - 0x00000000
+  APICID - 0x00000028, BIST - 0x00000000
+  APICID - 0x00000029, BIST - 0x00000000
+  APICID - 0x0000002A, BIST - 0x00000000
+  APICID - 0x0000002B, BIST - 0x00000000
+  APICID - 0x0000002C, BIST - 0x00000000
+  APICID - 0x0000002D, BIST - 0x00000000
+  APICID - 0x0000002E, BIST - 0x00000000
+  APICID - 0x0000002F, BIST - 0x00000000
+  APICID - 0x00000030, BIST - 0x00000000
+  APICID - 0x00000031, BIST - 0x00000000
+  APICID - 0x00000032, BIST - 0x00000000
+  APICID - 0x00000033, BIST - 0x00000000
+  APICID - 0x00000034, BIST - 0x00000000
+  APICID - 0x00000035, BIST - 0x00000000
+  APICID - 0x00000036, BIST - 0x00000000
+  APICID - 0x00000037, BIST - 0x00000000
+  APICID - 0x00000038, BIST - 0x00000000
+  APICID - 0x00000039, BIST - 0x00000000
+  APICID - 0x0000003A, BIST - 0x00000000
+  APICID - 0x0000003B, BIST - 0x00000000
+  APICID - 0x0000003C, BIST - 0x00000000
+  APICID - 0x0000003D, BIST - 0x00000000
+  APICID - 0x0000003E, BIST - 0x00000000
+  APICID - 0x0000003F, BIST - 0x00000000
+  APICID - 0x00000040, BIST - 0x00000000
+  APICID - 0x00000041, BIST - 0x00000000
+  APICID - 0x00000042, BIST - 0x00000000
+  APICID - 0x00000043, BIST - 0x00000000
+  APICID - 0x00000044, BIST - 0x00000000
+  APICID - 0x00000045, BIST - 0x00000000
+  APICID - 0x00000046, BIST - 0x00000000
+  APICID - 0x00000047, BIST - 0x00000000
+  APICID - 0x00000048, BIST - 0x00000000
+  APICID - 0x00000049, BIST - 0x00000000
+  APICID - 0x0000004A, BIST - 0x00000000
+  APICID - 0x0000004B, BIST - 0x00000000
+  APICID - 0x0000004C, BIST - 0x00000000
+  APICID - 0x0000004D, BIST - 0x00000000
+  APICID - 0x0000004E, BIST - 0x00000000
+  APICID - 0x0000004F, BIST - 0x00000000
+  APICID - 0x00000050, BIST - 0x00000000
+  APICID - 0x00000051, BIST - 0x00000000
+  APICID - 0x00000052, BIST - 0x00000000
+  APICID - 0x00000053, BIST - 0x00000000
+  APICID - 0x00000054, BIST - 0x00000000
+  APICID - 0x00000055, BIST - 0x00000000
+  APICID - 0x00000056, BIST - 0x00000000
+  APICID - 0x00000057, BIST - 0x00000000
+  APICID - 0x00000058, BIST - 0x00000000
+  APICID - 0x00000059, BIST - 0x00000000
+  APICID - 0x0000005A, BIST - 0x00000000
+  APICID - 0x0000005B, BIST - 0x00000000
+  APICID - 0x0000005C, BIST - 0x00000000
+  APICID - 0x0000005D, BIST - 0x00000000
+  APICID - 0x0000005E, BIST - 0x00000000
+  APICID - 0x0000005F, BIST - 0x00000000
+  APICID - 0x00000060, BIST - 0x00000000
+  APICID - 0x00000061, BIST - 0x00000000
+  APICID - 0x00000062, BIST - 0x00000000
+  APICID - 0x00000063, BIST - 0x00000000
+  APICID - 0x00000064, BIST - 0x00000000
+  APICID - 0x00000065, BIST - 0x00000000
+  APICID - 0x00000066, BIST - 0x00000000
+  APICID - 0x00000067, BIST - 0x00000000
+  APICID - 0x00000068, BIST - 0x00000000
+  APICID - 0x00000069, BIST - 0x00000000
+  APICID - 0x0000006A, BIST - 0x00000000
+  APICID - 0x0000006B, BIST - 0x00000000
+  APICID - 0x0000006C, BIST - 0x00000000
+  APICID - 0x0000006D, BIST - 0x00000000
+  APICID - 0x0000006E, BIST - 0x00000000
+  APICID - 0x0000006F, BIST - 0x00000000
+  APICID - 0x00000070, BIST - 0x00000000
+  APICID - 0x00000071, BIST - 0x00000000
+  APICID - 0x00000072, BIST - 0x00000000
+  APICID - 0x00000073, BIST - 0x00000000
+  APICID - 0x00000074, BIST - 0x00000000
+  APICID - 0x00000075, BIST - 0x00000000
+  APICID - 0x00000076, BIST - 0x00000000
+  APICID - 0x00000077, BIST - 0x00000000
+  APICID - 0x00000078, BIST - 0x00000000
+  APICID - 0x00000079, BIST - 0x00000000
+  APICID - 0x0000007A, BIST - 0x00000000
+  APICID - 0x0000007B, BIST - 0x00000000
+  APICID - 0x0000007C, BIST - 0x00000000
+  APICID - 0x0000007D, BIST - 0x00000000
+  APICID - 0x0000007E, BIST - 0x00000000
+  APICID - 0x0000007F, BIST - 0x00000000
+  APICID - 0x00000080, BIST - 0x00000000
+  APICID - 0x00000081, BIST - 0x00000000
+  APICID - 0x00000082, BIST - 0x00000000
+  APICID - 0x00000083, BIST - 0x00000000
+  APICID - 0x00000084, BIST - 0x00000000
+  APICID - 0x00000085, BIST - 0x00000000
+  APICID - 0x00000086, BIST - 0x00000000
+  APICID - 0x00000087, BIST - 0x00000000
+  APICID - 0x00000088, BIST - 0x00000000
+  APICID - 0x00000089, BIST - 0x00000000
+  APICID - 0x0000008A, BIST - 0x00000000
+  APICID - 0x0000008B, BIST - 0x00000000
+  APICID - 0x0000008C, BIST - 0x00000000
+  APICID - 0x0000008D, BIST - 0x00000000
+  APICID - 0x0000008E, BIST - 0x00000000
+  APICID - 0x0000008F, BIST - 0x00000000
+  APICID - 0x00000090, BIST - 0x00000000
+  APICID - 0x00000091, BIST - 0x00000000
+  APICID - 0x00000092, BIST - 0x00000000
+  APICID - 0x00000093, BIST - 0x00000000
+  APICID - 0x00000094, BIST - 0x00000000
+  APICID - 0x00000095, BIST - 0x00000000
+  APICID - 0x00000096, BIST - 0x00000000
+  APICID - 0x00000097, BIST - 0x00000000
+  APICID - 0x00000098, BIST - 0x00000000
+  APICID - 0x00000099, BIST - 0x00000000
+  APICID - 0x0000009A, BIST - 0x00000000
+  APICID - 0x0000009B, BIST - 0x00000000
+  APICID - 0x0000009C, BIST - 0x00000000
+  APICID - 0x0000009D, BIST - 0x00000000
+  APICID - 0x0000009E, BIST - 0x00000000
+  APICID - 0x0000009F, BIST - 0x00000000
+  APICID - 0x000000A0, BIST - 0x00000000
+  APICID - 0x000000A1, BIST - 0x00000000
+  APICID - 0x000000A2, BIST - 0x00000000
+  APICID - 0x000000A3, BIST - 0x00000000
+  APICID - 0x000000A4, BIST - 0x00000000
+  APICID - 0x000000A5, BIST - 0x00000000
+  APICID - 0x000000A6, BIST - 0x00000000
+  APICID - 0x000000A7, BIST - 0x00000000
+  APICID - 0x000000A8, BIST - 0x00000000
+  APICID - 0x000000A9, BIST - 0x00000000
+  APICID - 0x000000AA, BIST - 0x00000000
+  APICID - 0x000000AB, BIST - 0x00000000
+  APICID - 0x000000AC, BIST - 0x00000000
+  APICID - 0x000000AD, BIST - 0x00000000
+  APICID - 0x000000AE, BIST - 0x00000000
+  APICID - 0x000000AF, BIST - 0x00000000
+  APICID - 0x000000B0, BIST - 0x00000000
+  APICID - 0x000000B1, BIST - 0x00000000
+  APICID - 0x000000B2, BIST - 0x00000000
+  APICID - 0x000000B3, BIST - 0x00000000
+  APICID - 0x000000B4, BIST - 0x00000000
+  APICID - 0x000000B5, BIST - 0x00000000
+  APICID - 0x000000B6, BIST - 0x00000000
+  APICID - 0x000000B7, BIST - 0x00000000
+  APICID - 0x000000B8, BIST - 0x00000000
+  APICID - 0x000000B9, BIST - 0x00000000
+  APICID - 0x000000BA, BIST - 0x00000000
+  APICID - 0x000000BB, BIST - 0x00000000
+  APICID - 0x000000BC, BIST - 0x00000000
+  APICID - 0x000000BD, BIST - 0x00000000
+  APICID - 0x000000BE, BIST - 0x00000000
+  APICID - 0x000000BF, BIST - 0x00000000
+  APICID - 0x000000C0, BIST - 0x00000000
+  APICID - 0x000000C1, BIST - 0x00000000
+  APICID - 0x000000C2, BIST - 0x00000000
+  APICID - 0x000000C3, BIST - 0x00000000
+  APICID - 0x000000C4, BIST - 0x00000000
+  APICID - 0x000000C5, BIST - 0x00000000
+  APICID - 0x000000C6, BIST - 0x00000000
+  APICID - 0x000000C7, BIST - 0x00000000
+  APICID - 0x000000C8, BIST - 0x00000000
+  APICID - 0x000000C9, BIST - 0x00000000
+  APICID - 0x000000CA, BIST - 0x00000000
+  APICID - 0x000000CB, BIST - 0x00000000
+  APICID - 0x000000CC, BIST - 0x00000000
+  APICID - 0x000000CD, BIST - 0x00000000
+  APICID - 0x000000CE, BIST - 0x00000000
+  APICID - 0x000000CF, BIST - 0x00000000
+  APICID - 0x000000D0, BIST - 0x00000000
+  APICID - 0x000000D1, BIST - 0x00000000
+  APICID - 0x000000D2, BIST - 0x00000000
+  APICID - 0x000000D3, BIST - 0x00000000
+  APICID - 0x000000D4, BIST - 0x00000000
+  APICID - 0x000000D5, BIST - 0x00000000
+  APICID - 0x000000D6, BIST - 0x00000000
+  APICID - 0x000000D7, BIST - 0x00000000
+  APICID - 0x000000D8, BIST - 0x00000000
+  APICID - 0x000000D9, BIST - 0x00000000
+  APICID - 0x000000DA, BIST - 0x00000000
+  APICID - 0x000000DB, BIST - 0x00000000
+  APICID - 0x000000DC, BIST - 0x00000000
+  APICID - 0x000000DD, BIST - 0x00000000
+  APICID - 0x000000DE, BIST - 0x00000000
+  APICID - 0x000000DF, BIST - 0x00000000
+  APICID - 0x000000E0, BIST - 0x00000000
+  APICID - 0x000000E1, BIST - 0x00000000
+  APICID - 0x000000E2, BIST - 0x00000000
+  APICID - 0x000000E3, BIST - 0x00000000
+  APICID - 0x000000E4, BIST - 0x00000000
+  APICID - 0x000000E5, BIST - 0x00000000
+  APICID - 0x000000E6, BIST - 0x00000000
+  APICID - 0x000000E7, BIST - 0x00000000
+  APICID - 0x000000E8, BIST - 0x00000000
+  APICID - 0x000000E9, BIST - 0x00000000
+  APICID - 0x000000EA, BIST - 0x00000000
+  APICID - 0x000000EB, BIST - 0x00000000
+  APICID - 0x000000EC, BIST - 0x00000000
+  APICID - 0x000000ED, BIST - 0x00000000
+  APICID - 0x000000EE, BIST - 0x00000000
+  APICID - 0x000000EF, BIST - 0x00000000
+  APICID - 0x000000F0, BIST - 0x00000000
+  APICID - 0x000000F1, BIST - 0x00000000
+  APICID - 0x000000F2, BIST - 0x00000000
+  APICID - 0x000000F3, BIST - 0x00000000
+  APICID - 0x000000F4, BIST - 0x00000000
+  APICID - 0x000000F5, BIST - 0x00000000
+  APICID - 0x000000F6, BIST - 0x00000000
+  APICID - 0x000000F7, BIST - 0x00000000
+  APICID - 0x000000F8, BIST - 0x00000000
+  APICID - 0x000000F9, BIST - 0x00000000
+  APICID - 0x000000FA, BIST - 0x00000000
+  APICID - 0x000000FB, BIST - 0x00000000
+  APICID - 0x000000FC, BIST - 0x00000000
+  APICID - 0x000000FD, BIST - 0x00000000
+  APICID - 0x000000FE, BIST - 0x00000000
+Install PPI: 9E9F374B-8F16-4230-9824-5846EE766A97
+Install PPI: 5CB9CB3D-31A4-480C-9498-29D269BACFBA
+Install PPI: EE16160A-E8BE-47A6-820A-C6900DB0250A
+Notify: PPI Guid: EE16160A-E8BE-47A6-820A-C6900DB0250A, Peim notify entry point: 837065
+PlatformPei: ClearCacheOnMpServicesAvailable
+CpuMpPei: 5-Level Paging = 0
+DiscoverPeimsAndOrderWithApriori(): Found 0x0 PEI FFS files in the 1th FV
+DXE IPL Entry
+Loading PEIM D6A2CB7F-6A18-4E2F-B43B-9920A733700A
+Loading PEIM at 0x00006E99000 EntryPoint=0x00006EA16A1 DxeCore.efi
+Loading DXE CORE at 0x00006E99000 EntryPoint=0x00006EA16A1
+AddressBits=40 5LevelPaging=0 1GPage=0
+Pml5=1 Pml4=2 Pdp=512 TotalPage=1027
+Install PPI: 605EA650-C65C-42E1-BA80-91A52AB618C6
+Notify: PPI Guid: 605EA650-C65C-42E1-BA80-91A52AB618C6, Peim notify entry point: 82E022
+CoreInitializeMemoryServices:
+  BaseAddress - 0x33AC000 Length - 0x3454000 MinimalMemorySizeNeeded - 0x322000
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 6EBF448
+ProtectUefiImageCommon - 0x6EBF448
+  - 0x0000000006E99000 - 0x000000000002F000
+DxeMain: MemoryBaseAddress=0x33AC000 MemoryLength=0x3454000
+HOBLIST address in DXE = 0x64E4018
+Memory Allocation 0x0000000A 0x7788000 - 0x7FFFFFF
+Memory Allocation 0x0000000A 0x810000 - 0x81FFFF
+Memory Allocation 0x0000000A 0x807000 - 0x807FFF
+Memory Allocation 0x0000000A 0x800000 - 0x805FFF
+Memory Allocation 0x0000000A 0x806000 - 0x806FFF
+Memory Allocation 0x0000000A 0x80B000 - 0x80BFFF
+Memory Allocation 0x00000006 0x7704000 - 0x7787FFF
+Memory Allocation 0x0000000A 0x820000 - 0x8FFFFF
+Memory Allocation 0x00000004 0x900000 - 0x15FFFFF
+Memory Allocation 0x00000004 0x6E79000 - 0x6E98FFF
+Memory Allocation 0x00000003 0x76F8000 - 0x7703FFF
+Memory Allocation 0x00000003 0x76F3000 - 0x76F7FFF
+Memory Allocation 0x00000003 0x76EE000 - 0x76F2FFF
+Memory Allocation 0x00000003 0x76E9000 - 0x76EDFFF
+Memory Allocation 0x00000003 0x76D9000 - 0x76E8FFF
+Memory Allocation 0x00000004 0x6EC9000 - 0x76D8FFF
+Memory Allocation 0x00000003 0x6EC8000 - 0x6EC8FFF
+Memory Allocation 0x00000003 0x6E99000 - 0x6EC7FFF
+Memory Allocation 0x00000003 0x6E99000 - 0x6EC7FFF
+Memory Allocation 0x00000004 0x6E79000 - 0x6E98FFF
+Memory Allocation 0x00000004 0x6800000 - 0x6DFFFFF
+Memory Allocation 0x00000007 0x6E00000 - 0x6E78FFF
+Memory Allocation 0x00000004 0x3385000 - 0x33A4FFF
+FV Hob            0x900000 - 0x15FFFFF
+InstallProtocolInterface: D8117CFE-94A6-11D4-9A3A-0090273FC14D 6EBE4F0
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 64E0D30
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 64E0098
+InstallProtocolInterface: 220E73B6-6BDB-4413-8405-B974B108619A 64E0630
+InstallProtocolInterface: EE4E5898-3914-4259-9D6E-DC7BD79403CF 6EBE1B0
+Loading driver 9B680FCE-AD6B-4F3A-B60B-F59899003443
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 61660C0
+Loading driver at 0x0000614E000 EntryPoint=0x00006156225 DevicePathDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6166318
+ProtectUefiImageCommon - 0x61660C0
+  - 0x000000000614E000 - 0x000000000000B840
+InstallProtocolInterface: 0379BE4E-D706-437D-B037-EDB82FB772A4 6159500
+InstallProtocolInterface: 8B843E20-8132-4852-90CC-551A4E4A7F1C 61594E0
+InstallProtocolInterface: 05C99A21-C70F-4AD2-8A5F-35DF3343F51E 61594C0
+Loading driver 80CF7257-87AB-47F9-A3FE-D50B76D89541
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 6165B40
+Loading driver at 0x00006148000 EntryPoint=0x0000614BB14 PcdDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6166398
+ProtectUefiImageCommon - 0x6165B40
+  - 0x0000000006148000 - 0x0000000000005DC0
+InstallProtocolInterface: 11B34006-D85B-4D0A-A290-D5A571310EF7 614DA80
+InstallProtocolInterface: 13A3F0F6-264A-3EF0-F2E0-DEC512342F34 614D9E0
+InstallProtocolInterface: 5BE40F57-FA68-4610-BBBF-E9C5FCDAD365 614D9B0
+InstallProtocolInterface: FD0F4478-0EFD-461D-BA2D-E58C45FD5F5E 614D990
+Loading driver 2EC9DA37-EE35-4DE9-86C5-6D9A81DC38A7
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 61640C0
+Loading driver at 0x0000615A000 EntryPoint=0x0000615C704 AmdSevDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6164A18
+ProtectUefiImageCommon - 0x61640C0
+  - 0x000000000615A000 - 0x0000000000004500
+Error: Image at 0000615A000 start failed: Unsupported
+Loading driver E750224E-7BCE-40AF-B5BB-47E3611EB5C2
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 61640C0
+Loading driver at 0x0000615A000 EntryPoint=0x0000615C226 TdxDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6164A98
+ProtectUefiImageCommon - 0x61640C0
+  - 0x000000000615A000 - 0x0000000000004C40
+InstallProtocolInterface: BB00A5CA-08CE-462F-A537-43C74A825CA4 0
+Loading driver 733CBAC2-B23F-4B92-BC8E-FB01CE5907B7
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 6164540
+Loading driver at 0x000066E4000 EntryPoint=0x000066E7131 FvbServicesRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6163B18
+ProtectUefiImageCommon - 0x6164540
+  - 0x00000000066E4000 - 0x0000000000009000
+QEMU Flash: Attempting flash detection at FFC00010
+QemuFlashDetected => FD behaves as FLASH, writable
+QemuFlashDetected => Yes
+Installing QEMU flash FVB
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 65EC8B0
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 6163098
+Loading driver D93CE3D8-A7EB-4730-8C8E-CC466A9ECC3C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 6163140
+Loading driver at 0x000066DD000 EntryPoint=0x000066DFABE ReportStatusCodeRouterRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6163C18
+ProtectUefiImageCommon - 0x6163140
+  - 0x00000000066DD000 - 0x0000000000007000
+InstallProtocolInterface: 86212936-0E76-41C8-A03A-2AF2FC1C39E2 66E2070
+InstallProtocolInterface: D2B2B828-0826-48A7-B3DF-983C006024F0 66E2050
+Loading driver B601F8C4-43B7-4784-95B1-F4226CB40CEE
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 61601C0
+Loading driver at 0x000066D7000 EntryPoint=0x000066D96AD RuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6160D98
+ProtectUefiImageCommon - 0x61601C0
+  - 0x00000000066D7000 - 0x0000000000006000
+InstallProtocolInterface: B7DFB4E1-052F-449F-87BE-9818FC91B733 66DB040
+Loading driver F80697E9-7FD6-4665-8646-88E33EF71DFC
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 615F040
+Loading driver at 0x00006142000 EntryPoint=0x00006143722 SecurityStubDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6160718
+ProtectUefiImageCommon - 0x615F040
+  - 0x0000000006142000 - 0x0000000000002DC0
+InstallProtocolInterface: 94AB2F58-1438-4EF1-9152-18941A3A0E68 6144C28
+InstallProtocolInterface: A46423E3-4617-49F1-B9FF-D1BFA9115839 6144C20
+InstallProtocolInterface: 15853D7C-3DDF-43E0-A1CB-EBF85B8F872C 6144C00
+Loading driver 13AC6DD0-73D0-11D4-B06B-00AA00BD6DE7
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 615F440
+Loading driver at 0x00006134000 EntryPoint=0x00006137297 EbcDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 615FD98
+ProtectUefiImageCommon - 0x615F440
+  - 0x0000000006134000 - 0x0000000000006200
+InstallProtocolInterface: 13AC6DD1-73D0-11D4-B06B-00AA00BD6DE7 6147C18
+InstallProtocolInterface: 96F46153-97A7-4793-ACC1-FA19BF78EA97 6139F60
+InstallProtocolInterface: 2755590C-6F3C-42FA-9EA4-A3BA543CDA25 6147D98
+InstallProtocolInterface: AAEACCFD-F27B-4C17-B610-75CA1F2DFB52 6147898
+Loading driver A19B1FE7-C1BC-49F8-875F-54A5D542443F
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 6147240
+Loading driver at 0x0000613C000 EntryPoint=0x0000613DC8D CpuIo2Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6147798
+ProtectUefiImageCommon - 0x6147240
+  - 0x000000000613C000 - 0x0000000000002A00
+InstallProtocolInterface: AD61F191-AE5F-4C0E-B9FA-E869D288C64F 613E8C0
+Loading driver 1A1E4886-9517-440E-9FDE-3BE44CEE2136
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 6146B40
+Loading driver at 0x00005CFA000 EntryPoint=0x00005CFF03B CpuDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6146E18
+ProtectUefiImageCommon - 0x6146B40
+  - 0x0000000005CFA000 - 0x000000000001C2C0
+Paging: added 512 pages to page table pool
+CurrentPagingContext:
+  MachineType   - 0x8664
+  PageTableBase - 0x6801000
+  Attributes    - 0xC0000002
+InstallProtocolInterface: 26BACCB1-6F42-11D4-BCE7-0080C73C8881 5D0F5C0
+MemoryProtectionCpuArchProtocolNotify:
+ProtectUefiImageCommon - 0x6EBF448
+  - 0x0000000006E99000 - 0x000000000002F000
+ProtectUefiImageCommon - 0x61660C0
+  - 0x000000000614E000 - 0x000000000000B840
+ProtectUefiImageCommon - 0x6165B40
+  - 0x0000000006148000 - 0x0000000000005DC0
+ProtectUefiImageCommon - 0x61640C0
+  - 0x000000000615A000 - 0x0000000000004C40
+ProtectUefiImageCommon - 0x6164540
+  - 0x00000000066E4000 - 0x0000000000009000
+SetUefiImageMemoryAttributes - 0x00000000066E4000 - 0x0000000000001000 (0x0000000000004000)
+SetUefiImageMemoryAttributes - 0x00000000066E5000 - 0x0000000000006000 (0x0000000000020000)
+SetUefiImageMemoryAttributes - 0x00000000066EB000 - 0x0000000000002000 (0x0000000000004000)
+ProtectUefiImageCommon - 0x6163140
+  - 0x00000000066DD000 - 0x0000000000007000
+SetUefiImageMemoryAttributes - 0x00000000066DD000 - 0x0000000000001000 (0x0000000000004000)
+SetUefiImageMemoryAttributes - 0x00000000066DE000 - 0x0000000000004000 (0x0000000000020000)
+SetUefiImageMemoryAttributes - 0x00000000066E2000 - 0x0000000000002000 (0x0000000000004000)
+ProtectUefiImageCommon - 0x61601C0
+  - 0x00000000066D7000 - 0x0000000000006000
+SetUefiImageMemoryAttributes - 0x00000000066D7000 - 0x0000000000001000 (0x0000000000004000)
+SetUefiImageMemoryAttributes - 0x00000000066D8000 - 0x0000000000003000 (0x0000000000020000)
+SetUefiImageMemoryAttributes - 0x00000000066DB000 - 0x0000000000002000 (0x0000000000004000)
+ProtectUefiImageCommon - 0x615F040
+  - 0x0000000006142000 - 0x0000000000002DC0
+ProtectUefiImageCommon - 0x615F440
+  - 0x0000000006134000 - 0x0000000000006200
+ProtectUefiImageCommon - 0x6147240
+  - 0x000000000613C000 - 0x0000000000002A00
+ProtectUefiImageCommon - 0x6146B40
+  - 0x0000000005CFA000 - 0x000000000001C2C0
+ConvertPages: failed to find range A0000 - FFFFF
+ConvertPages: failed to find range 80000000 - FBFFFFFF
+ConvertPages: failed to find range FEC00000 - FEC00FFF
+Failed to update capability: [8] 00000000FED00000 - 00000000FED003FF (C700000000000001 -> C700000000026001)
+ConvertPages: failed to find range FEE00000 - FEEFFFFF
+ConvertPages: failed to find range FFC00000 - FFFFFFFF
+ConvertPages: failed to find range FD00000000 - FFFFFFFFFF
+@2020: MaxLogicalProcessorNumber = 255
+@2024: MaxLogicalProcessorNumber = 255
+AP Loop Mode is 1
+AP Vector: non-16-bit = 613F000/44A
+MpHandOff->WaitLoopExecutionMode: 0000, sizeof (VOID *): 0008
+GetMicrocodePatchInfoFromHob: MicrocodeBase = 0x0, MicrocodeSize = 0x0
+WakeupBufferStart = 87000, WakeupBufferSize = DD
+AP Vector: 16-bit = 87000/39, ExchangeInfo = 87039/A4
+CpuDxe: 5-Level Paging = 0
+CPU[0000]: Microcode revision = 00000000, expected = 00000000
+CPU[0001]: Microcode revision = 00000000, expected = 00000000
+CPU[0002]: Microcode revision = 00000000, expected = 00000000
+CPU[0003]: Microcode revision = 00000000, expected = 00000000
+CPU[0004]: Microcode revision = 00000000, expected = 00000000
+CPU[0005]: Microcode revision = 00000000, expected = 00000000
+CPU[0006]: Microcode revision = 00000000, expected = 00000000
+CPU[0007]: Microcode revision = 00000000, expected = 00000000
+CPU[0008]: Microcode revision = 00000000, expected = 00000000
+CPU[0009]: Microcode revision = 00000000, expected = 00000000
+CPU[0010]: Microcode revision = 00000000, expected = 00000000
+CPU[0011]: Microcode revision = 00000000, expected = 00000000
+CPU[0012]: Microcode revision = 00000000, expected = 00000000
+CPU[0013]: Microcode revision = 00000000, expected = 00000000
+CPU[0014]: Microcode revision = 00000000, expected = 00000000
+CPU[0015]: Microcode revision = 00000000, expected = 00000000
+CPU[0016]: Microcode revision = 00000000, expected = 00000000
+CPU[0017]: Microcode revision = 00000000, expected = 00000000
+CPU[0018]: Microcode revision = 00000000, expected = 00000000
+CPU[0019]: Microcode revision = 00000000, expected = 00000000
+CPU[0020]: Microcode revision = 00000000, expected = 00000000
+CPU[0021]: Microcode revision = 00000000, expected = 00000000
+CPU[0022]: Microcode revision = 00000000, expected = 00000000
+CPU[0023]: Microcode revision = 00000000, expected = 00000000
+CPU[0024]: Microcode revision = 00000000, expected = 00000000
+CPU[0025]: Microcode revision = 00000000, expected = 00000000
+CPU[0026]: Microcode revision = 00000000, expected = 00000000
+CPU[0027]: Microcode revision = 00000000, expected = 00000000
+CPU[0028]: Microcode revision = 00000000, expected = 00000000
+CPU[0029]: Microcode revision = 00000000, expected = 00000000
+CPU[0030]: Microcode revision = 00000000, expected = 00000000
+CPU[0031]: Microcode revision = 00000000, expected = 00000000
+CPU[0032]: Microcode revision = 00000000, expected = 00000000
+CPU[0033]: Microcode revision = 00000000, expected = 00000000
+CPU[0034]: Microcode revision = 00000000, expected = 00000000
+CPU[0035]: Microcode revision = 00000000, expected = 00000000
+CPU[0036]: Microcode revision = 00000000, expected = 00000000
+CPU[0037]: Microcode revision = 00000000, expected = 00000000
+CPU[0038]: Microcode revision = 00000000, expected = 00000000
+CPU[0039]: Microcode revision = 00000000, expected = 00000000
+CPU[0040]: Microcode revision = 00000000, expected = 00000000
+CPU[0041]: Microcode revision = 00000000, expected = 00000000
+CPU[0042]: Microcode revision = 00000000, expected = 00000000
+CPU[0043]: Microcode revision = 00000000, expected = 00000000
+CPU[0044]: Microcode revision = 00000000, expected = 00000000
+CPU[0045]: Microcode revision = 00000000, expected = 00000000
+CPU[0046]: Microcode revision = 00000000, expected = 00000000
+CPU[0047]: Microcode revision = 00000000, expected = 00000000
+CPU[0048]: Microcode revision = 00000000, expected = 00000000
+CPU[0049]: Microcode revision = 00000000, expected = 00000000
+CPU[0050]: Microcode revision = 00000000, expected = 00000000
+CPU[0051]: Microcode revision = 00000000, expected = 00000000
+CPU[0052]: Microcode revision = 00000000, expected = 00000000
+CPU[0053]: Microcode revision = 00000000, expected = 00000000
+CPU[0054]: Microcode revision = 00000000, expected = 00000000
+CPU[0055]: Microcode revision = 00000000, expected = 00000000
+CPU[0056]: Microcode revision = 00000000, expected = 00000000
+CPU[0057]: Microcode revision = 00000000, expected = 00000000
+CPU[0058]: Microcode revision = 00000000, expected = 00000000
+CPU[0059]: Microcode revision = 00000000, expected = 00000000
+CPU[0060]: Microcode revision = 00000000, expected = 00000000
+CPU[0061]: Microcode revision = 00000000, expected = 00000000
+CPU[0062]: Microcode revision = 00000000, expected = 00000000
+CPU[0063]: Microcode revision = 00000000, expected = 00000000
+CPU[0064]: Microcode revision = 00000000, expected = 00000000
+CPU[0065]: Microcode revision = 00000000, expected = 00000000
+CPU[0066]: Microcode revision = 00000000, expected = 00000000
+CPU[0067]: Microcode revision = 00000000, expected = 00000000
+CPU[0068]: Microcode revision = 00000000, expected = 00000000
+CPU[0069]: Microcode revision = 00000000, expected = 00000000
+CPU[0070]: Microcode revision = 00000000, expected = 00000000
+CPU[0071]: Microcode revision = 00000000, expected = 00000000
+CPU[0072]: Microcode revision = 00000000, expected = 00000000
+CPU[0073]: Microcode revision = 00000000, expected = 00000000
+CPU[0074]: Microcode revision = 00000000, expected = 00000000
+CPU[0075]: Microcode revision = 00000000, expected = 00000000
+CPU[0076]: Microcode revision = 00000000, expected = 00000000
+CPU[0077]: Microcode revision = 00000000, expected = 00000000
+CPU[0078]: Microcode revision = 00000000, expected = 00000000
+CPU[0079]: Microcode revision = 00000000, expected = 00000000
+CPU[0080]: Microcode revision = 00000000, expected = 00000000
+CPU[0081]: Microcode revision = 00000000, expected = 00000000
+CPU[0082]: Microcode revision = 00000000, expected = 00000000
+CPU[0083]: Microcode revision = 00000000, expected = 00000000
+CPU[0084]: Microcode revision = 00000000, expected = 00000000
+CPU[0085]: Microcode revision = 00000000, expected = 00000000
+CPU[0086]: Microcode revision = 00000000, expected = 00000000
+CPU[0087]: Microcode revision = 00000000, expected = 00000000
+CPU[0088]: Microcode revision = 00000000, expected = 00000000
+CPU[0089]: Microcode revision = 00000000, expected = 00000000
+CPU[0090]: Microcode revision = 00000000, expected = 00000000
+CPU[0091]: Microcode revision = 00000000, expected = 00000000
+CPU[0092]: Microcode revision = 00000000, expected = 00000000
+CPU[0093]: Microcode revision = 00000000, expected = 00000000
+CPU[0094]: Microcode revision = 00000000, expected = 00000000
+CPU[0095]: Microcode revision = 00000000, expected = 00000000
+CPU[0096]: Microcode revision = 00000000, expected = 00000000
+CPU[0097]: Microcode revision = 00000000, expected = 00000000
+CPU[0098]: Microcode revision = 00000000, expected = 00000000
+CPU[0099]: Microcode revision = 00000000, expected = 00000000
+CPU[0100]: Microcode revision = 00000000, expected = 00000000
+CPU[0101]: Microcode revision = 00000000, expected = 00000000
+CPU[0102]: Microcode revision = 00000000, expected = 00000000
+CPU[0103]: Microcode revision = 00000000, expected = 00000000
+CPU[0104]: Microcode revision = 00000000, expected = 00000000
+CPU[0105]: Microcode revision = 00000000, expected = 00000000
+CPU[0106]: Microcode revision = 00000000, expected = 00000000
+CPU[0107]: Microcode revision = 00000000, expected = 00000000
+CPU[0108]: Microcode revision = 00000000, expected = 00000000
+CPU[0109]: Microcode revision = 00000000, expected = 00000000
+CPU[0110]: Microcode revision = 00000000, expected = 00000000
+CPU[0111]: Microcode revision = 00000000, expected = 00000000
+CPU[0112]: Microcode revision = 00000000, expected = 00000000
+CPU[0113]: Microcode revision = 00000000, expected = 00000000
+CPU[0114]: Microcode revision = 00000000, expected = 00000000
+CPU[0115]: Microcode revision = 00000000, expected = 00000000
+CPU[0116]: Microcode revision = 00000000, expected = 00000000
+CPU[0117]: Microcode revision = 00000000, expected = 00000000
+CPU[0118]: Microcode revision = 00000000, expected = 00000000
+CPU[0119]: Microcode revision = 00000000, expected = 00000000
+CPU[0120]: Microcode revision = 00000000, expected = 00000000
+CPU[0121]: Microcode revision = 00000000, expected = 00000000
+CPU[0122]: Microcode revision = 00000000, expected = 00000000
+CPU[0123]: Microcode revision = 00000000, expected = 00000000
+CPU[0124]: Microcode revision = 00000000, expected = 00000000
+CPU[0125]: Microcode revision = 00000000, expected = 00000000
+CPU[0126]: Microcode revision = 00000000, expected = 00000000
+CPU[0127]: Microcode revision = 00000000, expected = 00000000
+CPU[0128]: Microcode revision = 00000000, expected = 00000000
+CPU[0129]: Microcode revision = 00000000, expected = 00000000
+CPU[0130]: Microcode revision = 00000000, expected = 00000000
+CPU[0131]: Microcode revision = 00000000, expected = 00000000
+CPU[0132]: Microcode revision = 00000000, expected = 00000000
+CPU[0133]: Microcode revision = 00000000, expected = 00000000
+CPU[0134]: Microcode revision = 00000000, expected = 00000000
+CPU[0135]: Microcode revision = 00000000, expected = 00000000
+CPU[0136]: Microcode revision = 00000000, expected = 00000000
+CPU[0137]: Microcode revision = 00000000, expected = 00000000
+CPU[0138]: Microcode revision = 00000000, expected = 00000000
+CPU[0139]: Microcode revision = 00000000, expected = 00000000
+CPU[0140]: Microcode revision = 00000000, expected = 00000000
+CPU[0141]: Microcode revision = 00000000, expected = 00000000
+CPU[0142]: Microcode revision = 00000000, expected = 00000000
+CPU[0143]: Microcode revision = 00000000, expected = 00000000
+CPU[0144]: Microcode revision = 00000000, expected = 00000000
+CPU[0145]: Microcode revision = 00000000, expected = 00000000
+CPU[0146]: Microcode revision = 00000000, expected = 00000000
+CPU[0147]: Microcode revision = 00000000, expected = 00000000
+CPU[0148]: Microcode revision = 00000000, expected = 00000000
+CPU[0149]: Microcode revision = 00000000, expected = 00000000
+CPU[0150]: Microcode revision = 00000000, expected = 00000000
+CPU[0151]: Microcode revision = 00000000, expected = 00000000
+CPU[0152]: Microcode revision = 00000000, expected = 00000000
+CPU[0153]: Microcode revision = 00000000, expected = 00000000
+CPU[0154]: Microcode revision = 00000000, expected = 00000000
+CPU[0155]: Microcode revision = 00000000, expected = 00000000
+CPU[0156]: Microcode revision = 00000000, expected = 00000000
+CPU[0157]: Microcode revision = 00000000, expected = 00000000
+CPU[0158]: Microcode revision = 00000000, expected = 00000000
+CPU[0159]: Microcode revision = 00000000, expected = 00000000
+CPU[0160]: Microcode revision = 00000000, expected = 00000000
+CPU[0161]: Microcode revision = 00000000, expected = 00000000
+CPU[0162]: Microcode revision = 00000000, expected = 00000000
+CPU[0163]: Microcode revision = 00000000, expected = 00000000
+CPU[0164]: Microcode revision = 00000000, expected = 00000000
+CPU[0165]: Microcode revision = 00000000, expected = 00000000
+CPU[0166]: Microcode revision = 00000000, expected = 00000000
+CPU[0167]: Microcode revision = 00000000, expected = 00000000
+CPU[0168]: Microcode revision = 00000000, expected = 00000000
+CPU[0169]: Microcode revision = 00000000, expected = 00000000
+CPU[0170]: Microcode revision = 00000000, expected = 00000000
+CPU[0171]: Microcode revision = 00000000, expected = 00000000
+CPU[0172]: Microcode revision = 00000000, expected = 00000000
+CPU[0173]: Microcode revision = 00000000, expected = 00000000
+CPU[0174]: Microcode revision = 00000000, expected = 00000000
+CPU[0175]: Microcode revision = 00000000, expected = 00000000
+CPU[0176]: Microcode revision = 00000000, expected = 00000000
+CPU[0177]: Microcode revision = 00000000, expected = 00000000
+CPU[0178]: Microcode revision = 00000000, expected = 00000000
+CPU[0179]: Microcode revision = 00000000, expected = 00000000
+CPU[0180]: Microcode revision = 00000000, expected = 00000000
+CPU[0181]: Microcode revision = 00000000, expected = 00000000
+CPU[0182]: Microcode revision = 00000000, expected = 00000000
+CPU[0183]: Microcode revision = 00000000, expected = 00000000
+CPU[0184]: Microcode revision = 00000000, expected = 00000000
+CPU[0185]: Microcode revision = 00000000, expected = 00000000
+CPU[0186]: Microcode revision = 00000000, expected = 00000000
+CPU[0187]: Microcode revision = 00000000, expected = 00000000
+CPU[0188]: Microcode revision = 00000000, expected = 00000000
+CPU[0189]: Microcode revision = 00000000, expected = 00000000
+CPU[0190]: Microcode revision = 00000000, expected = 00000000
+CPU[0191]: Microcode revision = 00000000, expected = 00000000
+CPU[0192]: Microcode revision = 00000000, expected = 00000000
+CPU[0193]: Microcode revision = 00000000, expected = 00000000
+CPU[0194]: Microcode revision = 00000000, expected = 00000000
+CPU[0195]: Microcode revision = 00000000, expected = 00000000
+CPU[0196]: Microcode revision = 00000000, expected = 00000000
+CPU[0197]: Microcode revision = 00000000, expected = 00000000
+CPU[0198]: Microcode revision = 00000000, expected = 00000000
+CPU[0199]: Microcode revision = 00000000, expected = 00000000
+CPU[0200]: Microcode revision = 00000000, expected = 00000000
+CPU[0201]: Microcode revision = 00000000, expected = 00000000
+CPU[0202]: Microcode revision = 00000000, expected = 00000000
+CPU[0203]: Microcode revision = 00000000, expected = 00000000
+CPU[0204]: Microcode revision = 00000000, expected = 00000000
+CPU[0205]: Microcode revision = 00000000, expected = 00000000
+CPU[0206]: Microcode revision = 00000000, expected = 00000000
+CPU[0207]: Microcode revision = 00000000, expected = 00000000
+CPU[0208]: Microcode revision = 00000000, expected = 00000000
+CPU[0209]: Microcode revision = 00000000, expected = 00000000
+CPU[0210]: Microcode revision = 00000000, expected = 00000000
+CPU[0211]: Microcode revision = 00000000, expected = 00000000
+CPU[0212]: Microcode revision = 00000000, expected = 00000000
+CPU[0213]: Microcode revision = 00000000, expected = 00000000
+CPU[0214]: Microcode revision = 00000000, expected = 00000000
+CPU[0215]: Microcode revision = 00000000, expected = 00000000
+CPU[0216]: Microcode revision = 00000000, expected = 00000000
+CPU[0217]: Microcode revision = 00000000, expected = 00000000
+CPU[0218]: Microcode revision = 00000000, expected = 00000000
+CPU[0219]: Microcode revision = 00000000, expected = 00000000
+CPU[0220]: Microcode revision = 00000000, expected = 00000000
+CPU[0221]: Microcode revision = 00000000, expected = 00000000
+CPU[0222]: Microcode revision = 00000000, expected = 00000000
+CPU[0223]: Microcode revision = 00000000, expected = 00000000
+CPU[0224]: Microcode revision = 00000000, expected = 00000000
+CPU[0225]: Microcode revision = 00000000, expected = 00000000
+CPU[0226]: Microcode revision = 00000000, expected = 00000000
+CPU[0227]: Microcode revision = 00000000, expected = 00000000
+CPU[0228]: Microcode revision = 00000000, expected = 00000000
+CPU[0229]: Microcode revision = 00000000, expected = 00000000
+CPU[0230]: Microcode revision = 00000000, expected = 00000000
+CPU[0231]: Microcode revision = 00000000, expected = 00000000
+CPU[0232]: Microcode revision = 00000000, expected = 00000000
+CPU[0233]: Microcode revision = 00000000, expected = 00000000
+CPU[0234]: Microcode revision = 00000000, expected = 00000000
+CPU[0235]: Microcode revision = 00000000, expected = 00000000
+CPU[0236]: Microcode revision = 00000000, expected = 00000000
+CPU[0237]: Microcode revision = 00000000, expected = 00000000
+CPU[0238]: Microcode revision = 00000000, expected = 00000000
+CPU[0239]: Microcode revision = 00000000, expected = 00000000
+CPU[0240]: Microcode revision = 00000000, expected = 00000000
+CPU[0241]: Microcode revision = 00000000, expected = 00000000
+CPU[0242]: Microcode revision = 00000000, expected = 00000000
+CPU[0243]: Microcode revision = 00000000, expected = 00000000
+CPU[0244]: Microcode revision = 00000000, expected = 00000000
+CPU[0245]: Microcode revision = 00000000, expected = 00000000
+CPU[0246]: Microcode revision = 00000000, expected = 00000000
+CPU[0247]: Microcode revision = 00000000, expected = 00000000
+CPU[0248]: Microcode revision = 00000000, expected = 00000000
+CPU[0249]: Microcode revision = 00000000, expected = 00000000
+CPU[0250]: Microcode revision = 00000000, expected = 00000000
+CPU[0251]: Microcode revision = 00000000, expected = 00000000
+CPU[0252]: Microcode revision = 00000000, expected = 00000000
+CPU[0253]: Microcode revision = 00000000, expected = 00000000
+CPU[0254]: Microcode revision = 00000000, expected = 00000000
+AP Page Table Buffer Size = 4000
+Detect CPU count: 255
+InstallProtocolInterface: 3FDDA605-A76E-4F46-AD29-12F4531B3D08 5D0F560
+Loading driver F6697AC4-A776-4EE1-B643-1FEFF2B615BB
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 613B040
+Loading driver at 0x00005D2E000 EntryPoint=0x00005D2F2F7 IncompatiblePciDeviceSupportDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 6146898
+ProtectUefiImageCommon - 0x613B040
+  - 0x0000000005D2E000 - 0x00000000000022C0
+InstallProtocolInterface: EB23F55A-7863-4AC2-8D3D-956535DE0375 5D301D8
+Loading driver 11A6EDF6-A9BE-426D-A6CC-B22FE51D9224
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 613B440
+Loading driver at 0x00005D22000 EntryPoint=0x00005D259AB PciHotPlugInitDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 613B998
+ProtectUefiImageCommon - 0x613B440
+  - 0x0000000005D22000 - 0x0000000000005380
+InstallProtocolInterface: AA0E8BC1-DABC-46B0-A844-37B8169B2BEA 5D27280
+Loading driver 4B28E4C7-FF36-4E10-93CF-A82159E777C5
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D33B40
+Loading driver at 0x000066D0000 EntryPoint=0x000066D2D3D ResetSystemRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D33098
+ProtectUefiImageCommon - 0x5D33B40
+  - 0x00000000066D0000 - 0x0000000000007000
+SetUefiImageMemoryAttributes - 0x00000000066D0000 - 0x0000000000001000 (0x0000000000004008)
+SetUefiImageMemoryAttributes - 0x00000000066D1000 - 0x0000000000004000 (0x0000000000020008)
+SetUefiImageMemoryAttributes - 0x00000000066D5000 - 0x0000000000002000 (0x0000000000004008)
+InstallProtocolInterface: 27CFAC88-46CC-11D4-9A38-0090273FC14D 0
+InstallProtocolInterface: 9DA34AE0-EAF9-4BBF-8EC3-FD60226C44BE 66D5128
+InstallProtocolInterface: 695D7835-8D47-4C11-AB22-FA8ACCE7AE7A 66D50E8
+InstallProtocolInterface: 2DF6BA0B-7092-440D-BD04-FB091EC3F3C1 66D50A8
+Loading driver C8339973-A563-4561-B858-D8476F9DEFC4
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D32040
+Loading driver at 0x00005D28000 EntryPoint=0x00005D293A2 Metronome.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D32D18
+ProtectUefiImageCommon - 0x5D32040
+  - 0x0000000005D28000 - 0x0000000000002800
+InstallProtocolInterface: 26BACCB2-6F42-11D4-BCE7-0080C73C8881 5D2A680
+Loading driver 348C4D62-BFBD-4882-9ECE-C80BB1C4783B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D32440
+Loading driver at 0x00005CC0000 EntryPoint=0x00005CC3A95 HiiDatabase.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D32B98
+ProtectUefiImageCommon - 0x5D32440
+  - 0x0000000005CC0000 - 0x000000000001CE40
+InstallProtocolInterface: E9CA4775-8657-47FC-97E7-7ED65A084324 5CDCA68
+InstallProtocolInterface: 0FD96974-23AA-4CDC-B9CB-98D17750322A 5CDCAE0
+InstallProtocolInterface: EF9FC172-A1B2-4693-B327-6D32FC416042 5CDCB08
+InstallProtocolInterface: 587E72D7-CC50-4F79-8209-CA291FC1A10F 5CDCB60
+InstallProtocolInterface: 0A8BADD5-03B8-4D19-B128-7B8F0EDAA596 5CDCB90
+InstallProtocolInterface: 31A6406A-6BDF-4E46-B2A2-EBAA89C40920 5CDCA88
+InstallProtocolInterface: 1A1241E6-8F19-41A9-BC0E-E8EF39E06546 5CDCAB0
+Loading driver 96B5C032-DF4C-4B6E-8232-438DCF448D0E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D317C0
+Loading driver at 0x00005D1F000 EntryPoint=0x00005D20318 NullMemoryTestDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D31598
+ProtectUefiImageCommon - 0x5D317C0
+  - 0x0000000005D1F000 - 0x0000000000002340
+InstallProtocolInterface: 309DE7F1-7F5E-4ACE-B49C-531BE5AA95EF 5D211A0
+Loading driver 9622E42C-8E38-4A08-9E8F-54F784652F6B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D2D040
+Loading driver at 0x00005CF2000 EntryPoint=0x00005CF63A4 AcpiTableDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D2DD18
+ProtectUefiImageCommon - 0x5D2D040
+  - 0x0000000005CF2000 - 0x0000000000007880
+InstallProtocolInterface: FFE06BDD-6107-46A6-7BB2-5A9C7EC5275C 5D2DB20
+InstallProtocolInterface: EB97088E-CFDF-49C6-BE4B-D906A5B20E86 5D2DB30
+Loading driver BDCE85BB-FBAA-4F4E-9264-501A2C249581
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D2D4C0
+Loading driver at 0x00005CEB000 EntryPoint=0x00005CEF221 S3SaveStateDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D2D818
+ProtectUefiImageCommon - 0x5D2D4C0
+  - 0x0000000005CEB000 - 0x0000000000006580
+InstallProtocolInterface: BD445D79-B7AD-4F04-9AD8-29BD2040EB3C 0
+InstallProtocolInterface: E857CAF6-C046-45DC-BE3F-EE0765FBA887 5CF1320
+Loading driver A210F973-229D-4F4D-AA37-9895E6C9EABA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D2C8C0
+Loading driver at 0x00005D19000 EntryPoint=0x00005D1A41C DpcDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D2C818
+ProtectUefiImageCommon - 0x5D2C8C0
+  - 0x0000000005D19000 - 0x00000000000022C0
+InstallProtocolInterface: 480F8AE9-0C46-4AA9-BC89-DB9FBA619806 5D1AF90
+Loading driver 8657015B-EA43-440D-949A-AF3BE365C0FC
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D2B040
+Loading driver at 0x00005CDD000 EntryPoint=0x00005CE1030 IoMmuDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D2C398
+ProtectUefiImageCommon - 0x5D2B040
+  - 0x0000000005CDD000 - 0x00000000000065C0
+InstallProtocolInterface: F8775D50-8ABD-4ADF-92AC-853E51F6C8DC 0
+Loading driver 22DC2B60-FE40-42AC-B01F-3AB1FAD9AAD8
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D2B440
+Loading driver at 0x000066CA000 EntryPoint=0x000066CC601 EmuVariableFvbRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D2B698
+ProtectUefiImageCommon - 0x5D2B440
+  - 0x00000000066CA000 - 0x0000000000006000
+SetUefiImageMemoryAttributes - 0x00000000066CA000 - 0x0000000000001000 (0x0000000000004008)
+SetUefiImageMemoryAttributes - 0x00000000066CB000 - 0x0000000000003000 (0x0000000000020008)
+SetUefiImageMemoryAttributes - 0x00000000066CE000 - 0x0000000000002000 (0x0000000000004008)
+EMU Variable FVB Started
+Disabling EMU Variable FVB since flash variables appear to be supported.
+Error: Image at 000066CA000 start failed: Aborted
+SetUefiImageMemoryAttributes - 0x00000000066CA000 - 0x0000000000006000 (0x0000000000000008)
+Loading driver CBD2E4D5-7068-4FF5-B462-9822B4AD8D60
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D2B440
+Loading driver at 0x000066C0000 EntryPoint=0x000066C8E30 VariableRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D2B998
+ProtectUefiImageCommon - 0x5D2B440
+  - 0x00000000066C0000 - 0x0000000000010000
+SetUefiImageMemoryAttributes - 0x00000000066C0000 - 0x0000000000001000 (0x0000000000004008)
+SetUefiImageMemoryAttributes - 0x00000000066C1000 - 0x000000000000D000 (0x0000000000020008)
+SetUefiImageMemoryAttributes - 0x00000000066CE000 - 0x0000000000002000 (0x0000000000004008)
+VarCheckLibRegisterSetVariableCheckHandler - 0x66C3B45 Success
+Variable driver common space: 0x3FF9C 0x3FF9C 0x3FF9C
+Variable driver will work with auth variable format!
+InstallProtocolInterface: CD3D0A05-9E24-437C-A891-1EE053DB7638 66CE470
+InstallProtocolInterface: AF23B340-97B4-4685-8D4F-A3F28169B21D 66CE440
+InstallProtocolInterface: 1E5668E2-8481-11D4-BCF1-0080C73C8881 0
+VarCheckLibRegisterSetVariableCheckHandler - 0x66C3E37 Success
+InstallProtocolInterface: 81D1675C-86F6-48DF-BD95-9A6E4F0925C3 66CE3C0
+Loading driver 6C2004EF-4E0E-4BE4-B14C-340EB4AA5891
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D1E240
+Loading driver at 0x000066BB000 EntryPoint=0x000066BD190 StatusCodeHandlerRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D1E518
+ProtectUefiImageCommon - 0x5D1E240
+  - 0x00000000066BB000 - 0x0000000000005000
+SetUefiImageMemoryAttributes - 0x00000000066BB000 - 0x0000000000001000 (0x0000000000004008)
+SetUefiImageMemoryAttributes - 0x00000000066BC000 - 0x0000000000003000 (0x0000000000020008)
+SetUefiImageMemoryAttributes - 0x00000000066BF000 - 0x0000000000001000 (0x0000000000004008)
+Loading driver 52FE8196-F9DE-4D07-B22F-51F77A0E7C41
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D1D1C0
+Loading driver at 0x00005CBC000 EntryPoint=0x00005CBDBEE LocalApicTimerDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D1DB18
+ProtectUefiImageCommon - 0x5D1D1C0
+  - 0x0000000005CBC000 - 0x0000000000003280
+InstallProtocolInterface: 26BACCB3-6F42-11D4-BCE7-0080C73C8881 5CBF0C0
+Loading driver 128FB770-5E79-4176-9E51-9BB268A17DD1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D1D5C0
+Loading driver at 0x00005CA6000 EntryPoint=0x00005CAD4B8 PciHostBridgeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D1D898
+ProtectUefiImageCommon - 0x5D1D5C0
+  - 0x0000000005CA6000 - 0x000000000000A240
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+Select Item: 0x19
+Select Item: 0x19
+PciHostBridgeUtilityInitRootBridge: populated root bus 0, with room for 255 subordinate bus(es)
+RootBridge: PciRoot(0x0)
+  Support/Attr: 70069 / 70069
+    DmaAbove4G: No
+NoExtConfSpace: Yes
+     AllocAttr: 3 (CombineMemPMem Mem64Decode)
+           Bus: 0 - FF Translation=0
+            Io: C000 - FFFF Translation=0
+           Mem: 80000000 - FBFFFFFF Translation=0
+    MemAbove4G: C000000000 - DFFFFFFFFF Translation=0
+          PMem: FFFFFFFFFFFFFFFF - 0 Translation=0
+   PMemAbove4G: FFFFFFFFFFFFFFFF - 0 Translation=0
+CpuDxe: 5-Level Paging = 0
+InstallProtocolInterface: CF8034BE-6768-4D8B-B739-7CCE683A9FBE 5D1CDC0
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5D1CE98
+InstallProtocolInterface: 2F707EBB-4A1A-11D4-9A38-0090273FC14D 5D1C2F0
+Loading driver EBF342FE-B1D3-4EF8-957C-8048606FF671
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D18040
+Loading driver at 0x00005C74000 EntryPoint=0x00005C76995 SetupBrowser.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D1C918
+ProtectUefiImageCommon - 0x5D18040
+  - 0x0000000005C74000 - 0x0000000000018E00
+InstallProtocolInterface: B9D4C360-BCFB-4F9B-9298-53C136982258 5C8C970
+InstallProtocolInterface: A770C357-B693-4E6D-A6CF-D21C728E550B 5C8C9A0
+InstallProtocolInterface: 1F73B18D-4630-43C1-A1DE-6F80855D7DA4 5C8C980
+Loading driver F9D88642-0737-49BC-81B5-6889CD57D9EA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D17040
+Loading driver at 0x00005CB5000 EntryPoint=0x00005CB8740 SmbiosDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D17D18
+ProtectUefiImageCommon - 0x5D17040
+  - 0x0000000005CB5000 - 0x0000000000006080
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+Select Item: 0x19
+Select Item: 0x19
+Select Item: 0x26
+DetectSmbiosVersion: SMBIOS 3.x DocRev from QEMU: 0x00
+DetectSmbiosVersion: SMBIOS version from QEMU: 0x0300
+InstallProtocolInterface: 03583FF6-CB36-4940-947E-B9B39F4AFAF7 5CBAF30
+Loading driver 17985E6F-E778-4D94-AEFA-C5DD2B77E186
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5D17440
+Loading driver at 0x00005C96000 EntryPoint=0x00005C9A7D3 QemuFwCfgAcpiPlatform.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5D17C18
+ProtectUefiImageCommon - 0x5D17440
+  - 0x0000000005C96000 - 0x0000000000007180
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+AcpiPlatformEntryPoint: waiting for root bridges to be connected, registered callback
+Loading driver FA20568B-548B-4B2B-81EF-1BA08D4A3CEC
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CEA040
+Loading driver at 0x00005C44000 EntryPoint=0x00005C4A0D5 BootScriptExecutorDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CEAF18
+ProtectUefiImageCommon - 0x5CEA040
+  - 0x0000000005C44000 - 0x0000000000017B40
+Loading driver A487A478-51EF-48AA-8794-7BEE2A0562F1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CEA440
+Loading driver at 0x00005C5E000 EntryPoint=0x00005C648E4 tftpDynamicCommand.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CEA698
+InstallProtocolInterface: 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC 5C66DB0
+ProtectUefiImageCommon - 0x5CEA440
+  - 0x0000000005C5E000 - 0x000000000000A900
+InstallProtocolInterface: 3C7200E9-005F-4EA4-87DE-A3DFAC8A27C3 5C669C0
+Loading driver 19618BCE-55AE-09C6-37E9-4CE04084C7A1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CE91C0
+Loading driver at 0x00005C2A000 EntryPoint=0x00005C31FAC httpDynamicCommand.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CE9B18
+InstallProtocolInterface: 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC 5C34A70
+ProtectUefiImageCommon - 0x5CE91C0
+  - 0x0000000005C2A000 - 0x000000000000CD00
+InstallProtocolInterface: 3C7200E9-005F-4EA4-87DE-A3DFAC8A27C3 5C345C0
+Loading driver 2F30DA26-F51B-4B6F-85C4-31873C281BCA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CB4B40
+Loading driver at 0x00005C8E000 EntryPoint=0x00005C93195 LinuxInitrdDynamicShellCommand.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CE9498
+InstallProtocolInterface: 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC 5C951F0
+ProtectUefiImageCommon - 0x5CB4B40
+  - 0x0000000005C8E000 - 0x0000000000007D00
+InstallProtocolInterface: 3C7200E9-005F-4EA4-87DE-A3DFAC8A27C3 5C94ED0
+Loading driver F74D20EE-37E7-48FC-97F7-9B1047749C69
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CB3AC0
+Loading driver at 0x00005C6F000 EntryPoint=0x00005C700DC LogoDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CB3E18
+InstallProtocolInterface: 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC 5C70D70
+ProtectUefiImageCommon - 0x5CB3AC0
+  - 0x0000000005C6F000 - 0x0000000000004CC0
+InstallProtocolInterface: 53CD299F-2BC1-40C0-8C07-23F64FDB30E0 5C70C00
+Loading driver DCE1B094-7DC6-45D0-9FDD-D7FC3CC3E4EF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CB27C0
+Loading driver at 0x00005C6A000 EntryPoint=0x00005C6CB42 QemuRamfbDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CB2718
+ProtectUefiImageCommon - 0x5CB27C0
+  - 0x0000000005C6A000 - 0x0000000000004F80
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+Select Item: 0x19
+Error: Image at 00005C6A000 start failed: Not Found
+Loading driver FE5CEA76-4F72-49E8-986F-2CD899DFFE5D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CB27C0
+Loading driver at 0x00005C3E000 EntryPoint=0x00005C41F11 FaultTolerantWriteDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CB2598
+ProtectUefiImageCommon - 0x5CB27C0
+  - 0x0000000005C3E000 - 0x0000000000005B40
+Ftw: FtwWorkSpaceLba - 0x41, WorkBlockSize  - 0x1000, FtwWorkSpaceBase - 0x0
+Ftw: FtwSpareLba     - 0x42, SpareBlockSize - 0x1000
+Ftw: NumberOfWorkBlock - 0x1, FtwWorkBlockLba - 0x41
+Ftw: WorkSpaceLbaInSpare - 0x0, WorkSpaceBaseInSpare - 0x0
+Ftw: Remaining work space size - FE0
+InstallProtocolInterface: 3EBD9E82-2C78-4DE6-9786-8D4BFCB7C881 5CA1028
+NOTICE - AuthVariableLibInitialize() returns Unsupported!
+Variable driver will continue to work without auth variable support!
+RecordSecureBootPolicyVarData GetVariable SecureBoot Status E
+InstallProtocolInterface: 6441F818-6362-4E44-B570-7DBA31DD2453 0
+Loading driver 378D7B65-8DA9-4773-B6E4-A47826A833E1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CB1B40
+Loading driver at 0x000066B4000 EntryPoint=0x000066B7572 PcRtc.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CB1E18
+ProtectUefiImageCommon - 0x5CB1B40
+  - 0x00000000066B4000 - 0x0000000000007000
+SetUefiImageMemoryAttributes - 0x00000000066B4000 - 0x0000000000001000 (0x0000000000004008)
+SetUefiImageMemoryAttributes - 0x00000000066B5000 - 0x0000000000005000 (0x0000000000020008)
+SetUefiImageMemoryAttributes - 0x00000000066BA000 - 0x0000000000001000 (0x0000000000004008)
+InstallProtocolInterface: 27CFAC87-46CC-11D4-9A38-0090273FC14D 0
+Loading driver F099D67F-71AE-4C36-B2A3-DCEB0EB2B7D8
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CB1340
+Loading driver at 0x00005C6C000 EntryPoint=0x00005C6D1A4 WatchdogTimer.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CB1698
+ProtectUefiImageCommon - 0x5CB1340
+  - 0x0000000005C6C000 - 0x00000000000020C0
+InstallProtocolInterface: 665E3FF5-46CC-11D4-9A38-0090273FC14D 5C6DF30
+Loading driver AD608272-D07F-4964-801E-7BD3B7888652
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C8D0C0
+Loading driver at 0x000066B0000 EntryPoint=0x000066B1F7E MonotonicCounterRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C8D318
+ProtectUefiImageCommon - 0x5C8D0C0
+  - 0x00000000066B0000 - 0x0000000000004000
+SetUefiImageMemoryAttributes - 0x00000000066B0000 - 0x0000000000001000 (0x0000000000004008)
+SetUefiImageMemoryAttributes - 0x00000000066B1000 - 0x0000000000002000 (0x0000000000020008)
+SetUefiImageMemoryAttributes - 0x00000000066B3000 - 0x0000000000001000 (0x0000000000004008)
+InstallProtocolInterface: 1DA97072-BDDC-4B30-99F1-72A0B56FFF2A 0
+Loading driver 42857F0A-13F2-4B21-8A23-53D3F714B840
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CA0B40
+Loading driver at 0x000066AB000 EntryPoint=0x000066AD1CC CapsuleRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C8D498
+ProtectUefiImageCommon - 0x5CA0B40
+  - 0x00000000066AB000 - 0x0000000000005000
+SetUefiImageMemoryAttributes - 0x00000000066AB000 - 0x0000000000001000 (0x0000000000004008)
+SetUefiImageMemoryAttributes - 0x00000000066AC000 - 0x0000000000003000 (0x0000000000020008)
+SetUefiImageMemoryAttributes - 0x00000000066AF000 - 0x0000000000001000 (0x0000000000004008)
+InstallProtocolInterface: 5053697E-2CBC-4819-90D9-0580DEEE5754 0
+Loading driver EBF8ED7C-0DD1-4787-84F1-F48D537DCACF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5CA0240
+Loading driver at 0x00005C24000 EntryPoint=0x00005C27D98 DriverHealthManagerDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5CA0518
+ProtectUefiImageCommon - 0x5CA0240
+  - 0x0000000005C24000 - 0x0000000000005FC0
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5C29DA0
+InstallProtocolInterface: 330D4706-F2A0-4E4F-A369-B66FA8D54385 5C29D70
+Loading driver 6D33944A-EC75-4855-A54D-809C75241F6C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C9E340
+Loading driver at 0x000051D3000 EntryPoint=0x000051DAE60 BdsDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C9EE98
+ProtectUefiImageCommon - 0x5C9E340
+  - 0x00000000051D3000 - 0x000000000001BB00
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+InstallProtocolInterface: 665E3FF6-46CC-11D4-9A38-0090273FC14D 51EE220
+Loading driver 28A03FF4-12B3-4305-A417-BB1A4F94081E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C9F1C0
+Loading driver at 0x00005C0E000 EntryPoint=0x00005C14C13 RamDiskDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C9F598
+ProtectUefiImageCommon - 0x5C9F1C0
+  - 0x0000000005C0E000 - 0x000000000000A980
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5C6AF18
+InstallProtocolInterface: 330D4706-F2A0-4E4F-A369-B66FA8D54385 5C186F8
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5C185E0
+InstallProtocolInterface: 330D4706-F2A0-4E4F-A369-B66FA8D54385 5C698B0
+InstallProtocolInterface: AB38A0DF-6873-44A9-87E6-D4EB56148449 5C18630
+InstallProtocolInterface: 28A03FF4-12B3-4305-A417-BB1A4F94081E 5C69898
+Loading driver E660EA85-058E-4B55-A54B-F02F83A24707
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C6A0C0
+Loading driver at 0x000051AB000 EntryPoint=0x000051B176B DisplayEngine.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C6AA98
+ProtectUefiImageCommon - 0x5C6A0C0
+  - 0x00000000051AB000 - 0x0000000000013940
+InstallProtocolInterface: 9BBE29E9-FDA1-41EC-AD52-452213742D2E 51BCDD0
+InstallProtocolInterface: 4311EDC0-6054-46D4-9E40-893EA952FCCC 51BCDE8
+Loading driver 4110465D-5FF3-4F4B-B580-24ED0D06747A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C38040
+Loading driver at 0x00005C1C000 EntryPoint=0x00005C1E130 SmbiosPlatformDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C6A398
+ProtectUefiImageCommon - 0x5C38040
+  - 0x0000000005C1C000 - 0x0000000000003F40
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+Select Item: 0x19
+Select Item: 0x27
+SmbiosAdd: Smbios type 1 with size 0x51 is added to 32-bit table
+SmbiosAdd: Smbios type 1 with size 0x51 is added to 64-bit table
+SmbiosCreateTable: Initialize 32-bit entry point structure
+SmbiosCreateTable() re-allocate SMBIOS 32-bit table
+SmbiosCreateTable: Initialize 64-bit entry point structure
+SmbiosCreate64BitTable() re-allocate SMBIOS 64-bit table
+SmbiosAdd: Smbios type 3 with size 0x2A is added to 32-bit table
+SmbiosAdd: Smbios type 3 with size 0x2A is added to 64-bit table
+SmbiosAdd: Smbios type 4 with size 0x4A is added to 32-bit table
+SmbiosAdd: Smbios type 4 with size 0x4A is added to 64-bit table
+SmbiosAdd: Smbios type 16 with size 0x19 is added to 32-bit table
+SmbiosAdd: Smbios type 16 with size 0x19 is added to 64-bit table
+SmbiosAdd: Smbios type 17 with size 0x35 is added to 32-bit table
+SmbiosAdd: Smbios type 17 with size 0x35 is added to 64-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 32-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 64-bit table
+SmbiosAdd: Smbios type 32 with size 0xD is added to 32-bit table
+SmbiosAdd: Smbios type 32 with size 0xD is added to 64-bit table
+FirmwareVendor:            "EDK II" (6 chars)
+FirmwareVersionString:     "unknown" (7 chars)
+FirmwareReleaseDateString: "2/2/2022" (8 chars)
+SmbiosAdd: Smbios type 0 with size 0x33 is added to 32-bit table
+SmbiosAdd: Smbios type 0 with size 0x33 is added to 64-bit table
+Loading driver D9DCC5DF-4007-435E-9098-8970935504B2
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C37BC0
+Loading driver at 0x00005C02000 EntryPoint=0x00005C0580F PlatformDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C37F18
+ProtectUefiImageCommon - 0x5C37BC0
+  - 0x0000000005C02000 - 0x0000000000005D00
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5C07B40
+InstallProtocolInterface: 330D4706-F2A0-4E4F-A369-B66FA8D54385 5C07C40
+Loading driver 93B80004-9FB3-11D4-9A3A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C37340
+Loading driver at 0x0000519B000 EntryPoint=0x0000519DC16 PciBusDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C37598
+ProtectUefiImageCommon - 0x5C37340
+  - 0x000000000519B000 - 0x000000000000F300
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 51A9FE0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 51A9FB0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51A9F90
+InstallProtocolInterface: 19CB87AB-2CB9-4665-8360-DDCF6054F79D 51A9F70
+Loading driver 83DD3B39-7CAF-4FAC-A542-E050B767E3A7
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C22040
+Loading driver at 0x000051CF000 EntryPoint=0x000051D0E83 VirtioPciDeviceDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C23418
+ProtectUefiImageCommon - 0x5C22040
+  - 0x00000000051CF000 - 0x0000000000003240
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 51D20A0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 51D2080
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51D2060
+Loading driver 0170F60C-1D40-4651-956D-F0BD9879D527
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C229C0
+Loading driver at 0x000051CA000 EntryPoint=0x000051CD5B5 Virtio10.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C22798
+ProtectUefiImageCommon - 0x5C229C0
+  - 0x00000000051CA000 - 0x0000000000004D80
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 51CEC20
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 51CEC00
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51CEBE0
+Loading driver 11D92DFB-3CA9-4F93-BA2E-4780ED3E03B5
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C21040
+Loading driver at 0x000051C6000 EntryPoint=0x000051C83FD VirtioBlkDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C21D18
+ProtectUefiImageCommon - 0x5C21040
+  - 0x00000000051C6000 - 0x0000000000003740
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 51C9600
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 51C95E0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51C95C0
+Loading driver FAB5D4F4-83C0-4AAF-8480-442D11DF6CEA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C21440
+Loading driver at 0x000051C2000 EntryPoint=0x000051C4975 VirtioScsiDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C21C18
+ProtectUefiImageCommon - 0x5C21440
+  - 0x00000000051C2000 - 0x0000000000003C40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 51C5B00
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 51C5AE0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51C5AC0
+Loading driver 58E26F0D-CBAC-4BBA-B70F-18221415665A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C20B40
+Loading driver at 0x00005197000 EntryPoint=0x00005198EFE VirtioRngDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C21718
+ProtectUefiImageCommon - 0x5C20B40
+  - 0x0000000005197000 - 0x0000000000003180
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 519A020
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 519A000
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5199FE0
+Loading driver 23CACE14-EBA4-49F6-9681-C697FF0B649E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C20140
+Loading driver at 0x00005192000 EntryPoint=0x000051953AC VirtioSerialDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C20698
+ProtectUefiImageCommon - 0x5C20140
+  - 0x0000000005192000 - 0x0000000000004F40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5196DA0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5196D70
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5196D50
+Loading driver 51CCF399-4FDF-4E55-A45B-E123F84D456A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C1BB40
+Loading driver at 0x0000518D000 EntryPoint=0x0000518F87B ConPlatformDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C1BE98
+ProtectUefiImageCommon - 0x5C1BB40
+  - 0x000000000518D000 - 0x0000000000004080
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5190E60
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5190ED0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5190EB0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5190E20
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5190ED0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5190EB0
+Loading driver 408EDCEC-CF6D-477C-A5A8-B4844E3DE281
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C1B240
+Loading driver at 0x0000517D000 EntryPoint=0x00005182376 ConSplitterDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C1A018
+ProtectUefiImageCommon - 0x5C1B240
+  - 0x000000000517D000 - 0x0000000000007780
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5184400
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 51843D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51843B0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5184380
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5184350
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5184330
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5184300
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 51842D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51842B0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5184280
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5184250
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5184230
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5184200
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 51841D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51841B0
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 5184030
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 5184060
+InstallProtocolInterface: 31878C87-0B75-11D5-9A4F-0090273FC14D 51840D0
+InstallProtocolInterface: 8D59D32B-C655-4AE9-9B15-F25904992A43 5184128
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 5184470
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 5183ED0
+Loading driver CCCB0C28-4B24-11D5-9A5A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C0C340
+Loading driver at 0x00005176000 EntryPoint=0x000051791F5 GraphicsConsoleDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C0CB98
+ProtectUefiImageCommon - 0x5C0C340
+  - 0x0000000005176000 - 0x0000000000006080
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 517BE80
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 517BE60
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 517BE40
+Loading driver 9E863906-A40F-4875-977F-5B93FF237FC6
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C01BC0
+Loading driver at 0x0000516E000 EntryPoint=0x00005173B7F TerminalDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C0C698
+ProtectUefiImageCommon - 0x5C01BC0
+  - 0x000000000516E000 - 0x0000000000007E40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5175C60
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5175C30
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5175C10
+Loading driver 806040CA-DAD9-4978-A3B4-2D2AB0C8A48F
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C01240
+Loading driver at 0x00005169000 EntryPoint=0x0000516B54A QemuKernelLoaderFsDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C01718
+ProtectUefiImageCommon - 0x5C01240
+  - 0x0000000005169000 - 0x0000000000004600
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+Select Item: 0x17
+Select Item: 0x8
+Select Item: 0xB
+Select Item: 0x14
+Error: Image at 00005169000 start failed: Not Found
+Loading driver 6B38F7B4-AD98-40E9-9093-ACA2B5A253C4
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C01240
+Loading driver at 0x00005169000 EntryPoint=0x0000516C141 DiskIoDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C0BC98
+ProtectUefiImageCommon - 0x5C01240
+  - 0x0000000005169000 - 0x0000000000004A00
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 516D8C0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 516D890
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 516D870
+Loading driver 1FA1F39E-FEFF-4AAE-BD7B-38A070A3B609
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C0B140
+Loading driver at 0x00005162000 EntryPoint=0x00005166E10 PartitionDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C0BE18
+ProtectUefiImageCommon - 0x5C0B140
+  - 0x0000000005162000 - 0x0000000000006900
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 51687A0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5168780
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5168760
+Loading driver CD3BAFB6-50FB-4FE8-8E4E-AB74D2C1A600
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C0B740
+Loading driver at 0x0000518A000 EntryPoint=0x0000518B3A1 EnglishDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C00F98
+ProtectUefiImageCommon - 0x5C0B740
+  - 0x000000000518A000 - 0x00000000000023C0
+InstallProtocolInterface: 1D85CD7F-F43D-11D2-9A0C-0090273FC14D 518BF20
+InstallProtocolInterface: A4C751FC-23AE-4C3E-92E9-4964CF63F349 518BEC0
+Loading driver 0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C001C0
+Loading driver at 0x0000515D000 EntryPoint=0x0000515FD23 ScsiBus.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C00A18
+ProtectUefiImageCommon - 0x5C001C0
+  - 0x000000000515D000 - 0x00000000000041C0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5161020
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5161000
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5160FE0
+Loading driver 0A66E322-3740-4CCE-AD62-BD172CECCA35
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C0A040
+Loading driver at 0x00005149000 EntryPoint=0x000051512FB ScsiDisk.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C00518
+ProtectUefiImageCommon - 0x5C0A040
+  - 0x0000000005149000 - 0x0000000000009E80
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5152D20
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5152CF0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5152CD0
+Loading driver 820C59BB-274C-43B2-83EA-DAC673035A59
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C0A9C0
+Loading driver at 0x00005159000 EntryPoint=0x0000515B15F SataController.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C0A818
+ProtectUefiImageCommon - 0x5C0A9C0
+  - 0x0000000005159000 - 0x0000000000003680
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 515C520
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 515C500
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 515C4E0
+Loading driver 5E523CB4-D397-4986-87BD-A6DD8B22F455
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C09040
+Loading driver at 0x00005131000 EntryPoint=0x00005139B8E AtaAtapiPassThruDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C09D18
+ProtectUefiImageCommon - 0x5C09040
+  - 0x0000000005131000 - 0x000000000000B7C0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 513C5E0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 513C5B0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 513C590
+Loading driver 19DF145A-B1D4-453F-8507-38816676D7F6
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C09440
+Loading driver at 0x0000512A000 EntryPoint=0x0000512E7CE AtaBusDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C09C18
+ProtectUefiImageCommon - 0x5C09440
+  - 0x000000000512A000 - 0x0000000000006A40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 51308A0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5130870
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5130850
+Loading driver 5BE3BDF4-53CF-46A3-A6A9-73C34A6E5EE3
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C08040
+Loading driver at 0x00005120000 EntryPoint=0x00005127592 NvmExpressDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C08E18
+ProtectUefiImageCommon - 0x5C08040
+  - 0x0000000005120000 - 0x0000000000009D40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5129BA0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5129B80
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5129B60
+InstallProtocolInterface: 5C198761-16A8-4E69-972C-89D67954F81D 5129B50
+Loading driver 864E1CA8-85EB-4D63-9DCC-6E0FC90FFD55
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5C08440
+Loading driver at 0x00005155000 EntryPoint=0x00005156FA7 SioBusDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5C08718
+ProtectUefiImageCommon - 0x5C08440
+  - 0x0000000005155000 - 0x0000000000003380
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5158220
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5158200
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51581E0
+Loading driver E2775B47-D453-4EE3-ADA7-391A1B05AC17
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51BFCC0
+Loading driver at 0x00005119000 EntryPoint=0x0000511D89D PciSioSerialDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 51BF118
+ProtectUefiImageCommon - 0x51BFCC0
+  - 0x0000000005119000 - 0x0000000000006300
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 511F180
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 511F160
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 511F140
+Loading driver C4D1F932-821F-4744-BF06-6D30F7730F8D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51BF340
+Loading driver at 0x0000513D000 EntryPoint=0x00005141037 Ps2KeyboardDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 51BF718
+ProtectUefiImageCommon - 0x51BF340
+  - 0x000000000513D000 - 0x0000000000005FC0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5142E00
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5142DD0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5142DB0
+Loading driver B8E62775-BB0A-43F0-A843-5BE8B14F8CCD
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5189CC0
+Loading driver at 0x00005146000 EntryPoint=0x0000514778F BootGraphicsResourceTableDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5189898
+ProtectUefiImageCommon - 0x5189CC0
+  - 0x0000000005146000 - 0x0000000000002B00
+InstallProtocolInterface: CDEA2BD3-FC25-4C1C-B97C-B31186064990 51488D0
+InstallProtocolInterface: 4B5DC1DF-1EAA-48B2-A7E9-EAC489A00B5C 51488B0
+Loading driver 961578FE-B6B7-44C3-AF35-6BC705CD2B1F
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5188040
+Loading driver at 0x00005103000 EntryPoint=0x0000510B0CE Fat.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5189618
+ProtectUefiImageCommon - 0x5188040
+  - 0x0000000005103000 - 0x000000000000A140
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 510CFC0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 510CF90
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 510CF70
+Loading driver 905F13B0-8F91-4B0A-BD76-E1E78F9422E4
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51882C0
+Loading driver at 0x000050FC000 EntryPoint=0x00005100D26 UdfDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5188B18
+ProtectUefiImageCommon - 0x51882C0
+  - 0x00000000050FC000 - 0x0000000000006580
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5102440
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5102410
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 51023F0
+Loading driver 7BD9DDF7-8B83-488E-AEC9-24C78610289C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5187040
+Loading driver at 0x000050F2000 EntryPoint=0x000050F93CB VirtioFsDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5187E98
+ProtectUefiImageCommon - 0x5187040
+  - 0x00000000050F2000 - 0x0000000000009680
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50FB580
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50FB550
+Loading driver A2F436EA-A127-4EF8-957C-8048606FF670
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51879C0
+Loading driver at 0x000050EA000 EntryPoint=0x000050EF31A SnpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5187898
+ProtectUefiImageCommon - 0x51879C0
+  - 0x00000000050EA000 - 0x0000000000007380
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50F1240
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50F1210
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50F11F0
+Loading driver E4F61863-FE2C-4B56-A8F4-08519BC439DF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5186040
+Loading driver at 0x000050E3000 EntryPoint=0x000050E76D1 VlanConfigDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5186F18
+ProtectUefiImageCommon - 0x5186040
+  - 0x00000000050E3000 - 0x0000000000006D00
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50E9B20
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50E9AF0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50E9AD0
+Loading driver 025BBFC7-E6A9-4B8B-82AD-6815A1AEAF4A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51869C0
+Loading driver at 0x000050D8000 EntryPoint=0x000050DF922 MnpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5186398
+ProtectUefiImageCommon - 0x51869C0
+  - 0x00000000050D8000 - 0x000000000000A600
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50E2460
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50E2440
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50E2420
+Loading driver 529D3F93-E8E9-4E73-B1E1-BDF6A9D50113
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5185040
+Loading driver at 0x000050D1000 EntryPoint=0x000050D53DC ArpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5185E98
+ProtectUefiImageCommon - 0x5185040
+  - 0x00000000050D1000 - 0x0000000000006040
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50D6EE0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50D6EB0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50D6E90
+Loading driver 94734718-0BBC-47FB-96A5-EE7A5AE6A2AD
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5185440
+Loading driver at 0x000050C6000 EntryPoint=0x000050CD9F0 Dhcp4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5185A18
+ProtectUefiImageCommon - 0x5185440
+  - 0x00000000050C6000 - 0x000000000000A800
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50D05E0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50D05B0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50D0590
+Loading driver 9FB1A1F3-3B71-4324-B39A-745CBB015FFF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5154B40
+Loading driver at 0x0000509C000 EntryPoint=0x000050A0464 Ip4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5154A98
+ProtectUefiImageCommon - 0x5154B40
+  - 0x000000000509C000 - 0x0000000000014C40
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+Select Item: 0x19
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50B0860
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50B0840
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50B0820
+Loading driver 6D6963AB-906D-4A65-A7CA-BD40E5D6AF2B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51542C0
+Loading driver at 0x000050BD000 EntryPoint=0x000050C385B Udp4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5154618
+ProtectUefiImageCommon - 0x51542C0
+  - 0x00000000050BD000 - 0x0000000000008B40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50C59A0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50C5980
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50C5960
+Loading driver DC3641B8-2FA8-4ED3-BC1F-F9962A03454B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51530C0
+Loading driver at 0x000050B3000 EntryPoint=0x000050BA1B9 Mtftp4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5153898
+ProtectUefiImageCommon - 0x51530C0
+  - 0x00000000050B3000 - 0x0000000000009380
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50BC1E0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50BC1C0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50BC1A0
+Loading driver 1A7E4468-2F55-4A56-903C-01265EB7622B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5153540
+Loading driver at 0x00005076000 EntryPoint=0x000050790E9 TcpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5145F98
+ProtectUefiImageCommon - 0x5153540
+  - 0x0000000005076000 - 0x0000000000012580
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5088120
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50881D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50881B0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50880E0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50881D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50881B0
+Loading driver B95E9FDA-26DE-48D2-8807-1F9107AC5E3A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51452C0
+Loading driver at 0x00005064000 EntryPoint=0x0000506A4FD UefiPxeBcDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5145598
+ProtectUefiImageCommon - 0x51452C0
+  - 0x0000000005064000 - 0x0000000000011EC0
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+Select Item: 0x19
+Select Item: 0x19
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50759A0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5075A40
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5075A20
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5075960
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5075A40
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5075A20
+Loading driver 86CDDF93-4872-4597-8AF9-A35AE4D3725F
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51448C0
+Loading driver at 0x00005026000 EntryPoint=0x0000502E218 IScsiDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5144798
+ProtectUefiImageCommon - 0x51448C0
+  - 0x0000000005026000 - 0x000000000001EE40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5044940
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50449A0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5044980
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5044900
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50449A0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5044980
+InstallProtocolInterface: 59324945-EC44-4C0D-B1CD-9DB139DF070C 50448F0
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5044A00
+InstallProtocolInterface: 330D4706-F2A0-4E4F-A369-B66FA8D54385 5144528
+InstallProtocolInterface: 7671D9D0-53DB-4173-AA69-2327F21F0BC7 50448D0
+Loading driver A92CDB4B-82F1-4E0B-A516-8A655D371524
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5143840
+Loading driver at 0x00005092000 EntryPoint=0x00005095D88 VirtioNetDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5114A18
+ProtectUefiImageCommon - 0x5143840
+  - 0x0000000005092000 - 0x0000000000005640
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5097500
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50974D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50974B0
+Loading driver 2FB92EFA-2EE0-4BAE-9EB6-7464125E1EF7
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5114D40
+Loading driver at 0x0000505C000 EntryPoint=0x00005061472 UhciDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5114618
+ProtectUefiImageCommon - 0x5114D40
+  - 0x000000000505C000 - 0x00000000000070C0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5062F20
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5062F00
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5062EE0
+Loading driver BDFE430E-8F2A-4DB0-9991-6F856594777E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51140C0
+Loading driver at 0x00005053000 EntryPoint=0x00005059594 EhciDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5116B98
+ProtectUefiImageCommon - 0x51140C0
+  - 0x0000000005053000 - 0x0000000000008A40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 505B8A0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 505B880
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 505B860
+Loading driver B7F50E91-A759-412C-ADE4-DCD03E7F7C28
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5116540
+Loading driver at 0x00005018000 EntryPoint=0x00005021D18 XhciDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5116E18
+ProtectUefiImageCommon - 0x5116540
+  - 0x0000000005018000 - 0x000000000000D080
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5024EE0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5024EC0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5024EA0
+Loading driver 240612B7-A063-11D4-9A3A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51167C0
+Loading driver at 0x0000500E000 EntryPoint=0x00005014A64 UsbBusDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5115B98
+ProtectUefiImageCommon - 0x51167C0
+  - 0x000000000500E000 - 0x00000000000096C0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5017500
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 50174D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 50174B0
+Loading driver 2D2E62CF-9ECF-43B7-8219-94E7FC713DFE
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51152C0
+Loading driver at 0x0000504C000 EntryPoint=0x0000505031C UsbKbDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5115A18
+ProtectUefiImageCommon - 0x51152C0
+  - 0x000000000504C000 - 0x0000000000006540
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 50523A0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 5052370
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5052350
+Loading driver 9FB4B4A7-42C0-4BCD-8540-9BCC6711F83E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5113D40
+Loading driver at 0x00005046000 EntryPoint=0x00005049DF3 UsbMassStorageDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5115918
+ProtectUefiImageCommon - 0x5113D40
+  - 0x0000000005046000 - 0x0000000000005B40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 504B9E0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 504B9B0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 504B990
+Loading driver E3752948-B9A1-4770-90C4-DF41C38986BE
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 51137C0
+Loading driver at 0x00005007000 EntryPoint=0x0000500B454 QemuVideoDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5113A18
+ProtectUefiImageCommon - 0x51137C0
+  - 0x0000000005007000 - 0x0000000000006C00
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 500DAA0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 500DA70
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 500DA50
+Loading driver D6099B94-CD97-4CC5-8714-7F6312701A8A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 5112040
+Loading driver at 0x00005001000 EntryPoint=0x00005005203 VirtioGpuDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5112C18
+ProtectUefiImageCommon - 0x5112040
+  - 0x0000000005001000 - 0x0000000000005F40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 5006DC0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 5006D90
+Driver 6490F1C5-EBCC-4665-8892-0075B9BB49B7 was discovered but not loaded!!
+[Bds] Entry...
+[BdsDxe] Locate Variable Policy protocol - Success
+Variable Driver Auto Update PlatformLang, PlatformLang:en, Lang:eng Status: Success
+PlatformBootManagerBeforeConsole
+Registered NotifyDevPath Event
+PCI Bus First Scanning
+PciBus: Discovered PCI @ [00|00|00]  [VID = 0x8086, DID = 0x1237]
+
+PciBus: Discovered PCI @ [00|01|00]  [VID = 0x8086, DID = 0x7000]
+
+PciBus: Discovered PCI @ [00|01|01]  [VID = 0x8086, DID = 0x7010]
+   BAR[4]: Type =   Io32; Alignment = 0xF;	Length = 0x10;	Offset = 0x20
+
+PciBus: Discovered PCI @ [00|01|03]  [VID = 0x8086, DID = 0x7113]
+
+PciBus: Discovered PCI @ [00|02|00]  [VID = 0x1234, DID = 0x1111]
+   BAR[0]: Type = PMem32; Alignment = 0xFFFFFF;	Length = 0x1000000;	Offset = 0x10
+   BAR[2]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x18
+
+PCI Bus Second Scanning
+PciBus: Discovered PCI @ [00|00|00]  [VID = 0x8086, DID = 0x1237]
+
+PciBus: Discovered PCI @ [00|01|00]  [VID = 0x8086, DID = 0x7000]
+
+PciBus: Discovered PCI @ [00|01|01]  [VID = 0x8086, DID = 0x7010]
+   BAR[4]: Type =   Io32; Alignment = 0xF;	Length = 0x10;	Offset = 0x20
+
+PciBus: Discovered PCI @ [00|01|03]  [VID = 0x8086, DID = 0x7113]
+
+PciBus: Discovered PCI @ [00|02|00]  [VID = 0x1234, DID = 0x1111]
+   BAR[0]: Type = PMem32; Alignment = 0xFFFFFF;	Length = 0x1000000;	Offset = 0x10
+   BAR[2]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x18
+
+PciBus: Discovered PCI @ [00|00|00]  [VID = 0x8086, DID = 0x1237]
+
+PciBus: Discovered PCI @ [00|01|00]  [VID = 0x8086, DID = 0x7000]
+
+PciBus: Discovered PCI @ [00|01|01]  [VID = 0x8086, DID = 0x7010]
+   BAR[4]: Type =   Io32; Alignment = 0xF;	Length = 0x10;	Offset = 0x20
+
+PciBus: Discovered PCI @ [00|01|03]  [VID = 0x8086, DID = 0x7113]
+
+PciBus: Discovered PCI @ [00|02|00]  [VID = 0x1234, DID = 0x1111]
+   BAR[0]: Type = PMem32; Alignment = 0xFFFFFF;	Length = 0x1000000;	Offset = 0x10
+   BAR[2]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x18
+
+PciHostBridge: SubmitResources for PciRoot(0x0)
+ I/O: Granularity/SpecificFlag = 0 / 01
+      Length/Alignment = 0x1000 / 0xFFF
+ Mem: Granularity/SpecificFlag = 32 / 00
+      Length/Alignment = 0x1100000 / 0xFFFFFF
+PciBus: HostBridge->SubmitResources() - Success
+PciHostBridge: NotifyPhase (AllocateResources)
+ RootBridge: PciRoot(0x0)
+  Mem: Base/Length/Alignment = 80000000/1100000/FFFFFF - Success
+  I/O: Base/Length/Alignment = C000/1000/FFF - Success
+PciBus: HostBridge->NotifyPhase(AllocateResources) - Success
+Process Option ROM: BAR Base/Length = 81000000/10000
+PciBus: Resource Map for Root Bridge PciRoot(0x0)
+Type =   Io16; Base = 0xC000;	Length = 0x1000;	Alignment = 0xFFF
+   Base = 0xC000;	Length = 0x10;	Alignment = 0xF;	Owner = PCI [00|01|01:20]
+Type =  Mem32; Base = 0x80000000;	Length = 0x1100000;	Alignment = 0xFFFFFF
+   Base = 0x80000000;	Length = 0x1000000;	Alignment = 0xFFFFFF;	Owner = PCI [00|02|00:10]; Type = PMem32
+   Base = 0x81000000;	Length = 0x10000;	Alignment = 0xFFFF;	Owner = PCI [00|00|00:00]; Type =  OpRom
+   Base = 0x81010000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI [00|02|00:18]
+
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5111D98
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 51116A8
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5111E18
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 5110028
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5111E98
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 5110428
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5110E98
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 5110828
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5110F18
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 510F028
+InstallProtocolInterface: 30CFE3E7-3DE1-4586-BE20-DEABA1B3B793 0
+OnRootBridgesConnected: root bridges have been connected, installing ACPI tables
+Select Item: 0x19
+Select Item: 0x29
+Select Item: 0x19
+Select Item: 0x28
+Select Item: 0x19
+Select Item: 0x22
+Select Item: 0x19
+Select Item: 0x23
+InstallProtocolInterface: 928939B2-4235-462F-9580-F6A2B2C21A4F 0
+InstallQemuFwCfgTables: installed 6 tables
+PcRtc: Write 0x20 to CMOS location 0x32
+[Variable]END_OF_DXE is signaled
+Initialize variable error flag (FF)
+AcpiS3ContextSave!
+AcpiS3ContextSave TotalPageTableSize - 0xE pages
+AcpiS3Context: AcpiFacsTable is 0x 67DD000
+AcpiS3Context: IdtrProfile is 0x 675D000
+AcpiS3Context: S3NvsPageTableAddress is 0x 674E000
+AcpiS3Context: S3DebugBufferAddress is 0x 6745000
+AcpiS3Context: BootScriptStackBase is 0x 6746000
+AcpiS3Context: BootScriptStackSize is 0x    8000
+Found LPC Bridge device
+BdsPlatform.c+751: COM1 DevPath: PciRoot(0x0)/Pci(0x1,0x0)/Serial(0x0)/Uart(115200,8,N,1)/VenMsg(AD15A0D6-8BEC-4ACF-A073-D01DE77E2D88)
+BdsPlatform.c+789: COM2 DevPath: PciRoot(0x0)/Pci(0x1,0x0)/Serial(0x1)/Uart(115200,8,N,1)/VenMsg(AD15A0D6-8BEC-4ACF-A073-D01DE77E2D88)
+Found PCI display device
+QemuVideo: QEMU Standard VGA detected
+QemuVideo: Using mmio bar @ 0x81010000
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 508F698
+QemuVideoBochsModeSetup: AvailableFbSize=0x1000000
+QemuVideoBochsEdid: blob found (extensions: 1)
+QemuVideoBochsEdid: default resolution: 1280x800
+Adding Bochs Internal Mode 0: 1280x800, 32-bit
+Adding Bochs Internal Mode 1: 640x480, 32-bit
+Adding Bochs Internal Mode 2: 800x480, 32-bit
+Adding Bochs Internal Mode 3: 800x600, 32-bit
+Adding Bochs Internal Mode 4: 832x624, 32-bit
+Adding Bochs Internal Mode 5: 960x640, 32-bit
+Adding Bochs Internal Mode 6: 1024x600, 32-bit
+Adding Bochs Internal Mode 7: 1024x768, 32-bit
+Adding Bochs Internal Mode 8: 1152x864, 32-bit
+Adding Bochs Internal Mode 9: 1152x870, 32-bit
+Adding Bochs Internal Mode 10: 1280x720, 32-bit
+Adding Bochs Internal Mode 11: 1280x760, 32-bit
+Adding Bochs Internal Mode 12: 1280x768, 32-bit
+Adding Bochs Internal Mode 13: 1280x960, 32-bit
+Adding Bochs Internal Mode 14: 1280x1024, 32-bit
+Adding Bochs Internal Mode 15: 1360x768, 32-bit
+Adding Bochs Internal Mode 16: 1366x768, 32-bit
+Adding Bochs Internal Mode 17: 1400x1050, 32-bit
+Adding Bochs Internal Mode 18: 1440x900, 32-bit
+Adding Bochs Internal Mode 19: 1600x900, 32-bit
+Adding Bochs Internal Mode 20: 1600x1200, 32-bit
+Adding Bochs Internal Mode 21: 1680x1050, 32-bit
+Adding Bochs Internal Mode 22: 1920x1080, 32-bit
+Adding Bochs Internal Mode 23: 1920x1200, 32-bit
+Adding Bochs Internal Mode 24: 1920x1440, 32-bit
+Adding Bochs Internal Mode 25: 2000x2000, 32-bit
+Adding Bochs Internal Mode 26: 2048x1536, 32-bit
+Adding Bochs Internal Mode 27: 2048x2048, 32-bit
+Adding Bochs Internal Mode 28: 2560x1440, 32-bit
+Adding Bochs Internal Mode 29: 2560x1600, 32-bit
+Skipping Bochs Mode 2560x2048, 32-bit (not enough vram)
+Skipping Bochs Mode 2800x2100, 32-bit (not enough vram)
+Skipping Bochs Mode 3200x2400, 32-bit (not enough vram)
+Skipping Bochs Mode 3840x2160, 32-bit (not enough vram)
+Skipping Bochs Mode 4096x2160, 32-bit (not enough vram)
+Skipping Bochs Mode 7680x4320, 32-bit (not enough vram)
+Skipping Bochs Mode 8192x4320, 32-bit (not enough vram)
+InitializeBochsGraphicsMode: 1280x800 @ 32
+PixelBlueGreenRedReserved8BitPerColor
+FrameBufferBase: 0x80000000, FrameBufferSize: 0x3E8000
+0: shl:0 shr:0 mask:FF0000
+1: shl:0 shr:0 mask:FF00
+2: shl:0 shr:0 mask:FF
+Bytes per pixel: 4
+0: shl:0 shr:0 mask:FF0000
+1: shl:0 shr:0 mask:FF00
+2: shl:0 shr:0 mask:FF
+Bytes per pixel: 4
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 510E6B8
+InstallVbeShim: VBE shim installed
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+InstallProtocolInterface: 60FF8964-E906-41D0-AFED-F241E974E08E 0
+InstallProtocolInterface: FA20568B-548B-4B2B-81EF-1BA08D4A3CEC 0
+Found LPC Bridge device
+BdsPlatform.c+751: COM1 DevPath: PciRoot(0x0)/Pci(0x1,0x0)/Serial(0x0)/Uart(115200,8,N,1)/VenMsg(AD15A0D6-8BEC-4ACF-A073-D01DE77E2D88)
+BdsPlatform.c+789: COM2 DevPath: PciRoot(0x0)/Pci(0x1,0x0)/Serial(0x1)/Uart(115200,8,N,1)/VenMsg(AD15A0D6-8BEC-4ACF-A073-D01DE77E2D88)
+Found PCI display device
+Select Item: 0xE
+[Bds]RegisterKeyNotify: 000C/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0017/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0000/000D 80000000/00 Success
+InstallProtocolInterface: 864E1CA8-85EB-4D63-9DCC-6E0FC90FFD55 508AF18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5C23D98
+InstallProtocolInterface: 215FDD18-BD50-4FEB-890B-58CA0B4739E9 5091C38
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5090698
+InstallProtocolInterface: 215FDD18-BD50-4FEB-890B-58CA0B4739E9 5C23C38
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 5090A98
+InstallProtocolInterface: 215FDD18-BD50-4FEB-890B-58CA0B4739E9 5090738
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 508A318
+InstallProtocolInterface: BB25CF6F-F1D4-11D2-9A0C-0090273FC1FD 50919A8
+PciSioSerial: Create SIO child serial device - Success
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+Terminal - Mode 0, Column = 80, Row = 25
+Terminal - Mode 1, Column = 80, Row = 50
+Terminal - Mode 2, Column = 100, Row = 31
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 508C140
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 508C228
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 508C158
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 508C698
+InstallProtocolInterface: D3B36F2B-D551-11D4-9A46-0090273FC14D 0
+InstallProtocolInterface: D3B36F2C-D551-11D4-9A46-0090273FC14D 0
+InstallProtocolInterface: D3B36F2D-D551-11D4-9A46-0090273FC14D 0
+PixelBlueGreenRedReserved8BitPerColor
+GraphicsConsole video resolution 1280 x 800
+Graphics - Mode 0, Column = 80, Row = 25
+Graphics - Mode 1, Column = 0, Row = 0
+Graphics - Mode 2, Column = 100, Row = 31
+Graphics - Mode 3, Column = 128, Row = 40
+Graphics - Mode 4, Column = 160, Row = 42
+Graphics Console Started, Mode: 4
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 508B630
+InstallProtocolInterface: D3B36F2C-D551-11D4-9A46-0090273FC14D 0
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 5184500
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+PciSioSerial: Create SIO child serial device - Device Error
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 4FE1028
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 4FE1040
+InstallProtocolInterface: D3B36F2B-D551-11D4-9A46-0090273FC14D 0
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+PciSioSerial: Create SIO child serial device - Device Error
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+PciSioSerial: Create SIO child serial device - Device Error
+PlatformBootManagerAfterConsole
+PlatformBdsPolicyBehavior: not restoring NvVars from disk since flash variables appear to be supported.
+Boot Mode:0
+Select Item: 0x19
+PlatformBdsConnectSequence
+Select Item: 0x19
+EfiBootManagerConnectAll
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+PciSioSerial: Create SIO child serial device - Device Error
+SataControllerStart start
+Original PCI Attributes = 0x4700
+Supported PCI Attributes = 0xE760
+Enabled PCI Attributes = 0x700
+InstallProtocolInterface: A1E37052-80D9-4E65-A317-3E9A55C43EC9 4FE0BA0
+SataControllerStart end with Success
+==AtaAtapiPassThru Start== Controller = 5110D98
+[secondary] channel [master] [cdrom   ] device
+CalculateBestPioMode: AdvancedPioMode = 3
+IdeInitCalculateMode: PioMode = 3
+CalculateBestUdmaMode: DeviceUDmaMode = 203F
+IdeInitCalculateMode: UdmaMode = 5
+InstallProtocolInterface: 1D3DE7F0-0807-424F-AA69-11A54E19A46F 4FE0940
+InstallProtocolInterface: 143B7632-B81B-4CB7-ABD3-B625A5B9BFFE 4FE0990
+InstallProtocolInterface: 19DF145A-B1D4-453F-8507-38816676D7F6 4FDEE18
+InstallProtocolInterface: 0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B 4FDEAA0
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 4FDE918
+InstallProtocolInterface: 932F47E6-2362-4002-803E-3CD54B138F85 4FDE128
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B 4FDD038
+InstallProtocolInterface: A77B2472-E282-4E9F-A245-C2C0E27BBCC1 4FDD068
+InstallProtocolInterface: D432A67F-14DC-484B-B3BB-3F0291849327 4FDD160
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B 4FDD5A0
+InstallProtocolInterface: 151C8EAE-7F2C-472C-9E54-9828194F6A88 4FDD5B8
+ BlockSize : 2048 
+ LastBlock : 0 
+FatOpenDevice: read of part_lba failed No Media
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+PciSioSerial: Create SIO child serial device - Device Error
+SataControllerStart start
+SataControllerStart error return status = Already started
+ BlockSize : 2048 
+ LastBlock : 0 
+FatOpenDevice: read of part_lba failed No Media
+ClockRate = 1843200
+Divisor   = 1
+BaudRate/Actual (115200/115200) = 100%
+PciSioSerial: Create SIO child serial device - Device Error
+Select Item: 0x19
+[Bds]OsIndication: 0000000000000000
+[Bds]=============Begin Load Options Dumping ...=============
+  Driver Options:
+  SysPrep Options:
+  Boot Options:
+    Boot0000: UiApp 		 0x0109
+    Boot0001: EFI Internal Shell 		 0x0001
+  PlatformRecovery Options:
+    PlatformRecovery0000: Default PlatformRecovery 		 0x0001
+[Bds]=============End Load Options Dumping=============
+[Bds]BdsWait ...Zzzzzzzzzzzz...
+[Bds]Exit the waiting!
+[Bds]Stop Hotkey Service!
+[Bds]UnregisterKeyNotify: 000C/0000 Success
+[Bds]UnregisterKeyNotify: 0017/0000 Success
+[Bds]UnregisterKeyNotify: 0000/000D Success
+Memory  Previous  Current    Next   
+ Type    Pages     Pages     Pages  
+======  ========  ========  ========
+  0A    00000080  00000022  00000080
+  09    00000012  0000000F  00000012
+  00    00000080  00000045  00000080
+  05    00000100  00000042  00000100
+  06    00000100  000000B3  00000100
+[Bds]Booting EFI Internal Shell
+[Bds] Expand Fv(7CB8BDC9-F8EB-4F34-AAEA-3EE4AF6516A1)/FvFile(7C04A583-9E3E-4F1C-AD65-E05268D0B4D1) -> Fv(7CB8BDC9-F8EB-4F34-AAEA-3EE4AF6516A1)/FvFile(7C04A583-9E3E-4F1C-AD65-E05268D0B4D1)
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 4FDB840
+Loading driver at 0x00004CD1000 EntryPoint=0x00004D17B53 Shell.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 5091818
+ProtectUefiImageCommon - 0x4FDB840
+  - 0x0000000004CD1000 - 0x00000000000E3500
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 4FD3020
+InstallProtocolInterface: 752F3136-4E16-4FDC-A22A-E5F46812F4CA 4FD2F98
+InstallProtocolInterface: 6302D008-7F9B-4F30-87AC-60C9FEF5DA4E 4DAFB80
